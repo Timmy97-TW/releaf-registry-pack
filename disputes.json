@@ -1,0 +1,122 @@
+{
+ "disputed": [
+  {
+   "part": "BBa_26SG0NQQ",
+   "what": "composite insert",
+   "says": "1302 bp",
+   "computed": "1111 bp",
+   "why": "each of these needs a Pveg of about 290 bp; all eight Pveg parts carry 97 bp, so one fault runs through all seven"
+  },
+  {
+   "part": "BBa_269A97I7",
+   "what": "composite insert",
+   "says": "906 bp",
+   "computed": "712 bp",
+   "why": "each of these needs a Pveg of about 290 bp; all eight Pveg parts carry 97 bp, so one fault runs through all seven"
+  },
+  {
+   "part": "BBa_26IA55UY",
+   "what": "composite insert",
+   "says": "906 bp",
+   "computed": "712 bp",
+   "why": "each of these needs a Pveg of about 290 bp; all eight Pveg parts carry 97 bp, so one fault runs through all seven"
+  },
+  {
+   "part": "BBa_26FSZTWM",
+   "what": "composite insert",
+   "says": "910 bp",
+   "computed": "712 bp",
+   "why": "each of these needs a Pveg of about 290 bp; all eight Pveg parts carry 97 bp, so one fault runs through all seven"
+  },
+  {
+   "part": "BBa_26D5AX7S",
+   "what": "composite insert",
+   "says": "1287 bp",
+   "computed": "1093 bp",
+   "why": "each of these needs a Pveg of about 290 bp; all eight Pveg parts carry 97 bp, so one fault runs through all seven"
+  },
+  {
+   "part": "BBa_26CXI09X",
+   "what": "composite insert",
+   "says": "1863 bp",
+   "computed": "1669 bp",
+   "why": "each of these needs a Pveg of about 290 bp; all eight Pveg parts carry 97 bp, so one fault runs through all seven"
+  },
+  {
+   "part": "BBa_26XVQ3FS",
+   "what": "composite insert",
+   "says": "1848 bp",
+   "computed": "1654 bp",
+   "why": "each of these needs a Pveg of about 290 bp; all eight Pveg parts carry 97 bp, so one fault runs through all seven"
+  },
+  {
+   "part": "BBa_261XH2RS",
+   "what": "composite insert",
+   "says": "1723 bp",
+   "computed": "1693 bp",
+   "why": "needs a 151 bp PliaG; the part carries 121 bp"
+  },
+  {
+   "part": "BBa_26BDO8AQ",
+   "what": "insert",
+   "says": "1174 bp",
+   "computed": "964 bp",
+   "why": "sum of the registered sub-parts"
+  },
+  {
+   "part": "BBa_26XZYM10",
+   "what": "composite insert",
+   "says": "1660 bp",
+   "computed": "1655 bp",
+   "why": "appears twice on the page"
+  },
+  {
+   "part": "BBa_26NXOP7S",
+   "what": "insert",
+   "says": "1122 bp",
+   "computed": "1137 bp",
+   "why": "1122 bp is BBa_26TOGLX3's number — that one carries the 93 bp SamyQ peptide, this one the 108 bp Csn peptide"
+  },
+  {
+   "part": "BBa_26PX0UGH",
+   "what": "insert",
+   "says": "177 bp",
+   "computed": "180 bp",
+   "why": "twice on the page"
+  },
+  {
+   "part": "BBa_267B69E3",
+   "what": "insert",
+   "says": "177 bp",
+   "computed": "180 bp",
+   "why": "twice on the page"
+  },
+  {
+   "part": "BBa_26CXI09X",
+   "what": "colony PCR band",
+   "says": "1145 bp in the text, 7767 bp in the Figure 1 caption",
+   "computed": "1195 bp",
+   "why": "the two numbers also disagree with each other, for the same gel"
+  }
+ ],
+ "suspect_sequence": [
+  {
+   "part": "BBa_26Q3LKZU",
+   "why": "The deposited sequence carries 855 bp the stated composition does not mention — an sfGFP coding sequence at 191–916 followed by a B0015 at 917–1045, between the promoter and EEBD-RBS0. That is the pSTK dropout cassette Golden Gate replaces, so this looks like the pre-assembly vector map rather than the finished construct."
+  },
+  {
+   "part": "BBa_26DE5E2Q",
+   "why": "The deposited sequence carries 855 bp the stated composition does not mention — an sfGFP coding sequence at 191–916 followed by a B0015 at 917–1045, between the promoter and EEBD-RBS0. That is the pSTK dropout cassette Golden Gate replaces, so this looks like the pre-assembly vector map rather than the finished construct."
+  }
+ ],
+ "recheck": [
+  {
+   "part": "BBa_269A97I7",
+   "why": "678 bp was treated as corroborated because a wiki caption says 678 bp, but the insert alone is 712 bp and the page says backbone primers were used. The two pSTK-EXP1 colony PCRs that used both backbone primers both imply a 330 bp vector contribution, which would put this band near 1,042 bp. Worth a second look before the freeze."
+  },
+  {
+   "part": "BBa_26IA55UY",
+   "why": "678 bp was treated as corroborated because a wiki caption says 678 bp, but the insert alone is 712 bp and the page says backbone primers were used. The two pSTK-EXP1 colony PCRs that used both backbone primers both imply a 330 bp vector contribution, which would put this band near 1,042 bp. Worth a second look before the freeze."
+  }
+ ]
+}

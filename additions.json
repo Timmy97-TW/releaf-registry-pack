@@ -66,6 +66,54 @@
    "find": "SamyQ-BoPep 2.2-Histag",
    "why": "Missing the 4 — the part is SamyQ-BoPep4 2.2-Histag.",
    "fix": "SamyQ-BoPep4 2.2-Histag"
+  },
+  {
+   "part": "BBa_2654HAF3",
+   "section": "design",
+   "kind": "external shortener",
+   "find": "https://share.google/pocPiJukHq9mm39e5",
+   "fix": "https://registry.igem.org/parts/bba-k2675031",
+   "why": "BBa_K2675031 (L3S2P21 Terminator) is linked to a share.google shortener, 1 time in this section. Registry documentation should point at the registry. Replace every occurrence."
+  },
+  {
+   "part": "BBa_26U8UTMH",
+   "section": "design",
+   "kind": "external shortener",
+   "find": "https://share.google/pocPiJukHq9mm39e5",
+   "fix": "https://registry.igem.org/parts/bba-k2675031",
+   "why": "BBa_K2675031 (L3S2P21 Terminator) is linked to a share.google shortener, 1 time in this section. Registry documentation should point at the registry. Replace every occurrence."
+  },
+  {
+   "part": "BBa_26XZYM10",
+   "section": "design",
+   "kind": "external shortener",
+   "find": "https://share.google/pocPiJukHq9mm39e5",
+   "fix": "https://registry.igem.org/parts/bba-k2675031",
+   "why": "BBa_K2675031 (L3S2P21 Terminator) is linked to a share.google shortener, 2 times in this section. Registry documentation should point at the registry. Replace every occurrence."
+  },
+  {
+   "part": "BBa_261XH2RS",
+   "section": "experiment",
+   "kind": "broken markdown",
+   "find": "\\[BsaI-HFv2 enzyme",
+   "fix": "\\[BsaI-HFv2 enzyme]",
+   "why": "The bracket is never closed — the only unbalanced bracket in all 83 sections. A permissive renderer could pair it with the ] of the image further down and swallow about 1,600 characters."
+  },
+  {
+   "part": "BBa_26IN6G1D",
+   "section": "application",
+   "kind": "typo",
+   "find": "Pveg-EEBD-RBS0-SamyQ-LEA14-Histag 2.1-B0015",
+   "fix": "Pveg-EEBD-RBS0-SamyQ-LEA14 2.1-Histag-B0015",
+   "why": "The real title puts 2.1 after LEA14, not after Histag."
+  },
+  {
+   "part": "BBa_26J0GJGZ",
+   "section": "application",
+   "kind": "typo",
+   "find": "Pveg-EEBD-RBS0-SamyQ-LEA14-Histag 2.1-B0015",
+   "fix": "Pveg-EEBD-RBS0-SamyQ-LEA14 2.1-Histag-B0015",
+   "why": "The real title puts 2.1 after LEA14, not after Histag."
   }
  ],
  "noimage": [

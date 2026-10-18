@@ -10,6 +10,7 @@ Everything needed to fill in the 33 GEMS-Taiwan (2026) parts on the iGEM Registr
 
 | | |
 |---|---|
+| [`reference.html`](reference.html) | **What a finished part page should look like.** The anatomy of a registry page, the rule for each documentation type, how a figure is embedded, and then all 33 parts rendered as they should end up. |
 | [`console.html`](console.html) | The working tool. 115 ordered steps, a copy button on every one, figure thumbnails, and tick boxes that remember where you stopped. |
 | `ReLEAF registry staging pack - 19 Oct.docx` | The same content as a Word document, for reading and approving rather than pasting. |
 | `upload/` | The 18 wet-lab figures as PNG, named `NN_PART_SECTION_figN_source.png`. These are the files you upload. |
@@ -19,6 +20,9 @@ Everything needed to fill in the 33 GEMS-Taiwan (2026) parts on the iGEM Registr
 | `model.json`, `steps.json`, `additions.json` | Staged text, the ordered step list, and the drafts and fixes. Rebuild the console or the document from these. |
 | `inventory.csv` | One row per part: status, length, sections present, word counts, editor, dates. |
 | `GAPS.md`, `FIGURE-MAP.md` | What the pull found, and which image belongs in which slot. |
+| `LINKCHECK.md` | Every cross-reference checked against the part it points at. |
+| `BAND-SIZES.md`, `disputes.json` | Every unresolved band size recomputed from the sequences. |
+| `collections/` | The two collection documents, and the per-part cuts they make possible. |
 
 ## The work, in numbers
 
@@ -36,11 +40,13 @@ Markdown structure was checked against the original on all 83 sections: links, i
 
 The console assigns whole parts to person A or person B, so two people never edit the same registry page. Pick A or B in the header. Progress is stored in that browser only and does not sync between machines.
 
-## Not done
+## What needs a person
 
-- **The two collection documents.** The Registry Rules say documentation that applies to a group of parts belongs in collection documentation and should not be duplicated across parts. The shared cloning block currently sits on roughly twenty composites.
+- **Fourteen numbers on live pages are disputed by the parts' own sequences.** Seven are a single fault: the Pveg cassettes each assume a promoter of about 290 bp where every Pveg part carries 97 bp. See `BAND-SIZES.md`.
+- **Two deposited sequences look like the pre-assembly vector.** `BBa_26Q3LKZU` and `BBa_26DE5E2Q` both carry an sfGFP dropout cassette that Golden Gate should have replaced. Editing text cannot fix this; the deposit needs correcting.
+- **Eleven confirmed defects** — three wrong cross-reference links, four links to a `share.google` shortener, one unclosed bracket, three title typos. All staged as find-and-replace steps.
 - **Four figure slots have no image.** One Western for the constitutive SamyQ-AcdS 2.1 construct, and three captions that want sequencing traces. No such figure exists anywhere on the wiki — all 30 pages were searched.
-- **One band size disagrees.** The wiki says 1,145 bp for Module 1 (`BBa_26XZYM10`); that part's registry text says 1,660 / 1,721 bp, and 1,145 bp turns up instead on `BBa_26CXI09X`.
+- **The collection documents are written but not created on the registry.** Until they exist, the shared cloning block stays on the composites.
 
 ## Rebuilding
 
