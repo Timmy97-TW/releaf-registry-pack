@@ -1,0 +1,245 @@
+{
+ "id": "BBa_261XH2RS",
+ "search": {
+  "uuid": "76c8f46c-3fc0-4406-b485-ea73f871344c",
+  "name": "BBa_261XH2RS",
+  "slug": "bba-261xh2rs",
+  "status": "published",
+  "title": "PliaG-RBS0-ccaS-m3-B0015",
+  "description": "This module consists of the engineered sensor kinase CcaS-m3 driven by the constitutive promoter PliaG, the RBS RBS0 and terminator B0015. When supplied with the chromophore phycocyanobilin (PCB) from the PCB Production Module [BBa\\_26XZYM10](https://registry.igem.org/parts/bba-26xzym10), ccaS-m3 can detect green light and initiate signal transduction. Altogether, these components enable the conversion of external light stimuli into a regulatory signal for downstream gene expression.",
+  "role": {
+   "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+   "accession": "SO:0001248",
+   "label": "Assembly",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "sequenceLength": 1693,
+  "audit": {
+   "created": "2026-10-16T11:23:16.379Z",
+   "updated": "2026-10-17T10:59:04.926Z"
+  },
+  "usageCount": 2
+ },
+ "part": {
+  "uuid": "76c8f46c-3fc0-4406-b485-ea73f871344c",
+  "name": "BBa_261XH2RS",
+  "slug": "bba-261xh2rs",
+  "status": "published",
+  "title": "PliaG-RBS0-ccaS-m3-B0015",
+  "description": "This module consists of the engineered sensor kinase CcaS-m3 driven by the constitutive promoter PliaG, the RBS RBS0 and terminator B0015. When supplied with the chromophore phycocyanobilin (PCB) from the PCB Production Module [BBa\\_26XZYM10](https://registry.igem.org/parts/bba-26xzym10), ccaS-m3 can detect green light and initiate signal transduction. Altogether, these components enable the conversion of external light stimuli into a regulatory signal for downstream gene expression.",
+  "role": {
+   "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+   "accession": "SO:0001248",
+   "label": "Assembly",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "CcaSR green red light-responsive system for transcriptional control in B. subtilis (Haller et al., 2025; 10.1007/978-1-0716-40",
+  "sequence": "CAAAAATCAGACCAGACAAAAGCGGCAAATGAATAAGCGGAACGGGGAAGGATTTGCGGTCAAGTCCTTCCCTTCCGCACGTATCAATTCGCAAGCTTTTCCTTTATAATAGAATGAATGAGATTAACTAATAAGGAGGACAAACATGGGTATGATGGGAAAATTTTTAATTCCAATTGAATTTGTATTTTTAGCAATTGCCATGACCTGTTATTTATGGCACAGACAAAACCAAGAACGCCGCAGGATTGAAATTAGCATCAAGCAACAAACCCAACGGGAACGATTTATTAACCAAATTACCCAACATATCCGCCAATCTTTAAACTTGGAAACGGTTTTAAATACCACCGTCGCTGAAGTTAAAACCCTGTTGCAAGTTGATCGAGTTCTAATTTATCGCATTTGGCAAGATGGCACGGGCAGCGCCATTACGGAATCGGTGAATGCCAATTATCCTAGTATTTTAGGGCGGACCTTTTCCGATGAAGTTTTTCCCGTTGAATACCATCAAGCCTACACCAAAGGTAAAGTACGGGCCATTAATGACATTGACCAGGATGACATAGAGATTTGCCTAGCTGATTTCGTCAAACAATTTGGCGTGAAATCAAAATTAGTAGTGCCCATTCTTCAACATAATCGTGCTTCTTCCCTAGATAATGAATCAGAATTTCCCTATCTTTGGGGGCTGTTAATTACCCATCAATGTGCTTTTACCCGGCCATGGCAACCGTGGGAAGTGGAGTTAATGAAACAGCTAGCCAATCAGGTCGCGATCGCCATCCAACAATCGGAATTATATGAGCAATTGCAGCGACGCACGGAGGAAGTCCGCCTAGCTTTAGAACGGGAAAAAGAATTAAGCCGCCTAAAAACTCGTTTTTTCTCCATGGCTTCCCATGAATTTCGTACTCCCCTCAGTACGGCCTTAGCTGCTGCCCAATTACTGGAAAATTCTGAAGTGGCCTGGCTTGATCCCGATAAGCGTAGCCGGAACTTACACCGTATTCAAAATTCCGTGAAAAATATGGTACAGCTCCTGGATGATATTTTAATCATTAACCGTGCCGAAGCGGGCAAATTGGAATTTAATCCTAATTGGTTAGATTTGAAATTATTGTTCCAGCAATTTATCGAAGAAATTCAATTAAGTGTCAGTGACCAATATTATTTTGACTTTATTTGTAGCGCTCAAGATACGAAGGCATTGGTGGATGAAAGGTTAGTGCGGTCTATTTTATCTAATCTGTTATCTAATGCGATTAAATACTCTCCCGGGGGAGGGCAGATTAAAATTGCCCTAAGCCTAGATTCGGAACAGATTATTTTTGAAGTCACCGACCAGGGCATTGGCATTTCGCCAGAGGACCAAAAGCAAATTTTTGAACCCTTTCATCGGGGCAAAAATGTCAGAAATATTACGGGAACAGGACTCGGTTTAATGGTTGCCAAGAAATGTGTTGACTTACACAGTGGCAGTATCTTGCTAAAAAGTGCAGTTGACCAGGGAACAACAGTTACTATCTGTTTAAAACGCTATAACCATTTGCCTCGAGCTTAACCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCTACTAGAGTCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATA",
+  "audit": {
+   "created": "2026-10-16T11:23:16.379Z",
+   "updated": "2026-10-17T10:59:04.926Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "d85d545c-4d49-487b-bed6-b1f4c7c19ae5",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "99ef4904-c7fd-4320-b72f-84e47bb9a79f",
+      "firstName": "CHI HOU",
+      "lastName": "NG",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T11:23:17.630Z"
+    },
+    {
+     "uuid": "a1bf6035-9a78-4182-bb1f-d2a360c93675",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "99ef4904-c7fd-4320-b72f-84e47bb9a79f",
+      "firstName": "CHI HOU",
+      "lastName": "NG",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T11:23:17.632Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 2
+ },
+ "documentation": [
+  {
+   "uuid": "cb4da5c8-fc58-41fd-ba32-1f9dfa1a774b",
+   "title": "Design",
+   "type": "design",
+   "created": "2026-10-18T08:13:43.383Z",
+   "value": "## Overview\n\nWhen supplied with the chromophore phycocyanobilin (PCB) from the PCB Production Module, ccaS-m3 can detect green light and initiate signal transduction.\n\nThe part is a composite transcription unit with four elements, in this order:\n\n·       PliaG (BBa\\_K823000): the promoter of the *liaG* gene of *B. subtilis*, described in the Registry as a weak constitutive promoter and characterised as part of the Bacillus BioBrick Box (Radeck et al., 2013). It transcribes the downstream coding sequence without any added inducer.\n\n·       RBS0 ([BBa\\_26OSLRE4](https://registry.igem.org/parts/bba-26oslre4)): the ribosome binding site, which sets translation initiation of the downstream coding sequence.\n\n·       *ccaS-m3* (BBa\\_K3317069): a miniaturised variant of *ccaS*, the cyanobacteriochrome histidine kinase of *Synechocystis* sp. PCC 6803. CcaS binds phycocyanobilin (PCB) through its GAF domain and phosphorylates the response regulator CcaR under green light. The variant corresponds to mini-CcaS#3 of Nakajima et al. (2016), in which the L1 linker and the two PAS domains are deleted and the GAF and histidine kinase domains are joined through a shortened linker.\n\n·       B0015 (BBa\\_B0015): a high-efficiency double transcriptional terminator that stops RNA polymerase from continuing past the coding sequence and prevents transcriptional read-through into downstream modules.\n\nThe complete module was assembled by Golden gate assembly with BsaI-HFv2.\n\n## About\n\n* **Biosafety level:** S1\n* **Target organism:** *Bacillus subtilis* \\[168 / WB800]\n* **Main purpose of use:** Constitutive expression of the CcaS light-sensing histidine kinase in the host *B. subtilis*.\n* **Potential application:** Providing the green/red light input of the CcaSR system, as the light-sensing component of a stress-responsive optogenetic bioreactor for plant-growth-promoting bioprotectants.\n\n## Literature\n\n**Light sensing:** Holo-CcaS is produced in a green light-sensitive ground state with low autokinase activity, with a photostate absorbance maximum at 535 nm. Absorption of a green photon switches CcaS to a red light-sensitive active state with high autokinase activity, with a photostate absorbance maximum at 672 nm. The active kinase transfers a phosphoryl group from ATP to a conserved histidine, and from there to a conserved aspartate on CcaR, which activates CcaR and induces transcription from the PcpcG2 output promoter. Red light reverts the active state to the ground state and de-activates PcpcG2 transcription, probably through CcaS-mediated dephosphorylation of CcaR (Castillo-Hair et al., 2019). The 535 nm and 672 nm are absorbance maxima of the CcaS photostates (Hirose et al., 2008), and are distinct from the illumination used in the published characterization, which was delivered by a Light Plate Apparatus with 520 nm green and 660 nm red LEDs (Castillo-Hair et al., 2019).\n\n**Dependence on the PCB module:** CcaS is photoactive only as a holoprotein with PCB bound to its GAF domain, and *B. subtilis* does not make PCB natively. This module therefore has no function on its own. It depends on the PCB supply module PtagC+RBS-Ho1-pcyA-L3S2P21, which converts endogenous heme to biliverdin IXα and then to PCB inside the host. In the Level 2 system the two modules are carried together for this reason.\n\n**Choice of the miniaturised variant:** We used *ccaS-m3* in place of full-length *ccaS*. The miniaturised variants of Nakajima et al. (2016) remove the two PAS domains, whose function in CcaS is not known, and several of them regulate gene expression better than the wild-type kinase. Castillo-Hair et al. (2019) tested *ccaSm3* and *ccaSm10* in *B. subtilis* PY79 and reported that both increased dynamic range about ten-fold, to 71 ± 12-fold for *ccaSm3* and 62 ± 12-fold for *ccaSm10*; the two were not statistically different in *B. subtilis* (p \\= 0.49) and *ccaSm10* gave lower overall output, so the system containing *ccaSm3* was named *B. subtilis* CcaSR v1.0. The same PAS deletions applied in the *E. coli* CcaSR v2.0 context gave a v3.0 sensor four times less leaky, with a dynamic range of nearly 600-fold and no deleterious effect on green light sensitivity or response dynamics (Ong & Tabor, 2018). We took *ccaS-m3* as the better-supported choice on both counts, low background and high dynamic range.\n\n**Promoter strength for the sensor:** The published system expresses *ccaS* from the xylose-inducible PxylA promoter and *ccaR* from the IPTG-inducible Phy-spank promoter (Castillo-Hair et al., 2019), so the levels of both proteins are set by chemical inducers (Haller et al., 2025). Our bioreactor is intended to run on light alone, without xylose or IPTG dosing, so we replaced the inducible promoter with a constitutive one. This substitution is our own design decision and is not part of the published system. We chose a weak constitutive promoter deliberately. Castillo-Hair et al. (2019) found that output falls again at high CcaS levels, probably because PCB becomes limiting and the resulting apo-CcaS has phosphatase activity. A weak promoter keeps CcaS inside the range where the PCB supplied by the PCB module can be loaded onto it. PliaG is one of the weaker σA promoters in the Bacillus BioBrick Box set, whose constitutive promoters span more than three orders of magnitude (Radeck et al., 2013).&#x20;\n\n## References\n\n1\\. Hirose, Y., Shimada, T., Narikawa, R., Katayama, M., & Ikeuchi, M. (2008). Cyanobacteriochrome CcaS is the green light receptor that induces the expression of phycobilisome linker protein. *Proceedings of the National Academy of Sciences, 105*(28), 9528–9533. [https://doi.org/10.1073/pnas.0801826105](https://doi.org/10.1073/pnas.0801826105)\n\n2\\. Nakajima, M., Ferri, S., Rögner, M., & Sode, K. (2016). Construction of a miniaturized chromatic acclimation sensor from cyanobacteria with reversed response to a light signal. *Scientific Reports, 6*, Article 37595. [https://doi.org/10.1038/srep37595](https://doi.org/10.1038/srep37595)\n\n3\\. Ong, N. T., & Tabor, J. J. (2018). A miniaturized *Escherichia coli* green light sensor with high dynamic range. *ChemBioChem, 19*(12), 1255–1258. [https://doi.org/10.1002/cbic.201800007](https://doi.org/10.1002/cbic.201800007)\n\n4\\. Castillo-Hair, S. M., Baerman, E. A., Fujita, M., Igoshin, O. A., & Voigt, C. A. (2019). Optogenetic control of *Bacillus subtilis* gene expression. *Nature Communications, 10*, Article 3099. [https://doi.org/10.1038/s41467-019-10906-6](https://doi.org/10.1038/s41467-019-10906-6)\n\n5\\. Haller, D. J., Castillo-Hair, S. M., & Tabor, J. J. (2025). Optogenetic control of *B. subtilis* gene expression using the CcaSR system. In A. Baumschlager (Ed.), *Optogenetics* (Methods in Molecular Biology, Vol. 2840, pp. 1–17). Humana. [https://doi.org/10.1007/978-1-0716-4047-0\\_1](https://doi.org/10.1007/978-1-0716-4047-0_1)\n\n6\\. Radeck, J., Kraft, K., Bartels, J., Cikovic, T., Dürr, F., Emenegger, J., Kelterborn, S., Sauer, C., Fritz, G., Gebhard, S., & Mascher, T. (2013). The Bacillus BioBrick Box: generation and evaluation of essential genetic building blocks for standardized work with *Bacillus subtilis*. *Journal of Biological Engineering, 7*(1), 29. [https://doi.org/10.1186/1754-1611-7-29](https://doi.org/10.1186/1754-1611-7-29)\n\n7\\. Caro-Astorga, J., Rogan, M., Malcı, K., Ming, H., Debenedictis, E., James, P., & Ellis, T. (2025). SubtiToolKit: A bioengineering kit for *Bacillus subtilis* and Gram-positive bacteria. *Trends in Biotechnology, 43*(6), 1446–1469. [https://doi.org/10.1016/j.tibtech.2025.02.004](https://doi.org/10.1016/j.tibtech.2025.02.004)\n\n8\\. BBa\\_K823000\n\n9\\. BBa\\_B0015",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T08:13:43.383Z"
+  },
+  {
+   "uuid": "1943545c-de1d-4107-bdc1-5ef1c1a6ef1f",
+   "title": "Experiment",
+   "type": "experiment",
+   "created": "2026-10-18T08:23:41.146Z",
+   "value": "## Construction/assembly (wet lab)\n\nThe *ccaS-m3* coding sequence was PCR-amplified as a single amplicon from the synthesised fragment using primers ccaS F and ccaS R. Each primer carries a 5' ATATAT spacer, a BpiI site (GAAGAC) for Level 0 entry cloning, and a BsaI site (GGTCTC) for Level 1 assembly. The inner BsaI overhangs are TATG (incorporating the start codon) at the 5' end and TGTC at the 3' end, which sets the CDS position and allows fusion to the downstream terminator. The amplicon was cloned into \\[pGEM-T Easy] and sequence-verified.\n\nThe Level 0 parts PliaG (BBa\\_K823000), RBS0 ([BBa\\_26OSLRE4](https://registry.igem.org/parts/bba-26oslre4)), *ccaS-m3* (BBa\\_K3317069) and B0015 (BBa\\_B0015) were then combined in a single Golden Gate reaction (BsaI, T4 DNA ligase buffer, and T4 DNA ligase) into the pSTK-1B-sfGFP Level 1 cloning vector (Caro-Astorga et al., 2025), in the order promoter, RBS, CDS, terminator. The reaction was transformed into *E. coli* DH5α, and positive clones were identified by colony PCR and sent for sequencing before electroporation into *B. subtilis*.\n\n**DETAILS:**\n\n* Composite insert: PliaG – RBS0 – *ccaS-m3* – B0015, \\[1723 bp]\n* Level 1 vector: pSTK-1B-sfGFP (Level 1 cloning vector), (ampicillin)\n* Template: synthesised fragment\n* Annealing temperature (Level 0 amplification): \\[60 °C]\n* Assembly method: Golden Gate, \\[BsaI-HFv2 enzyme\n* Thermal cycle:\n\n| Temperature | Time   | Cycles    |\n| ----------- | ------ | --------- |\n| 37 °C       | 5 min  | 45 cycles |\n| 16 °C       | 5 min  |           |\n| 37 °C       | 10 min | 1 cycle   |\n| 80 °C       | 20 min | 1 cycle   |\n\n## Verification (wet lab)\n\nColonies from the pSTK-1B-sfGFP transformation were screened by colony PCR with pSTK-seq F and ccaSm3 R flanking the insertion site, and the products were run on an agarose gel alongside a DNA ladder. A correct band runs at the expected size, which is the length of \\[1602 bp]. Colonies producing a single, clean band at this size were considered positive candidates.\n\nPositive candidates were then sequenced to confirm that the promoter, RBS, *ccaS-m3* CDS and terminator are free of mutations and correctly ordered. Clones with a verified sequence were used for the Level 2 optogenetic system constructed in the pSTK-EXP2 vector.\n\n| Primer name | Primer sequence (5' to 3') |                                                                    |\n| ----------- | -------------------------- | ------------------------------------------------------------------ |\n|             | ccaS F                     | ATA TAT GAA GAC ATC TGA GGT CTC ATA TGG GAA AAT TTT TAA TTC CAA TT |\n|             | ccaS R                     | ATA TAT GAA GAC ATG AGG GGT CTC ATG TCT TAA GCT CGA GGC AAA TGG T  |\n|             | pSTK-seq F                 | agtgccacctgacgtctaagaaacc                                          |\n|             |                            |                                                                    |\n\n## Results\n\n![](https://registry.igem.wiki/documentation/1943545c-de1d-4107-bdc1-5ef1c1a6ef1f/b207909c8639ce0e3c7717c1bcfe9fc13049494069d17e87d8c158e6f7b36c17.avif)\n\n**Figure 1. Colony PCR of \\[pSTK-1B]-PliaG-RBS0-*ccaS-m3*-B0015.** \\[X] of \\[X] colonies gave a band at the expected size (\\[1602 bp]).\n\n**Figure 2. Clone \\[X] was sequence-verified and used for downstream experiments.**",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T12:28:36.942Z"
+  },
+  {
+   "uuid": "23701d9e-77f1-46d6-968b-ed5291409240",
+   "title": "Application",
+   "type": "application",
+   "created": "2026-10-18T08:24:16.103Z",
+   "value": "This part was designed for the GEMS-Taiwan 2026 iGEM team’s work on a Stress-Responsive Optogenetic Bioreactor for Precision Plant Protection: \n\n* **ccaSR-Csn-AcdS-Histag** ([<u>**BBa\\_2654HAF3**</u>](https://registry.igem.org/parts/bba-2654haf3)): the system is an engineered construct that produces and secretes plant-protective proteins under green/red light control.\n* **ccaSR-SamyQ-AcdS 2.1-Histag** ([<u>**BBa\\_26U8UTMH**</u>](https://registry.igem.org/parts/bba-26u8utmh)): the system is an engineered construct that produces and secretes plant-protective proteins under green/red light control.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T08:24:16.103Z"
+  }
+ ],
+ "composition": [
+  {
+   "uuid": "5803e44d-04b4-410f-b5d7-5cafd14ab95e",
+   "componentUUID": "de4ee3e9-1439-434d-a419-ba19c1f89007",
+   "componentName": "BBa_K823000",
+   "role": {
+    "uuid": "324e9810-8719-4dd8-8c39-989a015a96a1",
+    "accession": "IGEM:0000006",
+    "label": "Regulatory",
+    "uri": null,
+    "glyph": null
+   },
+   "start": 1,
+   "end": 121,
+   "strand": "forward"
+  },
+  {
+   "uuid": "fe46fe65-40b1-49c6-85eb-ff1088cb8d70",
+   "componentUUID": "ddeb42f3-df81-43c2-a548-814ca119099e",
+   "componentName": "BBa_26OSLRE4",
+   "role": {
+    "uuid": "9c7c4d6d-ac06-4c93-8515-e95ba3bea3bb",
+    "accession": "SO:0000139",
+    "label": "Ribosome Entry Site",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000139",
+    "glyph": "http://sbols.org/visual/v2#RibosomeEntrySiteGlyph"
+   },
+   "start": 122,
+   "end": 154,
+   "strand": "forward"
+  },
+  {
+   "uuid": "85400d9f-f10e-4ce4-92b5-9d932caf20f9",
+   "componentUUID": "45603d72-3edb-4205-8448-c4cdecfa839d",
+   "componentName": "BBa_K3317069",
+   "role": {
+    "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+    "accession": "SO:0000316",
+    "label": "CDS",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000316",
+    "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+   },
+   "start": 155,
+   "end": 1564,
+   "strand": "forward"
+  },
+  {
+   "uuid": "a8850d96-3437-49e0-b551-030951354da0",
+   "componentUUID": "a0ebeeab-3947-440e-9cf1-f0a47bbc4c33",
+   "componentName": "BBa_B0015",
+   "role": {
+    "uuid": "ae5c878a-2fdb-4c2e-b904-e6eb1a1224f2",
+    "accession": "SO:0000141",
+    "label": "Terminator",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000141",
+    "glyph": "http://sbols.org/visual/v2#TerminatorGlyph"
+   },
+   "start": 1565,
+   "end": 1693,
+   "strand": "forward"
+  }
+ ]
+}

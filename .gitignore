@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Nothing else is ignored. The pack's own content must be committed:
+# console.html, index.html, model.json, steps.json, additions.json,
+# inventory.csv, GAPS.md, FIGURE-MAP.md, README.md, docs/,
+# the .docx, and the upload/, thumbs/, modelling/ and raw/ folders.

@@ -1,0 +1,200 @@
+{
+ "id": "BBa_26NXOP7S",
+ "search": {
+  "uuid": "d20eb03d-3090-4551-bc15-4b48c73ad66d",
+  "name": "BBa_26NXOP7S",
+  "slug": "bba-26nxop7s",
+  "status": "published",
+  "title": "Csn-AcdS-Histag",
+  "description": "This part encodes 1-aminocyclopropane-1-carboxylate (ACC) deaminase (AcdS: [BBa\\_26MA70QI](https://registry.igem.org/parts/bba-26ma70qi)) from *Pseudomonas putida* (Arthrobacter siderocapsulatus) strain UW4. It is an enzyme commonly found in plant growth-promoting rhizobacteria (PGPR). ACC deaminase degrades ACC, the precursor of the plant hormone ethylene, thereby alleviating ethylene-induced growth inhibition in plants under stress. The ACC deaminase protein is fused to the chitosanase signal…",
+  "role": {
+   "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+   "accession": "SO:0000316",
+   "label": "CDS",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+  },
+  "sequenceLength": 1140,
+  "audit": {
+   "created": "2026-10-09T05:05:03.414Z",
+   "updated": "2026-10-17T08:35:40.471Z"
+  },
+  "usageCount": 2
+ },
+ "part": {
+  "uuid": "d20eb03d-3090-4551-bc15-4b48c73ad66d",
+  "name": "BBa_26NXOP7S",
+  "slug": "bba-26nxop7s",
+  "status": "published",
+  "title": "Csn-AcdS-Histag",
+  "description": "This part encodes 1-aminocyclopropane-1-carboxylate (ACC) deaminase (AcdS: [BBa\\_26MA70QI](https://registry.igem.org/parts/bba-26ma70qi)) from *Pseudomonas putida* (Arthrobacter siderocapsulatus) strain UW4. It is an enzyme commonly found in plant growth-promoting rhizobacteria (PGPR). ACC deaminase degrades ACC, the precursor of the plant hormone ethylene, thereby alleviating ethylene-induced growth inhibition in plants under stress. The ACC deaminase protein is fused to the chitosanase signal (Csn) peptide at the N-terminus and a 6x Histag at the C-terminus.&#x20;",
+  "role": {
+   "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+   "accession": "SO:0000316",
+   "label": "CDS",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "UniProtKB/Swiss-Prot: Q5PWZ8.1, DOI: 10.1139/w98-074, DOI: 10.1016/j.bbapap.2004.09.015, Sequence ID: CP053102.1",
+  "sequence": "ATGAAAATCAGTATGCAAAAAGCAGATTTTTGGAAAAAAGCAGCGATCTCATTACTTGTTTTCACCATGTTTTTTACCCTGATGATGAGCGAAACGGTTTTTGCGGCGAATTTAAATAGATTTGAAAGATATCCGTTAACATTCGGACCGAGCCCGATCACGCCGTTAAAAAGACTTTCTGAACATCTTGGCGGAAAAGTTGAGCTTTATGCGAAAAGAGAAGACTGCAACAGCGGCCTTGCGTTTGGCGGAAACAAAACACGCAAACTTGAGTATTTAATTCCGGAAGCGATTGAACAAGGATGCGATACACTTGTATCTATCGGCGGCATTCAAAGCAACCAAACACGCCAAGTTGCGGCGGTTGCGGCGCATCTTGGCATGAAATGTGTGCTTGTGCAGGAAAACTGGGTAAACTACTCTGATGCGGTTTATGACCGCGTTGGAAACATTGAAATGAGCCGCATTATGGGAGCTGATGTACGCCTTGATGCGGCAGGCTTTGATATCGGCATCCGCCCGAGCTGGGAGAAAGCGATGTCAGATGTTGTTGAGCGCGGCGGAAAACCGTTCCCGATTCCGGCAGGCTGCTCTGAGCATCCGTACGGCGGCTTAGGCTTTGTCGGCTTTGCTGAAGAAGTGCGCCAGCAAGAGAAAGAGCTTGGCTTTAAATTTGATTACATTGTTGTGTGCTCTGTAACAGGCAGCACACAAGCAGGCATGGTAGTCGGCTTTGCGGCTGATGGCCGCAGCAAAAACGTCATCGGCGTAGATGCATCTGCAAAGCCGGAGCAAACAAAAGCGCAAATTCTGCGCATTGCGCGCCACACAGCGGAGCTTGTTGAGCTTGGCAGAGAGATCACAGAAGAAGATGTTGTGCTTGATACACGCTTTGCTTATCCGGAATACGGCCTTCCGAATGAAGGCACACTTGAAGCGATCCGCCTTTGCGGCAGCCTTGAAGGCGTGTTAACAGATCCGGTTTATGAAGGAAAAAGCATGCACGGCATGATTGAAATGGTGCGCCGCGGAGAGTTCCCGGACGGAAGCAAAGTGCTTTATGCGCATTTAGGCGGAGCGCCGGCGTTAAATGCTTATAGCTTCCTTTTCCGCAACGGACATCATCATCATCATCATTAA",
+  "audit": {
+   "created": "2026-10-09T05:05:03.414Z",
+   "updated": "2026-10-17T08:35:40.471Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "718c9740-0271-4c70-8bb9-afab924f729c",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-09T05:05:03.865Z"
+    },
+    {
+     "uuid": "d488f3a8-51c7-42dc-bdf9-ef435c3dcebc",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-11T06:12:38.506Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 2
+ },
+ "documentation": [
+  {
+   "uuid": "664ac756-290d-440d-933e-fba105e9bb89",
+   "title": "Design",
+   "type": "design",
+   "created": "2026-10-18T02:56:19.748Z",
+   "value": "## Overview\n\nThis part encodes 1-aminocyclopropane-1-carboxylate (ACC) deaminase (AcdS: [BBa\\_26MA70QI](https://registry.igem.org/parts/bba-26ma70qi)) from *Pseudomonas putida* (Arthrobacter siderocapsulatus) strain UW4.\n\nThe part is a translational fusion with three elements, in this order:\n\n1. **Csn signal peptide:** the N-terminal Sec-dependent signal peptide of *B. subtilis* chitosanase (gene *csn*), which directs the protein to the secretion pathway and is cleaved off during export. Csn and SamyQ were selected as candidates to determine which signal peptide offers higher secretion efficiency.\n2. **AcdS (**[<u>**BBa\\_26MA70QI**</u>](https://registry.igem.org/parts/bba-26ma70qi)**):** the ACC deaminase coding sequence from [*Pseudomonas putida* *(Arthrobacter siderocapsulatus)*](https://www.uniprot.org/taxonomy/303), with its native start codon and stop codon removed  \n3. **6x Histag:** Fused at the C-terminus followed by a stop codon.This allows protein purification and identification after successful assembly and electroporation.\n\nThe complete part was obtained by de novo gene synthesis. \n\n## About\n\n* **Biosafety level:** S1\n* **Target organism:** *Bacillus subtilis* \\[168 / WB800]\n* **Main purpose of use:** Expression and secretion of ACC deaminase in the host *B. subtilis*\n* **Potential application:** Lowering plant ethylene levels under stress, as a component of plant-growth-promoting bioprotectants\n\n## Literature\n\nThe cloned ACC deaminase gene can be expressed in *Escherichia coli*, which enables this bacterium to grow on ACC as its sole nitrogen source. Both *E. coli* and *Pseudomonas* spp. strains transformed with this gene gain the ability to promote root elongation in canola seedlings (Hontzeas et al., 2004).\n\nA soluble recombinant ACC deaminase from *Pseudomonas putida* UW4 was cloned, expressed and purified. It has a molecular weight of 41 kDa and shows selectivity and high activity towards ACC, with a K(M)\\=3.4+/-0.2 mM and k(cat)\\=146+/-5 min(-1) at pH 8.0 and 22 °C. Activity is optimal at pH 8.0 and declines sharply to essentially nothing below pH 6.5. It tapers off more gradually at higher pH, and activity is lost above pH 10.\n\n## References\n\n1\\. UniProt Consortium. (n.d.). *Q5PWZ8*. UniProt. Retrieved October 18, 2026, from[ <u>UniProt entry Q5PWZ8</u>](https://www.uniprot.org/uniprotkb/Q5PWZ8/entry?utm_source=chatgpt.com)\n\n2\\. Hontzeas, N., Zoidakis, J., Glick, B. R., & Abu-Omar, M. M. (2004). Expression and characterization of 1-aminocyclopropane-1-carboxylate deaminase from the rhizobacterium pseudomonas putida UW4: A key enzyme in bacterial plant growth promotion. *Biochimica et Biophysica Acta, 1703(1)*, 11–19. PubMed.[ <u>https://doi.org/10.1016/j.bbapap.2004.09.015</u>](https://doi.org/10.1016/j.bbapap.2004.09.015)\n\n3\\. Shah, S., Li, J., Moffatt, B. A., & Glick, B. R. (1998). Isolation and characterization of ACC deaminase genes from two different plant growth-promoting rhizobacteria. *Canadian Journal of Microbiology, 44*(9), 833–843.[ <u>https://doi.org/10.1139/w98-074</u>](https://doi.org/10.1139/w98-074)\n\n4\\. Deng, L. (2022). *Bacillus subtilis subsp. subtilis str. 168 chromosome, complete genome* \\[GenBank sequence CP103783.1]. GenBank. National Center for Biotechnology Information.[ <u>https://www.ncbi.nlm.nih.gov/nucleotide/CP103783.1</u>](https://www.ncbi.nlm.nih.gov/nucleotide/CP103783.1?utm_source=chatgpt.com)\n\n## Dry lab / computational analysis\n\n",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T11:57:40.761Z"
+  },
+  {
+   "uuid": "2e0c7969-989e-4d77-8537-5ad723e0e269",
+   "title": "Experiment",
+   "type": "experiment",
+   "created": "2026-10-18T03:09:00.334Z",
+   "value": "## Construction/assembly (wetlab)\n\nTo improve the reliability of our Level 0 entry step, the Csn-AcdS-Histag coding sequence was amplified by PCR and cloned into a pGEM-T Easy vector, giving pGEM-T Easy-Csn-AcdS. The ligation was transformed into *E. coli* strain DH5α, and positive clones carrying the Csn-AcdS-Histag coding sequence were identified by colony PCR and sent for sequencing to confirm the insert before use in subsequent Golden Gate reactions.\n\n* **Construct details:**\n* **Insert:** Csn signal peptide – AcdS – 6x Histag, \\[1122 bp]\n* **Amplification primers:** \n\n| Primer name | Primer sequence (5’ to 3’)                                         |\n| ----------- | ------------------------------------------------------------------ |\n| Csn F       | ATA TAT GAA GAC ATC TGA GGT CTC ATA TGA AAA TCA GTA TGC AAA AAG CA |\n| ACCD R      | ATA TAT GAA GAC ATG AGG GGT CTC ATG TCT TAA TGA TGA TGA TGA TGA T  |\n\n* **Annealing temperature:** 60°C\n* **Template:** synthetized fragment\n* **Vector:** pGEM-T Easy (ampicillin resistance, blue/white screening)\n\n## Verification (wetlab)\n\nColonies from the pGEM-T Easy-Csn:ACCD transformation were screened by colony PCR with the T7 and SP6 primers, which flank the insertion site. The products were run on an agarose gel alongside a DNA ladder to assess cloning success. A correct band runs at the expected size, which is the length of the Csn-AcdS-Histag insert \\[1122 bp] plus the vector sequence between the T7 and SP6 priming sites, for a total of \\[1372 bp]. A band at this size confirms that a fragment of the correct length was ligated into the vector at the expected position. Colonies producing a single, clean band at this size were considered positive candidates for the correct insert.\n\nPositive candidates were then sequenced to confirm that the insert is free of mutations and that the signal peptide, AcdS coding sequence, and Histag. Clones with a verified sequence were used for the Level 1 Golden Gate reactions.\n\n## **Results**\n\n![](https://registry.igem.wiki/documentation/2e0c7969-989e-4d77-8537-5ad723e0e269/54aa2f3c3988069d3a6b4b20e1990c3faf3ab9d4bb5bbc882c5adef17adcce74.avif)\n\n**Figure 1.** **Colony PCR of pGEM-T Easy-Csn-AcdS-Histag.** The figure indicates that 2 of 4 colonies gave a band at the expected size (\\[1372 bp])\n\n**Figure 2. Clone 3 was sequence-verified and used downstream.**",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T11:32:59.036Z"
+  },
+  {
+   "uuid": "b001ba60-c308-4888-b062-9bddeaea2d54",
+   "title": "Application",
+   "type": "application",
+   "created": "2026-10-18T03:13:19.168Z",
+   "value": "This part was designed for the GEMS-Taiwan 2026 iGEM team’s work on a Stress-Responsive Optogenetic Bioreactor for Precision Plant Protection and is used in the construction of composite parts:\n\n* **Pveg-EEBD-RBS0-Csn-AcdS-Histag-B0015** ([BBa\\_26CXI09X](https://registry.igem.org/parts/bba-26cxi09x)): this **Protectant Module** constitutively expresses potential stress-mitigation proteins and enables evaluation of their secretion and detection, with its constitutive promoter Pveg, RBS EEBD-RBS, and terminator B0015.\n* **PcpcG2-veg-EEBD-RBS0-Csn-AcdS-Histag-B0015** ([BBa\\_26Q3LKZU](https://registry.igem.org/parts/bba-26q3lkzu)): this module includes the light-responsive promoter P*cpcG2*-veg, the RBS EEBD-RBS0, a protectant CDS, and the terminator B0015, which together drive the expression of downstream genes in response to green-light signaling in *Bacillus Subtilis* after [BBa\\_26XZYM10](https://registry.igem.org/parts/bba-26xzym10), [BBa\\_261XH2RS](https://registry.igem.org/parts/bba-261xh2rs), and [BBa\\_26BDO8AQ](https://registry.igem.org/parts/bba-26bdo8aq).\n* **ccaSR-Csn-AcdS-Histag** ([BBa\\_2654HAF3](https://registry.igem.org/parts/bba-2654haf3)): the system is an engineered construct that produces and secretes plant-protective proteins under green/red light control.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T03:13:19.168Z"
+  }
+ ],
+ "composition": [
+  {
+   "uuid": "86e74491-a23d-41c5-b8ca-e25eea88e75b",
+   "componentUUID": "de2942ce-43c1-4f7a-964b-0284fc47317c",
+   "componentName": "BBa_26MA70QI",
+   "role": {
+    "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+    "accession": "SO:0000316",
+    "label": "CDS",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000316",
+    "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+   },
+   "start": 109,
+   "end": 1119,
+   "strand": "forward"
+  }
+ ]
+}

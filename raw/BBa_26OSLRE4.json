@@ -1,0 +1,89 @@
+{
+ "id": "BBa_26OSLRE4",
+ "search": {
+  "uuid": "ddeb42f3-df81-43c2-a548-814ca119099e",
+  "name": "BBa_26OSLRE4",
+  "slug": "bba-26oslre4",
+  "status": "published",
+  "title": "RBS0",
+  "description": "RBS0 is a synthetic, high-strength ribosome binding site optimized for *Bacillus subtilis*  that recruits the ribosome to initiate protein translation",
+  "role": {
+   "uuid": "9c7c4d6d-ac06-4c93-8515-e95ba3bea3bb",
+   "accession": "SO:0000139",
+   "label": "Ribosome Entry Site",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#RibosomeEntrySiteGlyph"
+  },
+  "sequenceLength": 33,
+  "audit": {
+   "created": "2026-10-09T04:32:36.203Z",
+   "updated": "2026-10-17T10:22:17.808Z"
+  },
+  "usageCount": 2
+ },
+ "part": {
+  "uuid": "ddeb42f3-df81-43c2-a548-814ca119099e",
+  "name": "BBa_26OSLRE4",
+  "slug": "bba-26oslre4",
+  "status": "published",
+  "title": "RBS0",
+  "description": "RBS0 is a synthetic, high-strength ribosome binding site optimized for *Bacillus subtilis*  that recruits the ribosome to initiate protein translation",
+  "role": {
+   "uuid": "9c7c4d6d-ac06-4c93-8515-e95ba3bea3bb",
+   "accession": "SO:0000139",
+   "label": "Ribosome Entry Site",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#RibosomeEntrySiteGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "Part obtained from the SubtiToolKit",
+  "sequence": "GATTAACTAATAAGGAGGACAAACATGGGTATG",
+  "audit": {
+   "created": "2026-10-09T04:32:36.203Z",
+   "updated": "2026-10-17T10:22:17.808Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "8a4be51c-3ef6-49a5-99e7-7b587df333b5",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-09T04:32:36.661Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 2
+ },
+ "documentation": [],
+ "composition": []
+}

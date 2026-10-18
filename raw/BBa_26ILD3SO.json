@@ -1,0 +1,215 @@
+{
+ "id": "BBa_26ILD3SO",
+ "search": {
+  "uuid": "eeda7e4c-f6ec-4c0c-8522-fa06555b72d2",
+  "name": "BBa_26ILD3SO",
+  "slug": "bba-26ild3so",
+  "status": "published",
+  "title": "SamyQ-BoPep4-Histag",
+  "description": "This part encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica).* BoPep4 acts as a peptide hormone and signaling molecule to regulate plant defense mechanisms and salt tolerance. The BoPep4 ([BBa\\_265CD14Z](https://registry.igem.org/parts/bba-265cd14z)) protein is fused to the alpha-amylase signal peptide (SamyQ) at the N-terminus and a 6x Histag at the C-terminus. The BoPep4 coding sequence was codon-optimized for *B. subtilis.*&#x20;",
+  "role": {
+   "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+   "accession": "SO:0000316",
+   "label": "CDS",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+  },
+  "sequenceLength": 183,
+  "audit": {
+   "created": "2026-10-13T02:43:36.016Z",
+   "updated": "2026-10-18T01:34:41.352Z"
+  },
+  "usageCount": 1
+ },
+ "part": {
+  "uuid": "eeda7e4c-f6ec-4c0c-8522-fa06555b72d2",
+  "name": "BBa_26ILD3SO",
+  "slug": "bba-26ild3so",
+  "status": "published",
+  "title": "SamyQ-BoPep4-Histag",
+  "description": "This part encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica).* BoPep4 acts as a peptide hormone and signaling molecule to regulate plant defense mechanisms and salt tolerance. The BoPep4 ([BBa\\_265CD14Z](https://registry.igem.org/parts/bba-265cd14z)) protein is fused to the alpha-amylase signal peptide (SamyQ) at the N-terminus and a 6x Histag at the C-terminus. The BoPep4 coding sequence was codon-optimized for *B. subtilis.*&#x20;",
+  "role": {
+   "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+   "accession": "SO:0000316",
+   "label": "CDS",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "doi:10.1016/j.plantsci.2025.112954, doi:10.3390/ijms23063090",
+  "sequence": "ATGATTCAAAAACGAAAGCGGACAGTTTCGTTCAGACTTGTGCTTATGTGCACGCTGTTATTTGTCAGTTTGCCGATTACAAAAACATCAGCCGGCATTTTAATTGGATCAAAAAAAAGACCGAGAGAACCGCATTCATCAGGAAAACCGGGAGGACATAATCATCATCATCATCATCATTAA",
+  "audit": {
+   "created": "2026-10-13T02:43:36.016Z",
+   "updated": "2026-10-18T01:34:41.352Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "2b8a5f72-16e1-4ca0-a8a7-8e926daaaefb",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-13T02:43:36.815Z"
+    },
+    {
+     "uuid": "4e1394cf-176e-417d-9ec6-47180b91087b",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-13T02:43:37.259Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 1
+ },
+ "documentation": [
+  {
+   "uuid": "65273385-5580-44df-b20a-c9cde98436da",
+   "title": "Design",
+   "type": "design",
+   "created": "2026-10-18T07:19:20.584Z",
+   "value": "## Overview\n\nThis part encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica).*\n\nThe part is a translational fusion with three elements, in this order:\n\n1. **SamyQ signal peptide (BBa\\_K1074014):** N-terminal signal peptide of the amyQ gene, which encodes a highly efficient α-amylase natively found in Bacillus subtilis (and related lineages like Bacillus amyloliquefaciens). Csn and SamyQ were selected as candidates to determine which signal peptide offers higher secretion efficiency.\n2. **BoPep4 (**[<u>**BBa\\_265CD14Z**</u>](https://registry.igem.org/parts/bba-265cd14z)**):** encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica),* with its native start codon removed, followed by a stop codon.\n3. **6x Histag:** fused N-terminally to the peptide. This allows detection and quantification of the short peptide after successful assembly and electroporation.\n\nThe complete part was obtained by de novo gene synthesis.\n\n## About\n\n* **Biosafety Level:** S1\n* **Target organism:** Bacillus subtilis \\[168 / WB800]\n* **Main purpose of use:** Expression and secretion of BoPep4 in the host B. subtilis\n* **Potential application:** Enhancing plant salt-stress tolerance as a component of plant-protecting bioprotectants\n\n## References\n\n1. Wang, A., Guo, J., Wang, S., Zhang, Y., Lu, F., Duan, J., Liu, Z., & Ji, W. (2022). BoPEP4, a C-Terminally Encoded Plant Elicitor Peptide from Broccoli, Plays a Role in Salinity Stress Tolerance. International Journal of Molecular Sciences, 23(6), 3090–3090. [<u>https://doi.org/10.3390/ijms23063090</u>](https://doi.org/10.3390/ijms23063090)\n2. Li, R., Liu, M., Hu, X., Li, J., Pang, Q., Yan, X., Li, J., & Ji, W. (2026). Broccoli plant elicitor peptide BoPep4 enhances plant salt tolerance by improving glucosinolate metabolism. Plant Science, 364, 112954.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T07:24:52.454Z"
+  },
+  {
+   "uuid": "4eb7f790-d13e-4f04-98d1-057a29815dce",
+   "title": "Experiment",
+   "type": "experiment",
+   "created": "2026-10-18T07:19:59.187Z",
+   "value": "This CDS was incorporated in Pveg-EEBD-RBS0-SamyQ-BoPep4-B0015 by de novo gene synthesis.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T07:19:59.187Z"
+  },
+  {
+   "uuid": "f37624e8-b08d-4922-8046-55c06cc89b32",
+   "title": "Application",
+   "type": "application",
+   "created": "2026-10-18T07:21:09.581Z",
+   "value": "This part was designed for the GEMS-Taiwan 2026 iGEM team’s work on a Stress-Responsive Optogenetic Bioreactor for Precision Plant Protection and is used in the construction of the composite part:\n\n* **Pveg-EEBD-RBS0-SamyQ-BoPep4-Histag-B0015** ([BBa\\_26FSZTWM](https://registry.igem.org/parts/bba-26fsztwm)): this Protectant Module constitutively expresses potential stress-mitigation proteins and enables evaluation of their secretion and detection, with its constitutive promoter Pveg, RBS EEBD-RBS0, and terminator B0015.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T07:21:09.581Z"
+  }
+ ],
+ "composition": [
+  {
+   "uuid": "63a0896b-7bfd-45d6-b727-b04385ceee9f",
+   "componentUUID": "affa5457-936a-4c03-b18c-6ddc1f290560",
+   "componentName": "BBa_K1074014",
+   "role": {
+    "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+    "accession": "SO:0000316",
+    "label": "CDS",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000316",
+    "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+   },
+   "start": 1,
+   "end": 93,
+   "strand": "forward"
+  },
+  {
+   "uuid": "b26556e6-30e0-4c21-8ecf-63a75cc96c95",
+   "componentUUID": "d44d57d2-79fc-4a0e-a12f-04ff94cc05f0",
+   "componentName": "BBa_265CD14Z",
+   "role": {
+    "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+    "accession": "SO:0000316",
+    "label": "CDS",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000316",
+    "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+   },
+   "start": 94,
+   "end": 162,
+   "strand": "forward"
+  }
+ ]
+}

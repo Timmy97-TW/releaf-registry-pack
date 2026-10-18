@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registry staging pack</title>
+<meta name="description" content="Working pack for filling in the 33 GEMS-Taiwan 2026 registry part pages by hand.">
+<style>
+  :root{
+    --ink:#1d1d1f;
+    --mut:#6e6e73;
+    --line:#d2d2d7;
+    --blue:#0071e3;
+    --wash:#f5f5f7;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:#fff;
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:17px;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px}
+  a{color:var(--blue);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  header{padding:76px 0 0}
+  .eyebrow{
+    margin:0 0 14px;color:var(--mut);font-size:13px;font-weight:600;
+    letter-spacing:.02em;text-transform:uppercase;
+  }
+  h1{
+    margin:0 0 16px;font-size:44px;line-height:1.08;
+    font-weight:600;letter-spacing:-.021em;
+  }
+  .lede{margin:0;font-size:20px;line-height:1.42;color:var(--mut);letter-spacing:-.012em}
+  .lede b{color:var(--ink);font-weight:600}
+
+  .cta{display:flex;flex-wrap:wrap;gap:12px;margin:30px 0 0}
+  .btn{
+    display:inline-block;padding:13px 24px;border-radius:18px;
+    background:var(--blue);color:#fff;font-size:16px;font-weight:500;
+    letter-spacing:-.012em;border:1px solid var(--blue);
+  }
+  .btn:hover{text-decoration:none;background:#0062c4;border-color:#0062c4}
+  .btn.ghost{background:#fff;color:var(--blue)}
+  .btn.ghost:hover{background:var(--wash);border-color:var(--line)}
+
+  section{padding:54px 0 0}
+  h2{
+    margin:0 0 20px;font-size:13px;font-weight:600;color:var(--mut);
+    letter-spacing:.02em;text-transform:uppercase;
+  }
+
+  .nums{
+    display:grid;grid-template-columns:repeat(3,1fr);
+    gap:1px;background:var(--line);
+    border:1px solid var(--line);border-radius:18px;overflow:hidden;
+  }
+  .num{background:#fff;padding:20px 18px}
+  .num .n{display:block;font-size:30px;font-weight:600;letter-spacing:-.021em;line-height:1.1}
+  .num .l{display:block;margin-top:5px;font-size:14px;color:var(--mut);line-height:1.35}
+  .note{margin:16px 0 0;font-size:15px;color:var(--mut)}
+
+  .links{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+  .links li{border-bottom:1px solid var(--line)}
+  .links a{
+    display:block;padding:18px 2px;color:var(--ink);
+  }
+  .links a:hover{text-decoration:none;color:var(--blue)}
+  .links .t{font-size:18px;font-weight:600;letter-spacing:-.016em}
+  .links .t .arrow{color:var(--mut);font-weight:400;margin-left:6px}
+  .links a:hover .arrow{color:var(--blue)}
+  .links .d{display:block;margin-top:3px;font-size:15px;color:var(--mut);line-height:1.4;font-weight:400}
+
+  .plain{margin:0;padding:0;list-style:none;font-size:16px}
+  .plain li{padding:9px 0;border-bottom:1px solid var(--line);color:var(--mut)}
+  .plain li:first-child{border-top:1px solid var(--line)}
+  .plain code{
+    font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;
+    font-size:14px;color:var(--ink);
+  }
+  .plain .k{color:var(--ink)}
+
+  .open{margin:0;padding:0;list-style:none;font-size:16px;line-height:1.5}
+  .open li{padding:0 0 14px 0;color:var(--mut)}
+  .open li b{color:var(--ink);font-weight:600}
+
+  footer{
+    margin-top:58px;padding:26px 0 72px;border-top:1px solid var(--line);
+    font-size:14px;color:var(--mut);
+  }
+  footer p{margin:0 0 6px}
+
+  @media (max-width:640px){
+    header{padding-top:46px}
+    h1{font-size:34px}
+    .lede{font-size:18px}
+    .nums{grid-template-columns:repeat(2,1fr)}
+    .cta .btn{flex:1 1 100%;text-align:center}
+    section{padding-top:44px}
+  }
+  @media (max-width:380px){
+    .nums{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">GEMS-Taiwan 2026 &middot; ReLEAF</p>
+    <h1>Registry staging pack</h1>
+    <p class="lede">The staged text, figures and open questions for <b>33 iGEM registry part pages</b>, prepared on 19 October 2026 so that two people can fill those pages in by hand on 20 October &mdash; before the freeze at 23:00 Taiwan time on 21 October.</p>
+    <div class="cta">
+      <a class="btn" href="console.html">Open the console</a>
+      <a class="btn ghost" href="docs/using-the-console.md">How to use it</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Scope</h2>
+    <div class="nums">
+      <div class="num"><span class="n">33</span><span class="l">parts, 31 published and 2 still drafts</span></div>
+      <div class="num"><span class="n">115</span><span class="l">ordered steps in the queue</span></div>
+      <div class="num"><span class="n">83</span><span class="l">section bodies staged for pasting</span></div>
+      <div class="num"><span class="n">18</span><span class="l">figures matched to a waiting slot</span></div>
+      <div class="num"><span class="n">70</span><span class="l">bracketed values still unresolved</span></div>
+      <div class="num"><span class="n">5</span><span class="l">parts with no documentation yet</span></div>
+    </div>
+    <p class="note">The queue is split in two &mdash; 59 steps for person A, 56 for person B &mdash; so nobody edits a registry page the other is already in. A further 48 bracketed values were resolved before staging, each against something that corroborates it; the 70 above are left visible in the text so nothing unverified is pasted by accident.</p>
+  </section>
+
+  <section>
+    <h2>Start here</h2>
+    <ul class="links">
+      <li>
+        <a href="console.html">
+          <span class="t">The console<span class="arrow">&rarr;</span></span>
+          <span class="d">One card per part, the staged text behind a copy button, thumbnails of every figure, and tick boxes that remember where you stopped. Four tabs: Queue, Parts, Figures, Decisions.</span>
+        </a>
+      </li>
+      <li>
+        <a href="ReLEAF%20registry%20staging%20pack%20-%2019%20Oct.docx">
+          <span class="t">The Word pack<span class="arrow">&rarr;</span></span>
+          <span class="d">The same content as a single document with the figures embedded, for reading and review away from the browser. 3.6&nbsp;MB.</span>
+        </a>
+      </li>
+      <li>
+        <a href="GAPS.md">
+          <span class="t">What the pull found<span class="arrow">&rarr;</span></span>
+          <span class="d">Coverage by part family, the five parts with nothing written, the four characterisation legends with no figure, and the 44 distinct bracket placeholders behind the 118 on the live pages.</span>
+        </a>
+      </li>
+      <li>
+        <a href="FIGURE-MAP.md">
+          <span class="t">Which image goes where<span class="arrow">&rarr;</span></span>
+          <span class="d">Every wiki image matched to its registry slot, with the wiki caption set beside the registry text so the band sizes can be checked row by row.</span>
+        </a>
+      </li>
+      <li>
+        <a href="inventory.csv">
+          <span class="t">One row per part<span class="arrow">&rarr;</span></span>
+          <span class="d">Status, sequence length, which sections exist, word counts, figure and placeholder counts, editor and last-updated date.</span>
+        </a>
+      </li>
+      <li>
+        <a href="README.md">
+          <span class="t">How the text was prepared<span class="arrow">&rarr;</span></span>
+          <span class="d">What is in each folder, the rule used for resolving a bracketed value, and the structural check against the original Markdown.</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>The rest of the repo</h2>
+    <ul class="plain">
+      <li><code>upload/</code> &mdash; the 18 figures as PNG, named for their part and slot. These are the files to upload (<a href="upload/MANIFEST.json">manifest</a>).</li>
+      <li><code>thumbs/</code> &mdash; 420&nbsp;px copies the console displays. Not for upload.</li>
+      <li><code>modelling/</code> &mdash; 43 modelling figures with legends already written, offered to the Design sections (<a href="modelling/LEGENDS.json">legends</a>).</li>
+      <li><code>raw/</code> &mdash; the untouched API response for each of the 33 parts. The source of truth for everything else here.</li>
+      <li><span class="k"><a href="model.json">model.json</a></span> &mdash; staged text, resolutions and open questions per section.</li>
+      <li><span class="k"><a href="steps.json">steps.json</a></span> &mdash; the 115 steps in order, with the A/B assignment. <span class="k"><a href="additions.json">additions.json</a></span> holds the new drafts and the fixes.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Not done</h2>
+    <ul class="open">
+      <li><b>The two collection documents.</b> Until they exist, the shared cloning block still sits on every composite part, which the Registry Rules say should not be duplicated.</li>
+      <li><b>Four empty figure slots.</b> One characterisation slot on <code>BBa_26XVQ3FS</code>, and three captions that want sequencing traces rather than gels.</li>
+      <li><b>Five parts with no documentation at all</b> &mdash; <code>BBa_26A4MT29</code>, <code>BBa_26OSLRE4</code>, <code>BBa_26V6CPEV</code>, and the two drafts. Opening text for them is staged in the queue.</li>
+      <li><b>One band size disagreement.</b> The wiki says 1,145&nbsp;bp for Module 1 (<code>BBa_26XZYM10</code>); that part's registry text says 1,660 / 1,721&nbsp;bp, and 1,145&nbsp;bp turns up instead on <code>BBa_26CXI09X</code>.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Prepared 19 October 2026 from <code>api.registry.igem.org/v1</code>. Freeze: 21 October 2026, 23:00 Taiwan time.</p>
+    <p>Progress in the console is kept in your own browser and does not sync between machines.</p>
+  </footer>
+
+</div>
+
+</body>
+</html>

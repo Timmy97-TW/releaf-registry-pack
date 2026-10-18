@@ -1,0 +1,215 @@
+{
+ "id": "BBa_26PX0UGH",
+ "search": {
+  "uuid": "f473bf48-3f29-4113-b856-72df15585dcd",
+  "name": "BBa_26PX0UGH",
+  "slug": "bba-26px0ugh",
+  "status": "published",
+  "title": "SamyQ-BoPep4 2.1-Histag",
+  "description": "This part encodes encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica);* the wild-type BoPep4 sequence is registered as [BBa\\_26ILD3SO](https://registry.igem.org/parts/bba-26ild3so). BoPep4 acts as a peptide hormone and signaling molecule to regulate plant defense mechanisms and salt tolerance. The BoPep4 protein is fused to the alpha-amylase signal peptide (SamyQ) at the N-terminus and a 6x Histag at the C-terminus. In this variant, the…",
+  "role": {
+   "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+   "accession": "SO:0000316",
+   "label": "CDS",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+  },
+  "sequenceLength": 183,
+  "audit": {
+   "created": "2026-10-13T02:48:15.353Z",
+   "updated": "2026-10-17T10:00:18.254Z"
+  },
+  "usageCount": 1
+ },
+ "part": {
+  "uuid": "f473bf48-3f29-4113-b856-72df15585dcd",
+  "name": "BBa_26PX0UGH",
+  "slug": "bba-26px0ugh",
+  "status": "published",
+  "title": "SamyQ-BoPep4 2.1-Histag",
+  "description": "This part encodes encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica);* the wild-type BoPep4 sequence is registered as [BBa\\_26ILD3SO](https://registry.igem.org/parts/bba-26ild3so). BoPep4 acts as a peptide hormone and signaling molecule to regulate plant defense mechanisms and salt tolerance. The BoPep4 protein is fused to the alpha-amylase signal peptide (SamyQ) at the N-terminus and a 6x Histag at the C-terminus. In this variant, the first 15 codons of the coding sequence were optimized to improve the mRNA secondary structure of the translation start site.",
+  "role": {
+   "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+   "accession": "SO:0000316",
+   "label": "CDS",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "doi:10.1016/j.plantsci.2025.112954, doi:10.3390/ijms23063090",
+  "sequence": "ATGATTCAAAAACGAAAGCGGACAGTTTCGTTCAGACTTGTGCTTATGTGCACGCTGTTATTTGTCAGTTTGCCGATTACAAAAACATCAGCCGGCATCTTAATTGGTAGTAAGAAAAGACCTAGGGAACCTCACTCCTCAGGAAAACCGGGAGGACATAATCATCATCATCATCATCATTAA",
+  "audit": {
+   "created": "2026-10-13T02:48:15.353Z",
+   "updated": "2026-10-17T10:00:18.254Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "57522ac6-f5d9-4186-ba35-1d981ecc89c2",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-13T02:48:16.438Z"
+    },
+    {
+     "uuid": "8bd19f78-4bb3-412c-9acc-2a8d16ad68e4",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-13T02:48:16.874Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 1
+ },
+ "documentation": [
+  {
+   "uuid": "cf8268b2-b494-4ea9-a2e0-ee4a3ce73fda",
+   "title": "Design",
+   "type": "design",
+   "created": "2026-10-18T07:23:31.813Z",
+   "value": "## Overview\n\nThis part encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica).*\n\nThe part is a translational fusion with three elements, in this order:\n\n1. **SamyQ signal peptide (BBa\\_K1074014):** N-terminal signal peptide of the amyQ gene, which encodes a highly efficient α-amylase natively found in Bacillus subtilis (and related lineages like Bacillus amyloliquefaciens). Csn and SamyQ were selected as candidates to determine which signal peptide offers higher secretion efficiency.\n2. **BoPep4 2.1 (**[<u>**BBa\\_26LYCBW0**</u>](https://registry.igem.org/parts/bba-26lycbw0)**):** encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica),* with its native start codon removed, followed by a stop codon. In this variant, the first 15 codons of the coding sequence were optimized to improve the mRNA secondary structure of the translation start site. \n3. **6x Histag:** fused N-terminally to the peptide. This allows detection and quantification of the short peptide after successful assembly and electroporation.\n\nThe complete part was obtained by de novo gene synthesis.\n\n## About\n\n* **Biosafety Level:** S1\n* **Target organism:** Bacillus subtilis \\[168 / WB800]\n* **Main purpose of use:** Expression and secretion of BoPep4 in the host B. subtilis\n* **Potential application:** Enhancing plant salt-stress tolerance as a component of plant-protecting bioprotectants\n\n## Dry lab / computational analysis\n\nThe mRNA secondary structure around the ribosome binding site and start codon influences translation-initiation efficiency inside bacteria, independent of the encoded protein sequence. Following the concept suggested by Castillo-Hair (2019), the design pipeline treated the first 15 codons of the BoPep4 CDS as an editable region. ViennaRNA 2.7.2 was used to generate and fold tens of thousands of synonymous variants in the RS-inclusive 236-nt 5′ window (residual recombination site + MF001 RBS + spacer + SamyQ ORF + first 90 nt of CDS), determining the mean base-pair unpaired probability across the 15 nt following the ATG and across the MF001 Shine-Dalgarno core (AAGGAGG), and combining these into a balance score.\n\nWild-type BoPep4 was the weakest starting point of the whole construct series: start+15 accessibility was only 0.396 and SD-core accessibility only 0.067, both below the \\~0.50 usability threshold and the Ho1 reference baseline (0.681). SamyQ-BoPep4 2.1-Histag was determined to be the best candidate from the run: 9 of the first 15 BoPep4 codons were changed (c2 ATT→ATC, c5 GGA→GGT, c6 TCA→AGT, c7 AAA→AAG, c10 CCG→CCT, c11 AGA→AGG, c13 CCG→CCT, c14 CAT→CAC, c15 TCA→TCC). The predicted start+15 accessibility improved from 0.396 to 0.497, and SD-core accessibility rose sharply from 0.067 to 0.634 (roughly a 9.5-fold gain), resulting in an overall balance score gain of 0.462 to 1.131. The codon adaptation index in B. subtilis 168 dropped from 0.87 to 0.77. We verified this variant against a Castillo-rule-applied control (low GC content, A over U): the control reached a start+15 of 0.677 and an SD-core of 0.425 (balance 1.102) an improvement over wild type, but still below the balance achieved by individually folding and verifying each candidate.\n\n## References\n\n1. Wang, A., Guo, J., Wang, S., Zhang, Y., Lu, F., Duan, J., Liu, Z., & Ji, W. (2022). BoPEP4, a C-Terminally Encoded Plant Elicitor Peptide from Broccoli, Plays a Role in Salinity Stress Tolerance. International Journal of Molecular Sciences, 23(6), 3090–3090. [<u>https://doi.org/10.3390/ijms23063090</u>](https://doi.org/10.3390/ijms23063090)\n2. Li, R., Liu, M., Hu, X., Li, J., Pang, Q., Yan, X., Li, J., & Ji, W. (2026). Broccoli plant elicitor peptide BoPep4 enhances plant salt tolerance by improving glucosinolate metabolism. Plant Science, 364, 112954.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T07:25:01.850Z"
+  },
+  {
+   "uuid": "603279c2-8482-45a5-9c9a-d23fd0bfc8dd",
+   "title": "Experiment",
+   "type": "experiment",
+   "created": "2026-10-18T07:26:28.915Z",
+   "value": "## Construction/assembly (wet lab)\n\nThe SamyQ-Bopep4 2.1-Histag coding sequence was amplified by PCR and cloned into a pSTK-0C-sfGFP vector from the SubtiToolKit provided by [<u>**Dr. Joaquín Caro-Astorga**</u>](https://www.google.com/search?kgmid=%2Fg%2F11jg8gn6cr\\&q=Dr.+Joaqu%C3%ADn+Caro-Astorga), giving pSTK-0C-SamyQ-Bopep4 2.1-Histag. The ligation was transformed into *E. coli* strain DH5α, and positive clones carrying the SamyQ-Bopep4 2.1-Histag coding sequence were identified by colony PCR and sent for sequencing to confirm the insert before use in subsequent Golden Gate reactions.\n\nConstruct details:\n\n* **Insert:** SamyQ signal peptide – Bopep4 2.1 – 6x Histag, \\[177 bp]\n* **Amplification primers:** \n\n| Primer name | Primer sequence (5’ to 3’)                                       |\n| ----------- | ---------------------------------------------------------------- |\n| SamyQ F     | ATATAT GAA GAC ATC TGA GGT CTC ATA TGA TTC AAA AAC GAA AGC GGA C |\n| BoPep R     | ATA TAT GAA GAC ATG AGG GGT CTC ATG TCA TGA TGA TGA TGA TGA TG   |\n\n* **Annealing temperature:** 60°C\n* **Template:** synthetic fragment\n* **Vector:** pSTK-0C-sfGFP (chloramphenicol resistance) The plasmid contains a superfolder green fluorescent protein (sfGFP) cassette, flanked by Type IIS restriction sites, that serves as a visual selection marker; cells containing the empty vector therefore become fluoresce green, while successful insertion of the target DNA fragment replaces the sfGFP sequence, resulting in white/non-fluorescent colonies.\n\n## Verification (wet lab)\n\nColonies from the pSTK-0C-SamyQ-BoPep4 2.1-Histag transformation were screened by colony PCR with the SamyQ and STK R primers, which flank the insertion site. The products were run on an agarose gel alongside a DNA ladder to assess cloning success. A correct band runs at the expected size, which is the length of the SamyQ-BoPep4 2.1-Histag insert \\[177 bp] plus the vector sequence between the Histag and STK R priming site, for a total of \\[536 bp]. A band at this size confirms that a fragment of the correct length was ligated into the vector at the expected position. Colonies producing a single, clean band at this size were considered positive candidates for the correct insert.\n\nPositive candidates were then sequenced to confirm that the insert is free of mutations and that the signal peptide, BoPep4 2.1 coding sequence, and Histag. Clones with a verified sequence were used for the Level 1 Golden Gate reactions.\n\n## Results\n\n![](https://registry.igem.wiki/documentation/603279c2-8482-45a5-9c9a-d23fd0bfc8dd/8834ba1b94f0d101c311b9adae10aa4cea38616e5f61a5f90a8e5450d5de15d1.avif)\n\n**Figure 1. Colony PCR of pSTK-0C-SamyQ-BoPep4 2.1-Histag**. The figure indicates that 18 of 19 colonies gave a band at the expected size (\\[536 bp])\n\n**Figure 2. Clone 1 was sequence-verified and used downstream.**",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T12:21:45.230Z"
+  },
+  {
+   "uuid": "fd75e0db-8afb-4712-b73b-b01d5e46f504",
+   "title": "Application",
+   "type": "application",
+   "created": "2026-10-18T07:27:47.442Z",
+   "value": "This part was designed for the GEMS-Taiwan 2026 iGEM team’s work on a Stress-Responsive Optogenetic Bioreactor for Precision Plant Protection and is used in the construction of the composite part:\n\n* **Pveg-EEBD-RBS0-SamyQ-BoPep4 2.1-Histag-B0015** ([<u>BBa\\_269A97I7</u>](https://registry.igem.org/parts/bba-269a97i7)): this Protectant Module constitutively expresses potential stress-mitigation proteins and enables evaluation of their secretion and detection, with its constitutive promoter Pveg, RBS EEBD-RBS0, and terminator B0015.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T07:27:47.442Z"
+  }
+ ],
+ "composition": [
+  {
+   "uuid": "61021733-0f83-4a48-a99d-4eb91e4a6eb5",
+   "componentUUID": "affa5457-936a-4c03-b18c-6ddc1f290560",
+   "componentName": "BBa_K1074014",
+   "role": {
+    "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+    "accession": "SO:0000316",
+    "label": "CDS",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000316",
+    "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+   },
+   "start": 1,
+   "end": 93,
+   "strand": "forward"
+  },
+  {
+   "uuid": "0136c3ef-7570-4516-9760-711f83f195cc",
+   "componentUUID": "8dfa1ea2-d3ab-43a9-973a-e210d7ad1b32",
+   "componentName": "BBa_26LYCBW0",
+   "role": {
+    "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+    "accession": "SO:0000316",
+    "label": "CDS",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000316",
+    "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+   },
+   "start": 94,
+   "end": 162,
+   "strand": "forward"
+  }
+ ]
+}

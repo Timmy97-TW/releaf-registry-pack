@@ -1,0 +1,200 @@
+{
+ "id": "BBa_26ZQ1T72",
+ "search": {
+  "uuid": "e74ef383-4554-4712-a2d4-a4f55aba4a64",
+  "name": "BBa_26ZQ1T72",
+  "slug": "bba-26zq1t72",
+  "status": "published",
+  "title": "Csn-LEA14-Histag",
+  "description": "This part encodes a Late Embryogenesis Abundant 14 protein (LEA14) (LEA: [BBa\\_26LTB0W1](https://registry.igem.org/parts/bba-26ltb0w1)) from *Arabidopsis thaliana* gene *At1g01470.1*, which belongs to LEA\\_2 subgroup. The paper showed overexpression of AtLEA14 enhances salt stress tolerance in *Arabidopsis thaliana*. Therefore, LEA14 is might be the potential gene involved in plant responses to abiotic stress. The LEA14 protein is fused to the chitosanase signal (Csn) peptide at the N-terminus…",
+  "role": {
+   "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+   "accession": "SO:0000316",
+   "label": "CDS",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+  },
+  "sequenceLength": 582,
+  "audit": {
+   "created": "2026-10-11T06:33:28.996Z",
+   "updated": "2026-10-17T09:10:17.098Z"
+  },
+  "usageCount": 1
+ },
+ "part": {
+  "uuid": "e74ef383-4554-4712-a2d4-a4f55aba4a64",
+  "name": "BBa_26ZQ1T72",
+  "slug": "bba-26zq1t72",
+  "status": "published",
+  "title": "Csn-LEA14-Histag",
+  "description": "This part encodes a Late Embryogenesis Abundant 14 protein (LEA14) (LEA: [BBa\\_26LTB0W1](https://registry.igem.org/parts/bba-26ltb0w1)) from *Arabidopsis thaliana* gene *At1g01470.1*, which belongs to LEA\\_2 subgroup. The paper showed overexpression of AtLEA14 enhances salt stress tolerance in *Arabidopsis thaliana*. Therefore, LEA14 is might be the potential gene involved in plant responses to abiotic stress. The LEA14 protein is fused to the chitosanase signal (Csn) peptide at the N-terminus and a 6x Histag at the C-terminus.&#x20;",
+  "role": {
+   "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+   "accession": "SO:0000316",
+   "label": "CDS",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "UniProt accession: O03983, doi:10.1110/ps.051579205, 10.1016/j.bbrc.2014.10.136, Sequence ID: CP053102.1",
+  "sequence": "ATGATGAAAATCAGTATGCAAAAAGCAGATTTTTGGAAAAAAGCAGCGATCTCATTACTTGTTTTCACCATGTTTTTTACCCTGATGATGAGCGAAACGGTTTTTGCGGCGGCGTCTTTATTAGATAAAGCAAAAGATTTTGTAGCTGATAAATTAACAGCGATCCCGAAACCGGAAGGCTCAGTAACAGATGTAGATCTTAAAGACGTAAACAGAGATTCTGTTGAATATTTAGCCAAAGTTTCAGTAACAAACCCGTATAGCCATTCAATTCCGATCTGCGAAATTTCTTTCACATTCCATTCTGCTGGCAGAGAAATCGGAAAAGGCAAAATTCCGGATCCGGGAAGCCTGAAAGCTAAAGACATGACAGCGCTTGATATTCCGGTTGTTGTGCCGTACAGCATTCTGTTTAATCTTGCGAGAGATGTCGGAGTAGATTGGGATATTGATTATGAACTGCAAATCGGCTTAACAATTGATCTGCCGGTTGTCGGTGAATTTACAATTCCGATCTCATCAAAAGGAGAAATTAAATTGCCGACATTCAAAGATTTCTTCCATCATCATCATCATCATTAA",
+  "audit": {
+   "created": "2026-10-11T06:33:28.996Z",
+   "updated": "2026-10-17T09:10:17.098Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "d7796cef-eb1f-493e-9567-733fbe67f68d",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-11T06:33:29.831Z"
+    },
+    {
+     "uuid": "290069c8-bdf9-4568-9823-28633ff259c1",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-11T06:33:30.062Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 1
+ },
+ "documentation": [
+  {
+   "uuid": "fafcf85b-9c82-4609-be70-b025a421bf66",
+   "title": "Design",
+   "type": "design",
+   "created": "2026-10-18T06:40:11.399Z",
+   "value": "## Overview\n\nThis part encodes a Late Embryogenesis Abundant 14 protein (LEA14)from *Arabidopsis thaliana* gene *At1g01470.1*, which belongs to LEA\\_2 subgroup. \n\nThe part is a translational fusion with three elements, in this order:\n\n1. **Csn signal peptide:** the N-terminal Sec-dependent signal peptide of *B. subtilis* chitosanase (gene *csn*), which directs the protein to the secretion pathway and is cleaved off during export. Csn and SamyQ were selected as candidates to determine which signal peptide offers higher secretion efficiency.\n2. **LEA14 (**[<u>BBa\\_26LTB0W1</u>](https://registry.igem.org/parts/bba-26ltb0w1)**):** This part encodes a Late Embryogenesis Abundant 14 protein (LEA14) from [<u>*Arabidopsis thaliana*</u>](https://www.uniprot.org/uniprotkb/O03983/entry) with its native start codon and stop codon removed.  \n3. **6x Histag:** This allows protein purification and identification after successful assembly and electroporation. Fused at the C-terminus followed by a stop codon.\n\nThe complete part was obtained by de novo gene synthesis.\n\n## About\n\n* **Biosafety level:** S1\n* **Target organism:** *Bacillus subtilis* \\[168 / WB800]\n* **Main purpose of use:** Expression and secretion of LEA14 in the host *B. subtilis*\n* **Potential application:** Protecting cellular structures and maintaining cellular stability under environmental stress conditions.\n\n## References\n\n1. Goyal, K., Walton, L. J., & Tunnacliffe, A. (2005). LEA proteins prevent protein aggregation due to water stress. *Biochemical Journal, 388(1)*, 151–157. [<u>https://doi.org/10.1042/bj20041931</u>](https://doi.org/10.1042/bj20041931)  \n2. Hundertmark, M., Hincha, D. K., & Thalhammer, A. (2008). LEA (late embryogenesis abundant) proteins and their encoding genes in *Arabidopsis thaliana*. *BMC Genomics, 9*, Article 118. [<u>https://doi.org/10.1186/1471-2164-9-118</u>](https://doi.org/10.1186/1471-2164-9-118)  \n3. Jia, F., Qi, S., Li, H., Liu, P., Li, P., Wu, C., Zheng, C., & Huang, J. (2014). Overexpression of late embryogenesis abundant 14 enhances *Arabidopsis* salt stress tolerance. *Biochemical and Biophysical Research Communications, 454(4)*, 505–511. [<u>https://doi.org/10.1016/j.bbrc.2014.10.136</u>](https://doi.org/10.1016/j.bbrc.2014.10.136)  \n4. Mertens, J., Aliyu, H., & Cowan, D. A. (2018). LEA proteins and the evolution of the WHy domain. *Applied and Environmental Microbiology, 84(15)*, Article e00539-18. [<u>https://doi.org/10.1128/AEM.00539-18</u>](https://doi.org/10.1128/AEM.00539-18)  \n5. Singh, S., Cornilescu, C. C., Tyler, R. C., Cornilescu, G., Tonelli, M., Lee, M. S., & Markley, J. L. (2005). Solution structure of a late embryogenesis abundant protein (LEA14) from *Arabidopsis thaliana*, a cellular stress-related protein. *Protein Science, 14(10)*, 2601–2609. [<u>https://doi.org/10.1110/ps.051579205</u>](https://doi.org/10.1110/ps.051579205)  \n6. Wang, J. W., Squire, H. J., Goh, N. S., Ni, H. M., Lien, E., Wong, C., González-Grandío, E., & Landry, M. P. (2023). Delivered complementation in planta (DCIP) enables measurement of peptide-mediated protein delivery efficiency in plants. *Communications Biology, 6(1)*, Article 829. [<u>https://doi.org/10.1038/s42003-023-05191-5</u>](https://doi.org/10.1038/s42003-023-05191-5)&#x20;",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T07:16:46.769Z"
+  },
+  {
+   "uuid": "6e46f42a-045c-4116-9c2a-6146c4330d7d",
+   "title": "Experiment",
+   "type": "experiment",
+   "created": "2026-10-18T06:42:40.381Z",
+   "value": "## Construction/assembly (wet lab)\n\nThe Csn-LEA14-Histag coding sequence was amplified by PCR and cloned into a pSTK-0C-sfGFP vector from the SubtiToolKit provided by [<u>**Dr. Joaquín Caro-Astorga**</u>](https://www.google.com/search?kgmid=%2Fg%2F11jg8gn6cr\\&q=Dr.+Joaqu%C3%ADn+Caro-Astorga), giving pSTK-0C-Csn-LEA14-Histag. The ligation was transformed into *E. coli* strain DH5α, and positive clones carrying the Csn-LEA14-Histag coding sequence were identified by colony PCR and sent for sequencing to confirm the insert before use in subsequent Golden Gate reactions.\n\nConstruct details:\n\n* **Insert:** Csn signal peptide – LEA14 – 6x Histag, \\[576 bp]\n* **Amplification primers:** \n\n| Primer name | Primer sequence (5’ to 3’)                          |\n| ----------- | --------------------------------------------------- |\n| Csn F       | ATATATGAAGACATCTGAGGTCTCATATGAAAA TCAGTATGCAAAAAGCA |\n| LEA R       | ATATATGAAGACATGAGGGGTCTCATGTCTTAA TGATGATGATGATGAT  |\n\n* **Template:** synthetized fragment\n* **Vector:** pSTK-0C-sfGFP (chloramphenicol resistance) The plasmid contains a superfolder green fluorescent protein (sfGFP) cassette, flanked by Type IIS restriction sites, that serves as a visual selection marker; cells containing the empty vector therefore become fluoresce green, while successful insertion of the target DNA fragment replaces the sfGFP sequence, resulting in white/non-fluorescent colonies.\n\n## Verification (wet lab)\n\nColonies from the pSTK-0C-Csn-LEA14-Histag transformation were screened by colony PCR with the Csn and STK primers, which flank the insertion site. The products were run on an agarose gel alongside a DNA ladder to assess cloning success. A correct band runs at the expected size, which is the length of the Csn-LEA14-Histag insert \\[576 bp] plus the vector sequence between the Histag and STK R priming site, for a total of \\[811 bp]. A band at this size confirms that a fragment of the correct length was ligated into the vector at the expected position. Colonies producing a single, clean band at this size were considered positive candidates for the correct insert.\n\nPositive candidates were then sequenced to confirm that the insert is free of mutations and that the signal peptide, LEA14 coding sequence, and Histag. Clones with a verified sequence were used for the Level 1 Golden Gate reactions.\n\n## Results\n\n![](https://registry.igem.wiki/documentation/6e46f42a-045c-4116-9c2a-6146c4330d7d/2438a0dda56a65c53ee6b971ee84ca082b5adaef14b4777a95a1194d2cd9c618.avif)\n\nFigure 1. **Colony PCR of pSTK-0C-Csn-LEA14-Histag.** The figure indicates that 16 of 16 colonies gave a band at the expected size (\\[811 bp])\n\nFigure 2. **Clone 2 was sent for sequencing with a silent mutation (G381A)**\n\nFigure 3. **Clone 10 was sent for sequencing, but had a point mutation at 299.**\n\nFigure 4. **Clone 16 was sequence-verified and used for downstream experiments.**",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T11:38:37.022Z"
+  },
+  {
+   "uuid": "54003d0c-2460-467e-aa21-dae71c12f99f",
+   "title": "Application",
+   "type": "application",
+   "created": "2026-10-18T06:45:52.004Z",
+   "value": "This part was designed for the GEMS-Taiwan 2026 iGEM team’s work on a Stress-Responsive Optogenetic Bioreactor for Precision Plant Protection and is used in the construction of the composite part:\n\n* **Pveg-EEBD-RBS0-Csn-LEA14-Histag-B0015** ([<u>BBa\\_26SG0NQQ</u>](https://registry.igem.org/parts/bba-26sg0nqq)): this Protectant Module constitutively expresses potential stress-mitigation proteins and enables evaluation of their secretion and detection, with its constitutive promoter Pveg, RBS EEBD-RBS0, and terminator B0015.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T06:45:52.004Z"
+  }
+ ],
+ "composition": [
+  {
+   "uuid": "7f4ffef8-d409-4311-93c2-d0ee8b28e6cd",
+   "componentUUID": "10faf181-3ff9-4769-be02-474c664a8a62",
+   "componentName": "BBa_26LTB0W1",
+   "role": {
+    "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+    "accession": "SO:0000316",
+    "label": "CDS",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000316",
+    "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+   },
+   "start": 112,
+   "end": 561,
+   "strand": "forward"
+  }
+ ]
+}

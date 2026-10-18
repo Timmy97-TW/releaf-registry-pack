@@ -1,0 +1,117 @@
+{
+ "id": "BBa_26A4MT29",
+ "search": {
+  "uuid": "9ef2347f-79bb-49b7-87b7-14af52a0b14a",
+  "name": "BBa_26A4MT29",
+  "slug": "bba-26a4mt29",
+  "status": "published",
+  "title": "PtagC+RBS",
+  "description": "A standardized genetic part combining a bacterial promoter (PtagC) and a Ribosome Binding Site (RBS). This composite part provides control of both transcription and translation for a downstream gene of interest.",
+  "role": {
+   "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+   "accession": "SO:0001248",
+   "label": "Assembly",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "sequenceLength": 100,
+  "audit": {
+   "created": "2026-10-09T04:31:06.050Z",
+   "updated": "2026-10-17T10:18:02.488Z"
+  },
+  "usageCount": 1
+ },
+ "part": {
+  "uuid": "9ef2347f-79bb-49b7-87b7-14af52a0b14a",
+  "name": "BBa_26A4MT29",
+  "slug": "bba-26a4mt29",
+  "status": "published",
+  "title": "PtagC+RBS",
+  "description": "A standardized genetic part combining a bacterial promoter (PtagC) and a Ribosome Binding Site (RBS). This composite part provides control of both transcription and translation for a downstream gene of interest.",
+  "role": {
+   "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+   "accession": "SO:0001248",
+   "label": "Assembly",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "Part obtained from the SubtiToolKit",
+  "sequence": "ACAGAACAAGTGTTCTTTTTTCTATTGAATACCGAACGTATGTTTGCTTTAATGTAATTAGTTGCTTATGGCAGCAAATAATAATAGAGGTGGTAAATTT",
+  "audit": {
+   "created": "2026-10-09T04:31:06.050Z",
+   "updated": "2026-10-17T10:18:02.488Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "86177097-6b18-43b6-8208-619234395ddd",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-09T04:31:07.351Z"
+    },
+    {
+     "uuid": "932a2502-3254-4517-b9c8-1e73ae35668d",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "bf88b316-183f-4ca1-9623-f6d8f90bfc2d",
+      "firstName": "Yashan",
+      "lastName": "Yu",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-17T10:17:18.106Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 1
+ },
+ "documentation": [],
+ "composition": []
+}

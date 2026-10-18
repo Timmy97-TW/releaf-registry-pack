@@ -1,0 +1,245 @@
+{
+ "id": "BBa_26Q3LKZU",
+ "search": {
+  "uuid": "a8294809-f78d-454c-af20-4d7c891a892a",
+  "name": "BBa_26Q3LKZU",
+  "slug": "bba-26q3lkzu",
+  "status": "published",
+  "title": "PcpcG2-veg-EEBD-RBS0-Csn-AcdS-Histag-B0015",
+  "description": "This module includes the light-responsive promoter P*cpcG2*-veg, the RBS EEBD-RBS0, a protectant CDS, and the terminator B0015, which together drive the expression of downstream genes in response to green-light signaling in *Bacillus Subtilis* after [BBa\\_26XZYM10](https://registry.igem.org/parts/bba-26xzym10), [BBa\\_261XH2RS](https://registry.igem.org/parts/bba-261xh2rs), and [BBa\\_26BDO8AQ](https://registry.igem.org/parts/bba-26bdo8aq). The CDS evaluated…",
+  "role": {
+   "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+   "accession": "SO:0001248",
+   "label": "Assembly",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "sequenceLength": 2617,
+  "audit": {
+   "created": "2026-10-16T11:40:11.018Z",
+   "updated": "2026-10-18T02:39:31.417Z"
+  },
+  "usageCount": 1
+ },
+ "part": {
+  "uuid": "a8294809-f78d-454c-af20-4d7c891a892a",
+  "name": "BBa_26Q3LKZU",
+  "slug": "bba-26q3lkzu",
+  "status": "published",
+  "title": "PcpcG2-veg-EEBD-RBS0-Csn-AcdS-Histag-B0015",
+  "description": "This module includes the light-responsive promoter P*cpcG2*-veg, the RBS EEBD-RBS0, a protectant CDS, and the terminator B0015, which together drive the expression of downstream genes in response to green-light signaling in *Bacillus Subtilis* after [BBa\\_26XZYM10](https://registry.igem.org/parts/bba-26xzym10), [BBa\\_261XH2RS](https://registry.igem.org/parts/bba-261xh2rs), and [BBa\\_26BDO8AQ](https://registry.igem.org/parts/bba-26bdo8aq). The CDS evaluated ([BBa\\_26NXOP7S](https://registry.igem.org/parts/bba-26nxop7s)) was ACC deaminase protein, fused to the Csn secretion signal and 6x Histag. Together, these components convert light-induced regulatory signals into measurable visual outputs or stress-mitigation functions.",
+  "role": {
+   "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+   "accession": "SO:0001248",
+   "label": "Assembly",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "Haller et al., 2025; 10.1007/978-1-0716-4047-0_1, UniProtKB/Swiss-Prot: Q5PWZ8.1, DOI: 10.1139/w98-074, DOI: 10.1016/j.bbapap.2004.09.015",
+  "sequence": "AGCCCATTGTGCTTTTCTCTATCAACCTCAGCTTACCTGAAGGGGTGAACAGGTCTGGGTTAATTCATGTTGCGAAATGTAACAGTTTTAGTCGCATCAGCTAACTTTCCGATTTCTTTACGATTTTCTCCCCCTTTTCTTCAATTTTACTTTGTTAGGATCGCATTTTTAAAAAGAGGAGAAATACTAGATGCGTAAAGGCGAGGAGCTGTTCACTGGTGTCGTCCCTATTCTGGTGGAACTGGATGGTGATGTCAACGGTCATAAGTTTTCCGTGCGTGGCGAGGGTGAAGGTGACGCAACTAATGGTAAACTGACGCTGAAGTTCATCTGTACTACTGGTAAACTGCCGGTACCTTGGCCGACTCTGGTAACGACGCTGACTTATGGTGTTCAGTGCTTTGCTCGTTATCCGGACCATATGAAGCAGCATGACTTCTTCAAGTCCGCCATGCCGGAAGGCTATGTGCAGGAACGCACGATTTCCTTTAAGGATGACGGCACGTACAAAACGCGTGCGGAAGTGAAATTTGAAGGCGATACCCTGGTAAACCGCATTGAGCTGAAAGGCATTGACTTTAAAGAAGACGGCAATATCCTGGGCCATAAGCTGGAATACAATTTTAACAGCCACAATGTTTACATCACCGCCGATAAACAAAAAAATGGCATTAAAGCGAATTTTAAAATTCGCCACAACGTGGAGGATGGCAGCGTGCAGCTGGCTGATCACTACCAGCAAAACACTCCAATCGGTGATGGTCCTGTTCTGCTGCCAGACAATCACTATCTGAGCACGCAAAGCGTTCTGTCTAAAGATCCGAACGAGAAACGCGATCATATGGTTCTGCTGGAGTTCGTAACCGCAGCGGGCATCACGCATGGTATGGATGAACTGTACAAATGATGATAATAACCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCTACTAGAGTCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATAACTTCCTAGAATATATATTATGTAAACTCCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCTACTAGAGTCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATAACTTCCTAGAATATATATTATGTAAACTTAAGGAGGAAAAAAAGGTATTAAACAAAATTATTTGTAGAGGCTGTTTCGTCCTCACGGACTCATCAGACCGGAAAGCACATCCGGTGACAGCTGATTAACTAATAAGGAGGACAAACATGAAAATCAGTATGCAAAAAGCAGATTTTTGGAAAAAAGCAGCGATCTCATTACTTGTTTTCACCATGTTTTTTACCCTGATGATGAGCGAAACGGTTTTTGCGGCGAATTTAAATAGATTTGAAAGATATCCGTTAACATTCGGACCGAGCCCGATCACGCCGTTAAAAAGACTTTCTGAACATCTTGGCGGAAAAGTTGAGCTTTATGCGAAAAGAGAAGACTGCAACAGCGGCCTTGCGTTTGGCGGAAACAAAACACGCAAACTTGAGTATTTAATTCCGGAAGCGATTGAACAAGGATGCGATACACTTGTATCTATCGGCGGCATTCAAAGCAACCAAACACGCCAAGTTGCGGCGGTTGCGGCGCATCTTGGCATGAAATGTGTGCTTGTGCAGGAAAACTGGGTAAACTACTCTGATGCGGTTTATGACCGCGTTGGAAACATTGAAATGAGCCGCATTATGGGAGCTGATGTACGCCTTGATGCGGCAGGCTTTGATATCGGCATCCGCCCGAGCTGGGAGAAAGCGATGTCAGATGTTGTTGAGCGCGGCGGAAAACCGTTCCCGATTCCGGCAGGCTGCTCTGAGCATCCGTACGGCGGCTTAGGCTTTGTCGGCTTTGCTGAAGAAGTGCGCCAGCAAGAGAAAGAGCTTGGCTTTAAATTTGATTACATTGTTGTGTGCTCTGTAACAGGCAGCACACAAGCAGGCATGGTAGTCGGCTTTGCGGCTGATGGCCGCAGCAAAAACGTCATCGGCGTAGATGCATCTGCAAAGCCGGAGCAAACAAAAGCGCAAATTCTGCGCATTGCGCGCCACACAGCGGAGCTTGTTGAGCTTGGCAGAGAGATCACAGAAGAAGATGTTGTGCTTGATACACGCTTTGCTTATCCGGAATACGGCCTTCCGAATGAAGGCACACTTGAAGCGATCCGCCTTTGCGGCAGCCTTGAAGGCGTGTTAACAGATCCGGTTTATGAAGGAAAAAGCATGCACGGCATGATTGAAATGGTGCGCCGCGGAGAGTTCCCGGACGGAAGCAAAGTGCTTTATGCGCATTTAGGCGGAGCGCCGGCGTTAAATGCTTATAGCTTCCTTTTCCGCAACGGACATCATCATCATCATCATTAACCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCTACTAGAGTCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATA",
+  "audit": {
+   "created": "2026-10-16T11:40:11.018Z",
+   "updated": "2026-10-18T02:39:31.417Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "2ee2f719-63ae-4d64-80d1-5bb2ee323b45",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T11:40:12.125Z"
+    },
+    {
+     "uuid": "375121d5-a22b-4203-bc9f-95323f053f0a",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T11:40:12.480Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 1
+ },
+ "documentation": [
+  {
+   "uuid": "60cea6e9-102c-4eba-84dc-b48b60628d86",
+   "title": "Design",
+   "type": "design",
+   "created": "2026-10-18T08:50:51.952Z",
+   "value": "## Overview\n\nThe Light-Responsive Expression Module drives the expression of downstream genes in response to green-light signaling in Bacillus subtilis.&#x20;\n\nThe part is a composite transcription unit with four elements, in this order:\n\n·       PcpcG2-veg (BBa\\_254UKC9E): the light-responsive output promoter of the CcaSR system, activated by phosphorylated CcaR. It is a *B. subtilis*-adapted chimera of the cyanobacterial PcpcG2 promoter, engineered by Castillo-Hair et al. (2019).\n\n·       EEBD-RBS0 (BBa\\_26V6CPEV): a composite ribosome binding site element containing a synthetic RBS sequence and expression-enhancing nucleotide context to improve translation initiation efficiency. EEBD is a blocking device, consisting of a B0015 terminator between two recombination sites to prevent unwanted gene expression or the production of toxic proteins while cloning DNA constructs inside *Escherichia coli*.\n\n·       Csn-AcdS-Histag ([BBa\\_26NXOP7S](https://registry.igem.org/parts/bba-26nxop7s)): a translational fusion of an N-terminal Sec-dependent signal peptide, the ACC deaminase coding sequence with its native start and stop codons removed, and a 6x Histag fused at the C terminus followed by a stop codon, which allows protein detection and purification. The signal peptide and the *acdS* variant differ between the two versions of the module, as set out below.\n\n·       B0015 (BBa\\_B0015): a high-efficiency double transcriptional terminator that stops RNA polymerase from continuing transcription past the CDS protectant, preventing transcriptional read-through into downstream modules.\n\nThe complete module was assembled by Golden gate assembly with BsaI-HFv2.\n\n## About\n\n* **Biosafety level:** S1\n* **Target organism:** *Bacillus subtilis* \\[168 / WB800]\n* **Main purpose of use:** Green light-responsive expression and secretion of ACC deaminase in the host *B. subtilis*.\n* **Potential application:** Lowering plant ethylene levels under stress on demand, as the output component of a stress-responsive optogenetic bioreactor for plant-growth-promoting bioprotectants.\n\n## Literature\n\n**How PcpcG2-veg was engineered:** The output promoter was adapted to *B. subtilis* in stages by Castillo-Hair et al. (2019). The starting point was PcpcG2-172, the *E. coli*-optimised truncation of Schmidl et al. (2014), which removes an unwanted transcriptional start site. In *B. subtilis* it was weak. Swapping the original -10 hexamer for the *B. subtilis* consensus sequence, to improve σA RNA polymerase recruitment, gave PcpcG2-hy and about three times more output. Replacing the proximal region, meaning the sequence following the -10 hexamer, with that of the strong constitutive promoters PrpsD and Pveg gave the chimeras PcpcG2-rpsD and PcpcG2-veg; those two swaps are reported as increasing output transcription by 22- and 44-fold, and PcpcG2-veg was selected for its superior activity.\n\nThe values below are from Castillo-Hair et al. (2019), measured in *B. subtilis* PY79 by calibrated flow cytometry with an sfGFP reporter. They are not our measurements.\n\n| Output promoter | Induced output (MEFL) | Uninduced output (MEFL) |\n| --------------- | --------------------- | ----------------------- |\n| PcpcG2-172      | 555 ± 65              | not reported            |\n| PcpcG2-hy       | 1470 ± 110            | not reported            |\n| PcpcG2-rpsD     | 32,400 ± 2800         | 174 ± 23                |\n| PcpcG2-veg      | 64,000 ± 7600         | 378 ± 38                |\n\n \n\nTwo limits of that engineering matter for reading the part. The -35 box was left untouched, and only the -10 hexamer and the proximal region downstream of it were changed, because the CcaR operator region had to be kept intact. We chose PcpcG2-veg as the output promoter for the same reason it was selected in the published work, its higher output.\n\n**Why the blocking device is on this module:** EEBD sits on this module and is absent from the light-sensing and transduction modules, because of the cargo. ACC deaminase is a secreted enzyme carried on a Sec signal peptide, and expression during cloning in *E. coli* risks unwanted protein production and loss of the construct. CcaS and CcaR, by contrast, have nothing to act on in *E. coli*, which has neither PCB nor a PcpcG2 promoter. Placing the terminator-between-recombination-sites device in front of the protectant CDS keeps the cassette silent through the *E. coli* cloning steps, and the same EEBD-RBS0 part supplies the RBS for the protectant CDS.\n\n**What AcdS does:** ACC deaminase hydrolyses 1-aminocyclopropane-1-carboxylate, the precursor of the plant stress hormone ethylene, and so lowers the ethylene levels that inhibit plant growth under stress (Glick et al., 1998; Shah et al., 1998). The coding sequence is that of *Pseudomonas putida* strain UW4, taken from UniProt Q5PWZ8. The recombinant enzyme from that strain is 41 kDa and is selective and highly active towards ACC, with K(M) \\= 3.4 ± 0.2 mM and k(cat) \\= 146 ± 5 min⁻¹ at pH 8.0 and 22 °C. Activity is optimal at pH 8.0, declines sharply to essentially nothing below pH 6.5, tapers off more gradually at higher pH, and is lost above pH 10 (Hontzeas et al., 2004).\n\n**The constitutive counterpart:** The constitutive Pveg versions of this cassette exist so that maximal secretion and production can be measured without the light switch, which gives the light-controlled module something to be compared against. A Western blot of the constitutive Csn-AcdS construct gave a band at about 37 kDa in the culture supernatant, consistent with the predicted size of the secreted enzyme. The 41 kDa quoted above is the purified recombinant enzyme of Hontzeas et al. (2004), which carries neither a cleaved signal peptide nor a His tag, and we have not compared the two forms directly. The equivalent characterisation of the light-responsive versions is not yet complete.\n\n## References\n\nSchmidl, S. R., Sheth, R. U., Wu, A., & Tabor, J. J. (2014). Refactoring and optimization of light-switchable *Escherichia coli* two-component systems. *ACS Synthetic Biology, 3*(11), 820–831. [https://doi.org/10.1021/sb500273n](https://doi.org/10.1021/sb500273n)\n\n2\\. Castillo-Hair, S. M., Baerman, E. A., Fujita, M., Igoshin, O. A., & Voigt, C. A. (2019). Optogenetic control of *Bacillus subtilis* gene expression. *Nature Communications, 10*, Article 3099. [https://doi.org/10.1038/s41467-019-10906-6](https://doi.org/10.1038/s41467-019-10906-6)\n\n3\\. Hontzeas, N., Zoidakis, J., Glick, B. R., & Abu-Omar, M. M. (2004). Expression and characterization of 1-aminocyclopropane-1-carboxylate deaminase from the rhizobacterium *Pseudomonas putida* UW4: A key enzyme in bacterial plant growth promotion. *Biochimica et Biophysica Acta, 1703*(1), 11–19. [https://doi.org/10.1016/j.bbapap.2004.09.015](https://doi.org/10.1016/j.bbapap.2004.09.015)\n\n4\\. Shah, S., Li, J., Moffatt, B. A., & Glick, B. R. (1998). Isolation and characterization of ACC deaminase genes from two different plant growth-promoting rhizobacteria. *Canadian Journal of Microbiology, 44*(9), 833–843. [https://doi.org/10.1139/w98-074](https://doi.org/10.1139/w98-074)\n\n5\\. Glick, B. R., Penrose, D. M., & Li, J. (1998). A model for the lowering of plant ethylene concentrations by plant growth-promoting bacteria. *Journal of Theoretical Biology, 190*(1), 63–68. [https://doi.org/10.1006/jtbi.1997.0532](https://doi.org/10.1006/jtbi.1997.0532)\n\n6\\. UniProt Consortium. (n.d.). Q5PWZ8. UniProt. Retrieved October 18, 2026, from UniProt entry Q5PWZ8\n\n7\\. Caro-Astorga, J., Rogan, M., Malcı, K., Ming, H., Debenedictis, E., James, P., & Ellis, T. (2025). SubtiToolKit: A bioengineering kit for *Bacillus subtilis* and Gram-positive bacteria. *Trends in Biotechnology, 43*(6), 1446–1469. [https://doi.org/10.1016/j.tibtech.2025.02.004](https://doi.org/10.1016/j.tibtech.2025.02.004)\n\n8\\. BBa\\_K1074014\n\n9\\. BBa\\_B0015",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T09:01:20.670Z"
+  },
+  {
+   "uuid": "f53874a3-c117-479a-94b4-16cd4d3744ca",
+   "title": "Experiment",
+   "type": "experiment",
+   "created": "2026-10-18T08:59:12.086Z",
+   "value": "## Construction/assembly (wet lab)\n\nThe protectant coding sequence was PCR-amplified as a single amplicon from the synthesised fragment, using primers Csn F and ACCD R for the Csn-AcdS-Histag version. Each primer carries a 5' ATATAT spacer, a BpiI site (GAAGAC) for Level 0 entry cloning, and a BsaI site (GGTCTC) for Level 1 assembly. The inner BsaI overhangs are TATG (incorporating the start codon) at the 5' end and TGTC at the 3' end, which sets the CDS position and allows fusion to the downstream terminator. The amplicon was cloned into pGEM-T Easy and sequence-verified.\n\nThe Level 0 parts PcpcG2-veg (BBa\\_254UKC9E), EEBD-RBS0 (BBa\\_26V6CPEV), the protectant CDS fusion ([BBa\\_26NXOP7S](https://registry.igem.org/parts/bba-26nxop7s)) and B0015 (BBa\\_B0015) were then combined in a single Golden Gate reaction (BsaI, T4 DNA ligase buffer, and T4 DNA ligase) into the pSTK-1D-sfGFP Level 1 cloning vector (Caro-Astorga et al., 2025), in the order promoter, RBS, CDS, terminator. The reaction was transformed into *E. coli* DH5α, and positive clones were identified by colony PCR and sent for sequencing before electroporation into *B. subtilis*.\n\n**CONSTRUCT DETAILS**\n\n*  Composite insert: PcpcG2-veg – EEBD-RBS0 – Csn-AcdS-Histag – B0015, \\[1788 bp]\n* Level 1 vector: pSTK-1D-sfGFP (Level 1 cloning vector), \\[ampicillin]\n* Template: synthesised fragments assembled together\n* Annealing temperature (Level 0 amplification): 60 °C\n* Assembly method: Golden Gate, \\[BsaI-HFv2 enzyme]\n* Thermal cycle:\n\n| Temperature | Time   | Cycles    |\n| ----------- | ------ | --------- |\n| 37 °C       | 5 min  | 45 cycles |\n| 16 °C       | 5 min  |           |\n| 37 °C       | 10 min | 1 cycle   |\n| 80 °C       | 20 min | 1 cycle   |\n\n## Verification (wet lab)\n\nColonies from the pSTK-1D-sfGFP transformation were screened by colony PCR with backbone primers, which flank the insertion site. The products were run on an agarose gel alongside a DNA ladder. A correct band runs at the expected size, which is the length of the insert plus the vector sequence between the priming sites, for a total of \\[1588 bp]. Colonies producing a single, clean band at this size were considered positive candidates.\n\nPositive candidates were then sequenced to confirm that the promoter, blocking device, RBS, protectant CDS and terminator are free of mutations and correctly ordered. Clones with a verified sequence were used for the Level 2 optogenetic system constructed in the pSTK-EXP2 vector.\n\n| Primer name | Primer sequence (5' to 3')                             |\n| ----------- | ------------------------------------------------------ |\n| Csn F       | ATATATGAAG ACATCTGAGG TCTCATATGA AAATCAGTAT GCAAAAAGCA |\n| ACCD R      | ATATATGAAG ACATGAGGGG TCTCATGTCT TAATGATGAT GATGATGAT  |\n| pSTK-seq F  | agtgccacctgacgtctaagaaacc                              |\n| pSTK-seq R  | tctttcctgcgttatcccctgattc                              |\n\n## Results\n\n![](https://registry.igem.wiki/documentation/f53874a3-c117-479a-94b4-16cd4d3744ca/007541e6fe2482f0a198c05fc9ab94e27b40cc3d2d2a5aec295852f946cf741c.avif)\n\n**Figure 1. Colony PCR of pSTK-1D-PcpcG2-veg-EEBD-RBS0-Csn-AcdS-Histag-B0015.** 2 of 6 colonies gave a band at the expected size (\\[1588 bp]).\n\nFigure 2. Clone \\[X] of each version was sequence-verified and used for downstream experiments.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T12:29:54.223Z"
+  },
+  {
+   "uuid": "81f6e87c-657e-4825-a458-cc9e5a77feab",
+   "title": "Application",
+   "type": "application",
+   "created": "2026-10-18T08:59:31.267Z",
+   "value": "This part was designed for the GEMS-Taiwan 2026 iGEM team’s work on a Stress-Responsive Optogenetic Bioreactor for Precision Plant Protection: \n\n* **ccaSR-Csn-AcdS-Histag** ([<u>**BBa\\_2654HAF3**</u>](https://registry.igem.org/parts/bba-2654haf3)): the system is an engineered construct that produces and secretes plant-protective proteins under green/red light control.\n* **ccaSR-SamyQ-AcdS 2.1-Histag** ([<u>**BBa\\_26U8UTMH**</u>](https://registry.igem.org/parts/bba-26u8utmh)): the system is an engineered construct that produces and secretes plant-protective proteins under green/red light control.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T08:59:31.267Z"
+  }
+ ],
+ "composition": [
+  {
+   "uuid": "683158ea-e584-4f87-b0b1-a403e140da4d",
+   "componentUUID": "7f81686f-7e34-4f5a-8ab8-fa40f9a08d38",
+   "componentName": "BBa_254UKC9E",
+   "role": {
+    "uuid": "0a6e2d17-78fd-42f3-836c-181d545cfe27",
+    "accession": "IGEM:0000005",
+    "label": "Reporter",
+    "uri": null,
+    "glyph": null
+   },
+   "start": 1,
+   "end": 1045,
+   "strand": "forward"
+  },
+  {
+   "uuid": "f7f86655-49eb-46a9-b455-0d1ec3e99531",
+   "componentUUID": "d0e17221-fd5b-4b6f-9dd8-d53f42f0eeca",
+   "componentName": "BBa_26V6CPEV",
+   "role": {
+    "uuid": "79d631aa-7dd3-4099-8227-82a84b9c4e3d",
+    "accession": "SO:0005836",
+    "label": "Regulatory Region",
+    "uri": "http://purl.obolibrary.org/obo/SO_0005836",
+    "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+   },
+   "start": 1046,
+   "end": 1348,
+   "strand": "forward"
+  },
+  {
+   "uuid": "bc0ee1b0-144a-44fc-bdcd-36100dda715c",
+   "componentUUID": "d20eb03d-3090-4551-bc15-4b48c73ad66d",
+   "componentName": "BBa_26NXOP7S",
+   "role": {
+    "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+    "accession": "SO:0000316",
+    "label": "CDS",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000316",
+    "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+   },
+   "start": 1349,
+   "end": 2488,
+   "strand": "forward"
+  },
+  {
+   "uuid": "6cd34955-719c-4d87-84b7-0ec5dfa81c93",
+   "componentUUID": "a0ebeeab-3947-440e-9cf1-f0a47bbc4c33",
+   "componentName": "BBa_B0015",
+   "role": {
+    "uuid": "ae5c878a-2fdb-4c2e-b904-e6eb1a1224f2",
+    "accession": "SO:0000141",
+    "label": "Terminator",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000141",
+    "glyph": "http://sbols.org/visual/v2#TerminatorGlyph"
+   },
+   "start": 2489,
+   "end": 2617,
+   "strand": "forward"
+  }
+ ]
+}

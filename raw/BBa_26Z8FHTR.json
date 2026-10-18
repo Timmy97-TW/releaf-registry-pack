@@ -1,0 +1,276 @@
+{
+ "id": "BBa_26Z8FHTR",
+ "search": {
+  "uuid": "047d8a66-79ae-4c64-833b-ad7fa1353a5b",
+  "name": "BBa_26Z8FHTR",
+  "slug": "bba-26z8fhtr",
+  "status": "draft",
+  "title": "Pveg-EEBD-RBS0-SamyQ-Bopep4-Histag (9-23)-B0015",
+  "description": "This **Protectant Module** constitutively expresses the stress-mitigation proteins and enables evaluation of their secretion and detection. The CDS encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica).* The BoPep4 ([BBa\\_265CD14Z](https://registry.igem.org/parts/bba-265cd14z)) protein is fused to the alpha-amylase signal peptide (SamyQ) at the N-terminus and a 6x Histag at the C-terminus. BoPep4 acts as a peptide hormone and signaling molecule to regulate plant defense mechanisms and salt tolerance. This version of BoPep4 was truncated from 15-23 amino acids.",
+  "role": {
+   "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+   "accession": "SO:0001248",
+   "label": "Assembly",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "BoPEP4, a C-Terminally Encoded Plant Elicitor Peptide from Broccoli, Plays a Role in Salinity Stress Tolerance, 10.3390/ijms23063090",
+  "sequence": "",
+  "sequenceWithheld": true,
+  "audit": {
+   "created": "2026-10-16T16:05:06.053Z",
+   "updated": "2026-10-16T16:05:06.053Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "28da6a95-e988-4b98-bb77-63827ea18e3c",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T16:05:19.117Z"
+    },
+    {
+     "uuid": "8923f8ea-047a-4f68-b4cc-48576708b5ea",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T16:05:19.540Z"
+    },
+    {
+     "uuid": "9bbe7a34-b806-40f8-9b9d-06078b424ceb",
+     "id": 668369,
+     "scientificName": "Escherichia coli DH5[alpha]",
+     "commonName": null,
+     "rank": "strain",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562",
+      "668369"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T16:05:27.622Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 0
+ },
+ "part": {
+  "uuid": "047d8a66-79ae-4c64-833b-ad7fa1353a5b",
+  "name": "BBa_26Z8FHTR",
+  "slug": "bba-26z8fhtr",
+  "status": "draft",
+  "title": "Pveg-EEBD-RBS0-SamyQ-Bopep4-Histag (9-23)-B0015",
+  "description": "This **Protectant Module** constitutively expresses the stress-mitigation proteins and enables evaluation of their secretion and detection. The CDS encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica).* The BoPep4 ([BBa\\_265CD14Z](https://registry.igem.org/parts/bba-265cd14z)) protein is fused to the alpha-amylase signal peptide (SamyQ) at the N-terminus and a 6x Histag at the C-terminus. BoPep4 acts as a peptide hormone and signaling molecule to regulate plant defense mechanisms and salt tolerance. This version of BoPep4 was truncated from 15-23 amino acids.",
+  "role": {
+   "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+   "accession": "SO:0001248",
+   "label": "Assembly",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "BoPEP4, a C-Terminally Encoded Plant Elicitor Peptide from Broccoli, Plays a Role in Salinity Stress Tolerance, 10.3390/ijms23063090",
+  "sequence": "",
+  "sequenceWithheld": true,
+  "audit": {
+   "created": "2026-10-16T16:05:06.053Z",
+   "updated": "2026-10-16T16:05:06.053Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "28da6a95-e988-4b98-bb77-63827ea18e3c",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T16:05:19.117Z"
+    },
+    {
+     "uuid": "8923f8ea-047a-4f68-b4cc-48576708b5ea",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T16:05:19.540Z"
+    },
+    {
+     "uuid": "9bbe7a34-b806-40f8-9b9d-06078b424ceb",
+     "id": 668369,
+     "scientificName": "Escherichia coli DH5[alpha]",
+     "commonName": null,
+     "rank": "strain",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562",
+      "668369"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T16:05:27.622Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 0
+ },
+ "documentation": [],
+ "composition": [
+  {
+   "uuid": "e08ac44a-9879-4e73-b25b-65ebc51fc697",
+   "componentUUID": "a6f49c0a-83f4-4bd5-a97a-0d18fb4be669",
+   "componentName": "BBa_K143012",
+   "role": {
+    "uuid": "324e9810-8719-4dd8-8c39-989a015a96a1",
+    "accession": "IGEM:0000006",
+    "label": "Regulatory",
+    "uri": null,
+    "glyph": null
+   },
+   "start": 1,
+   "end": 97,
+   "strand": "forward"
+  },
+  {
+   "uuid": "02bcfc66-2f2a-43cf-811b-f3c33c72720e",
+   "componentUUID": "a0ebeeab-3947-440e-9cf1-f0a47bbc4c33",
+   "componentName": "BBa_B0015",
+   "role": {
+    "uuid": "ae5c878a-2fdb-4c2e-b904-e6eb1a1224f2",
+    "accession": "SO:0000141",
+    "label": "Terminator",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000141",
+    "glyph": "http://sbols.org/visual/v2#TerminatorGlyph"
+   },
+   "start": 536,
+   "end": 664,
+   "strand": "forward"
+  }
+ ]
+}

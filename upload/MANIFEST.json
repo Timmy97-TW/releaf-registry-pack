@@ -1,0 +1,182 @@
+[
+ {
+  "part": "BBa_261XH2RS",
+  "type": "experiment",
+  "fig": 1,
+  "file": "01_BBa_261XH2RS_EXPE_fig1_pp-gel-m2.png",
+  "git": "assets/img/results/pp-gel-m2.webp",
+  "dim": "793x1135",
+  "kb": 122,
+  "caption": "Module 2, P liaG –RBS0–ccaS-m3–B0015. One of three colonies gave a band at 1,602 bp, and that clone went to sequencing."
+ },
+ {
+  "part": "BBa_2654HAF3",
+  "type": "experiment",
+  "fig": 1,
+  "file": "02_BBa_2654HAF3_EXPE_fig1_pp-gel-sys-csn.png",
+  "git": "assets/img/results/pp-gel-sys-csn.webp",
+  "dim": "778x1380",
+  "kb": 158,
+  "caption": "Colony PCR for ccaSR–Csn–AcdS–Histag. Three of three colonies gave a band at 632 bp. Clones 3 and 5 went forward for the cross-module check."
+ },
+ {
+  "part": "BBa_2654HAF3",
+  "type": "experiment",
+  "fig": 2,
+  "file": "03_BBa_2654HAF3_EXPE_fig2_pp-pcr-sys-csn.png",
+  "git": "assets/img/results/pp-pcr-sys-csn.webp",
+  "dim": "996x1282",
+  "kb": 239,
+  "caption": "Cross-module PCR for ccaSR–Csn–AcdS–Histag. Two of two clones gave a band at the expected size across all three junctions. Clone 2, at a vector to insert ratio of 1:7, was selected for sequencing."
+ },
+ {
+  "part": "BBa_2654HAF3",
+  "type": "characterisation",
+  "fig": 1,
+  "file": "04_BBa_2654HAF3_CHAR_fig1_lpa-wb-timecourse.png",
+  "git": "assets/img/results/lpa-wb-timecourse.webp",
+  "dim": "1461x327",
+  "kb": 116,
+  "caption": "Wild-type ACCD, construct ABDI, in B. subtilis  WB800 carrying CcaSR under different light intensities. (A) Green 100% and green 12%. (B) Green 2% and red 100%. M, molecular weight marker in kDa. Signals rose with time in green 100%, green 12% and green 2%, but not in an ordered way across intensities: green 2% was faint until 6 h, while green 12% at 8 h was the strongest of the green lanes. ACCD is about 35 kDa as a monomer and the bands ran near the 63 to 75 kDa markers; ACCD can also exist as a homodimer at about 70 kDa, so these bands may be the dimer. This is only a possibility, and we plan to validate it in future experiments."
+ },
+ {
+  "part": "BBa_269A97I7",
+  "type": "experiment",
+  "fig": 1,
+  "file": "05_BBa_269A97I7_EXPE_fig1_pp-gel-prod-bopep4-21.png",
+  "git": "assets/img/results/pp-gel-prod-bopep4-21.webp",
+  "dim": "1500x1215",
+  "kb": 358,
+  "caption": "P veg –EEBD–RBS0–SamyQ–BoPep4 2.1–Histag–B0015. One of eleven colonies at 678 bp; clone 14 sequenced."
+ },
+ {
+  "part": "BBa_26BDO8AQ",
+  "type": "experiment",
+  "fig": 1,
+  "file": "06_BBa_26BDO8AQ_EXPE_fig1_pp-gel-m3.png",
+  "git": "assets/img/results/pp-gel-m3.webp",
+  "dim": "769x924",
+  "kb": 75,
+  "caption": "Module 3, P veg –RBS0–ccaR–B0015. Two of four colonies gave a band at 1,442 bp. Clone 2 was selected for sequencing."
+ },
+ {
+  "part": "BBa_26CXI09X",
+  "type": "experiment",
+  "fig": 1,
+  "file": "07_BBa_26CXI09X_EXPE_fig1_pp-gel-prod-csn-accd.png",
+  "git": "assets/img/results/pp-gel-prod-csn-accd.webp",
+  "dim": "1040x993",
+  "kb": 81,
+  "caption": "P veg –EEBD–RBS0–Csn–AcdS–Histag–B0015."
+ },
+ {
+  "part": "BBa_26CXI09X",
+  "type": "characterisation",
+  "fig": 1,
+  "file": "08_BBa_26CXI09X_CHAR_fig1_wb-260802-accd-fractionation.png",
+  "git": "assets/img/results/wb-260802-accd-fractionation.webp",
+  "dim": "1120x880",
+  "kb": 411,
+  "caption": "Western blot analysis of ACC deaminase secretion on 2 August 2026. P1 represents the total pellet, P2 the soluble pellet, and S the culture supernatant. Following a six-minute exposure, bands were detected only in the supernatant lanes, with molecular weight ladders spanning 28–180 kDa on both sides. This result is based on a single blot without a loading control, and the distinction between the two lanes labelled S was not documented."
+ },
+ {
+  "part": "BBa_26D5AX7S",
+  "type": "experiment",
+  "fig": 1,
+  "file": "09_BBa_26D5AX7S_EXPE_fig1_pp-gel-prod-samyq-lea14.png",
+  "git": "assets/img/results/pp-gel-prod-samyq-lea14.webp",
+  "dim": "1500x1020",
+  "kb": 196,
+  "caption": "P veg –EEBD–RBS0–SamyQ–LEA14–Histag 2.1–B0015. Two of seven colonies at 1,423 bp; clone 1 sequenced."
+ },
+ {
+  "part": "BBa_26DE5E2Q",
+  "type": "experiment",
+  "fig": 1,
+  "file": "10_BBa_26DE5E2Q_EXPE_fig1_pp-gel-m4-samyq.png",
+  "git": "assets/img/results/pp-gel-m4-samyq.webp",
+  "dim": "1500x706",
+  "kb": 219,
+  "caption": "Module 4, P cpcG2-veg –EEBD–RBS0–SamyQ–AcdS–Histag 2.1–B0015. Seven of sixteen colonies gave a band at 1,420 bp. Clone 2 was selected for sequencing."
+ },
+ {
+  "part": "BBa_26IA55UY",
+  "type": "experiment",
+  "fig": 1,
+  "file": "11_BBa_26IA55UY_EXPE_fig1_pp-gel-prod-bopep4-22.png",
+  "git": "assets/img/results/pp-gel-prod-bopep4-22.webp",
+  "dim": "1500x1195",
+  "kb": 333,
+  "caption": "P veg –EEBD–RBS0–SamyQ–BoPep4 2.2–Histag–B0015. Four of five colonies at 678 bp; clone 5 sequenced."
+ },
+ {
+  "part": "BBa_26Q3LKZU",
+  "type": "experiment",
+  "fig": 1,
+  "file": "12_BBa_26Q3LKZU_EXPE_fig1_pp-gel-m4-csn.png",
+  "git": "assets/img/results/pp-gel-m4-csn.webp",
+  "dim": "1227x1136",
+  "kb": 187,
+  "caption": "Module 4, P cpcG2-veg –EEBD–RBS0–Csn–AcdS–Histag–B0015. Two of six colonies gave a band at 1,588 bp. Clone 3 was selected for sequencing."
+ },
+ {
+  "part": "BBa_26SG0NQQ",
+  "type": "experiment",
+  "fig": 1,
+  "file": "13_BBa_26SG0NQQ_EXPE_fig1_pp-gel-prod-csn-lea14.png",
+  "git": "assets/img/results/pp-gel-prod-csn-lea14.webp",
+  "dim": "928x994",
+  "kb": 199,
+  "caption": "P veg –EEBD–RBS0–Csn–LEA14–Histag–B0015. One colony at 735 bp, sequenced."
+ },
+ {
+  "part": "BBa_26U8UTMH",
+  "type": "experiment",
+  "fig": 1,
+  "file": "14_BBa_26U8UTMH_EXPE_fig1_pp-pcr-sys-samyq.png",
+  "git": "assets/img/results/pp-pcr-sys-samyq.webp",
+  "dim": "1500x953",
+  "kb": 323,
+  "caption": "Cross-module PCR for ccaSR–SamyQ–AcdS 2.1–Histag. Three of three clones gave a band at the expected size across all modules. Clone 1 was selected for sequencing."
+ },
+ {
+  "part": "BBa_26U8UTMH",
+  "type": "characterisation",
+  "fig": 1,
+  "file": "15_BBa_26U8UTMH_CHAR_fig1_lpa-wb-13-16h.png",
+  "git": "assets/img/results/lpa-wb-13-16h.webp",
+  "dim": "1024x765",
+  "kb": 140,
+  "caption": "ACCD V2T1, construct ABDQ, after 13 and 16 h in the plate. G, green light; R, red light, both at 100%. A single band ran between the 75 and 100 kDa markers in all four lanes. The green lanes looked somewhat stronger than the red lanes at both times. Anti-His ELISA on these same four samples puts that difference at 12.9 against 11.8 µg/mL at 13 h and 12.5 against 12.1 µg/mL at 16 h: green is higher each time, with two samples a side and ranges that overlap."
+ },
+ {
+  "part": "BBa_26U8UTMH",
+  "type": "characterisation",
+  "fig": 2,
+  "file": "16_BBa_26U8UTMH_CHAR_fig2_lpa-wb-overnight.png",
+  "git": "assets/img/results/lpa-wb-overnight.webp",
+  "dim": "599x487",
+  "kb": 126,
+  "caption": "ACCD V2T1 after an overnight culture of 16 h was moved into the plate under green light at 100%, sampled after 3, 6 and 8 h. A band ran just below the 100 kDa marker all three times. It was strong at 3 and 6 h and weaker at 8 h."
+ },
+ {
+  "part": "BBa_26XVQ3FS",
+  "type": "experiment",
+  "fig": 1,
+  "file": "17_BBa_26XVQ3FS_EXPE_fig1_pp-gel-prod-samyq-accd.png",
+  "git": "assets/img/results/pp-gel-prod-samyq-accd.webp",
+  "dim": "1278x1200",
+  "kb": 226,
+  "caption": "P veg –EEBD–RBS0–SamyQ–AcdS–Histag 2.1–B0015. Four of eight colonies at 1,984 bp; clone 2 sequenced."
+ },
+ {
+  "part": "BBa_26XZYM10",
+  "type": "experiment",
+  "fig": 1,
+  "file": "18_BBa_26XZYM10_EXPE_fig1_pp-gel-m1.png",
+  "git": "assets/img/results/pp-gel-m1.webp",
+  "dim": "908x1054",
+  "kb": 107,
+  "caption": "Module 1, P tagC +RBS–Ho1::pcyA–L3S2P21. Three of three colonies gave a band at the expected size, 1,145 bp. Clone 1 was selected for sequencing."
+ }
+]

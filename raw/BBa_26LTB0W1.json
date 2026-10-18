@@ -1,0 +1,134 @@
+{
+ "id": "BBa_26LTB0W1",
+ "search": {
+  "uuid": "10faf181-3ff9-4769-be02-474c664a8a62",
+  "name": "BBa_26LTB0W1",
+  "slug": "bba-26ltb0w1",
+  "status": "published",
+  "title": "LEA14",
+  "description": "This part encodes a Late Embryogenesis Abundant 14 protein (LEA14) from *Arabidopsis thaliana* gene *At1g01470.1*, which belongs to LEA\\_2 subgroup. The paper showed overexpression of AtLEA14 enhances salt stress tolerance in *Arabidopsis thaliana*. Therefore, LEA14 is might be the potential gene involved in plant responses to abiotic stress. The LEA14 coding sequence was codon-optimized for *B. subtilis*.",
+  "role": {
+   "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+   "accession": "SO:0000316",
+   "label": "CDS",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+  },
+  "sequenceLength": 450,
+  "audit": {
+   "created": "2026-10-14T12:10:09.492Z",
+   "updated": "2026-10-17T04:22:44.942Z"
+  },
+  "usageCount": 2
+ },
+ "part": {
+  "uuid": "10faf181-3ff9-4769-be02-474c664a8a62",
+  "name": "BBa_26LTB0W1",
+  "slug": "bba-26ltb0w1",
+  "status": "published",
+  "title": "LEA14",
+  "description": "This part encodes a Late Embryogenesis Abundant 14 protein (LEA14) from *Arabidopsis thaliana* gene *At1g01470.1*, which belongs to LEA\\_2 subgroup. The paper showed overexpression of AtLEA14 enhances salt stress tolerance in *Arabidopsis thaliana*. Therefore, LEA14 is might be the potential gene involved in plant responses to abiotic stress. The LEA14 coding sequence was codon-optimized for *B. subtilis*.",
+  "role": {
+   "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+   "accession": "SO:0000316",
+   "label": "CDS",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "The LEA gene was designed based on the reference protein sequence (UniProt accession: O03983), doi:10.1110/ps.051579205, 10.1016/j.bbrc.2014.10.136",
+  "sequence": "GCGTCTTTATTAGATAAAGCAAAAGATTTTGTAGCTGATAAATTAACAGCGATCCCGAAACCGGAAGGCTCAGTAACAGATGTAGATCTTAAAGACGTAAACAGAGATTCTGTTGAATATTTAGCCAAAGTTTCAGTAACAAACCCGTATAGCCATTCAATTCCGATCTGCGAAATTTCTTTCACATTCCATTCTGCTGGCAGAGAAATCGGAAAAGGCAAAATTCCGGATCCGGGAAGCCTGAAAGCTAAAGACATGACAGCGCTTGATATTCCGGTTGTTGTGCCGTACAGCATTCTGTTTAATCTTGCGAGAGATGTCGGAGTAGATTGGGATATTGATTATGAACTGCAAATCGGCTTAACAATTGATCTGCCGGTTGTCGGTGAATTTACAATTCCGATCTCATCAAAAGGAGAAATTAAATTGCCGACATTCAAAGATTTCTTC",
+  "audit": {
+   "created": "2026-10-14T12:10:09.492Z",
+   "updated": "2026-10-17T04:22:44.942Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "acc26f2e-1712-4715-a378-afe21d7772d8",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-14T12:10:10.814Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 2
+ },
+ "documentation": [
+  {
+   "uuid": "bd1cc363-e134-4fb0-ab15-ff12e192d1b6",
+   "title": "Design",
+   "type": "design",
+   "created": "2026-10-18T06:06:57.877Z",
+   "value": "## **About**\n\n* **Biosafety level:** S1 \n* **Target organism:** *Bacillus subtilis* \\[168 / WB800] \n\n## **References**\n\n1. Goyal, K., Walton, L. J., & Tunnacliffe, A. (2005). LEA proteins prevent protein aggregation due to water stress. *Biochemical Journal, 388(1)*, 151–157. [<u>https://doi.org/10.1042/bj20041931</u>](https://doi.org/10.1042/bj20041931)  \n2. Hundertmark, M., Hincha, D. K., & Thalhammer, A. (2008). LEA (late embryogenesis abundant) proteins and their encoding genes in *Arabidopsis thaliana*. *BMC Genomics, 9*, Article 118. [<u>https://doi.org/10.1186/1471-2164-9-118</u>](https://doi.org/10.1186/1471-2164-9-118)  \n3. Jia, F., Qi, S., Li, H., Liu, P., Li, P., Wu, C., Zheng, C., & Huang, J. (2014). Overexpression of late embryogenesis abundant 14 enhances *Arabidopsis* salt stress tolerance. *Biochemical and Biophysical Research Communications, 454(4)*, 505–511. [<u>https://doi.org/10.1016/j.bbrc.2014.10.136</u>](https://doi.org/10.1016/j.bbrc.2014.10.136)  \n4. Mertens, J., Aliyu, H., & Cowan, D. A. (2018). LEA proteins and the evolution of the WHy domain. *Applied and Environmental Microbiology, 84(15)*, Article e00539-18. [<u>https://doi.org/10.1128/AEM.00539-18</u>](https://doi.org/10.1128/AEM.00539-18)  \n5. Singh, S., Cornilescu, C. C., Tyler, R. C., Cornilescu, G., Tonelli, M., Lee, M. S., & Markley, J. L. (2005). Solution structure of a late embryogenesis abundant protein (LEA14) from *Arabidopsis thaliana*, a cellular stress-related protein. *Protein Science, 14(10)*, 2601–2609. [<u>https://doi.org/10.1110/ps.051579205</u>](https://doi.org/10.1110/ps.051579205)  \n6. Wang, J. W., Squire, H. J., Goh, N. S., Ni, H. M., Lien, E., Wong, C., González-Grandío, E., & Landry, M. P. (2023). Delivered complementation in planta (DCIP) enables measurement of peptide-mediated protein delivery efficiency in plants. *Communications Biology, 6(1)*, Article 829. [<u>https://doi.org/10.1038/s42003-023-05191-5</u>](https://doi.org/10.1038/s42003-023-05191-5)",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T06:06:57.877Z"
+  },
+  {
+   "uuid": "f3b860ff-df7d-4a66-b8dc-0f84ca976979",
+   "title": "Application",
+   "type": "application",
+   "created": "2026-10-18T06:07:34.678Z",
+   "value": "This part was designed for the GEMS-Taiwan 2026 iGEM team’s work on a Stress-Responsive Optogenetic Bioreactor for Precision Plant Protection and is used in the construction of composite parts:\n\n* **LEA14 2.1** ([<u>BBa\\_26IN6G1D</u>](https://registry.igem.org/parts/bba-26in6g1d)): In this variant, the first 15 codons of the LEA14 coding sequence were optimized to improve the mRNA secondary structure of the translation start site.\n* **Csn-LEA14-Histag** ([<u>BBa\\_26ZQ1T72</u>](https://registry.igem.org/parts/bba-26zq1t72)): The Late Embryogenesis Abundant (LEA14) protein is fused to the chitosanase signal (Csn) peptide at the N-terminus and a 6x Histag at the C-terminus.\n* **Pveg-EEBD-RBS0-Csn-LEA14-Histag-B0015** ([<u>BBa\\_26SG0NQQ</u>](https://registry.igem.org/parts/bba-26sg0nqq)): this Protectant Module constitutively expresses potential stress-mitigation proteins and enables evaluation of their secretion and detection, with its constitutive promoter Pveg, RBS EEBD-RBS0, and terminator B0015.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T06:07:34.678Z"
+  }
+ ],
+ "composition": []
+}

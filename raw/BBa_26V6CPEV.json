@@ -1,0 +1,148 @@
+{
+ "id": "BBa_26V6CPEV",
+ "search": {
+  "uuid": "d0e17221-fd5b-4b6f-9dd8-d53f42f0eeca",
+  "name": "BBa_26V6CPEV",
+  "slug": "bba-26v6cpev",
+  "status": "published",
+  "title": "EEBD-RBS0",
+  "description": "A composite ribosome binding site element containing a synthetic RBS sequence to improve translation initiation efficiency. EEBD is the *Escherichia coli* expression blocking device, consisting of a B0015 terminator between two recombination sites to prevent unwanted gene expression, including the production of toxic proteins, during cloning DNA constructs in *Escherichia. coli*.",
+  "role": {
+   "uuid": "79d631aa-7dd3-4099-8227-82a84b9c4e3d",
+   "accession": "SO:0005836",
+   "label": "Regulatory Region",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "sequenceLength": 303,
+  "audit": {
+   "created": "2026-10-09T04:42:16.267Z",
+   "updated": "2026-10-17T10:14:06.332Z"
+  },
+  "usageCount": 9
+ },
+ "part": {
+  "uuid": "d0e17221-fd5b-4b6f-9dd8-d53f42f0eeca",
+  "name": "BBa_26V6CPEV",
+  "slug": "bba-26v6cpev",
+  "status": "published",
+  "title": "EEBD-RBS0",
+  "description": "A composite ribosome binding site element containing a synthetic RBS sequence to improve translation initiation efficiency. EEBD is the *Escherichia coli* expression blocking device, consisting of a B0015 terminator between two recombination sites to prevent unwanted gene expression, including the production of toxic proteins, during cloning DNA constructs in *Escherichia. coli*.",
+  "role": {
+   "uuid": "79d631aa-7dd3-4099-8227-82a84b9c4e3d",
+   "accession": "SO:0005836",
+   "label": "Regulatory Region",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "Part obtained from the SubtiToolKit.",
+  "sequence": "ACTTCCTAGAATATATATTATGTAAACTCCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCTACTAGAGTCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATAACTTCCTAGAATATATATTATGTAAACTTAAGGAGGAAAAAAAGGTATTAAACAAAATTATTTGTAGAGGCTGTTTCGTCCTCACGGACTCATCAGACCGGAAAGCACATCCGGTGACAGCTGATTAACTAATAAGGAGGACAAAC",
+  "audit": {
+   "created": "2026-10-09T04:42:16.267Z",
+   "updated": "2026-10-17T10:14:06.332Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "95740a17-59d0-4372-a47b-a7131e798fa0",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-09T04:42:17.095Z"
+    },
+    {
+     "uuid": "fb9e2c3e-8468-408b-84f7-e91527ca6046",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "bf88b316-183f-4ca1-9623-f6d8f90bfc2d",
+      "firstName": "Yashan",
+      "lastName": "Yu",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-17T10:13:40.414Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 9
+ },
+ "documentation": [],
+ "composition": [
+  {
+   "uuid": "95b44829-8fef-432d-9599-7e76d4f0b831",
+   "componentUUID": "a0ebeeab-3947-440e-9cf1-f0a47bbc4c33",
+   "componentName": "BBa_B0015",
+   "role": {
+    "uuid": "ae5c878a-2fdb-4c2e-b904-e6eb1a1224f2",
+    "accession": "SO:0000141",
+    "label": "Terminator",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000141",
+    "glyph": "http://sbols.org/visual/v2#TerminatorGlyph"
+   },
+   "start": 29,
+   "end": 157,
+   "strand": "forward"
+  },
+  {
+   "uuid": "336a057b-42c6-4ce4-8274-4dcd847f4ffa",
+   "componentUUID": "47ee8c7e-0ee7-4cfb-b4e9-0237a66b508d",
+   "componentName": "BBa_K1679038",
+   "role": {
+    "uuid": "324e9810-8719-4dd8-8c39-989a015a96a1",
+    "accession": "IGEM:0000006",
+    "label": "Regulatory",
+    "uri": null,
+    "glyph": null
+   },
+   "start": 205,
+   "end": 279,
+   "strand": "forward"
+  }
+ ]
+}

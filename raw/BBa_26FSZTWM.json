@@ -1,0 +1,245 @@
+{
+ "id": "BBa_26FSZTWM",
+ "search": {
+  "uuid": "d4ec33a2-3bc9-468b-a5aa-acd0507faf76",
+  "name": "BBa_26FSZTWM",
+  "slug": "bba-26fsztwm",
+  "status": "published",
+  "title": "Pveg-EEBD-RBS0-SamyQ-BoPep4-Histag-B0015",
+  "description": "This **Protectant Module** constitutively expresses potential stress-mitigation proteins and enables evaluation of their secretion and detection, with its constitutive promoter Pveg, RBS EEBD-RBS, and terminator B0015. The CDS of this construct encodes BoPep4, fused to the SamyQ signal peptide and a 6x Histag (SamyQ-BoPep4-Histag: [BBa\\_26ILD3SO](https://registry.igem.org/parts/bba-26ild3so)).",
+  "role": {
+   "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+   "accession": "SO:0001248",
+   "label": "Assembly",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "sequenceLength": 712,
+  "audit": {
+   "created": "2026-10-16T15:55:32.000Z",
+   "updated": "2026-10-18T01:41:00.991Z"
+  },
+  "usageCount": 0
+ },
+ "part": {
+  "uuid": "d4ec33a2-3bc9-468b-a5aa-acd0507faf76",
+  "name": "BBa_26FSZTWM",
+  "slug": "bba-26fsztwm",
+  "status": "published",
+  "title": "Pveg-EEBD-RBS0-SamyQ-BoPep4-Histag-B0015",
+  "description": "This **Protectant Module** constitutively expresses potential stress-mitigation proteins and enables evaluation of their secretion and detection, with its constitutive promoter Pveg, RBS EEBD-RBS, and terminator B0015. The CDS of this construct encodes BoPep4, fused to the SamyQ signal peptide and a 6x Histag (SamyQ-BoPep4-Histag: [BBa\\_26ILD3SO](https://registry.igem.org/parts/bba-26ild3so)).",
+  "role": {
+   "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+   "accession": "SO:0001248",
+   "label": "Assembly",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "doi:10.1016/j.plantsci.2025.112954, doi:10.3390/ijms23063090",
+  "sequence": "AATTTTGTCAAAATAATTTTATTGACAACGTCTTATTAACGTTGATATAATTTAAATTTTATTTGACAAAAATGGGCTCGTGTTGTACAATAAATGTACTTCCTAGAATATATATTATGTAAACTCCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCTACTAGAGTCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATAACTTCCTAGAATATATATTATGTAAACTTAAGGAGGAAAAAAAGGTATTAAACAAAATTATTTGTAGAGGCTGTTTCGTCCTCACGGACTCATCAGACCGGAAAGCACATCCGGTGACAGCTGATTAACTAATAAGGAGGACAAACATGATTCAAAAACGAAAGCGGACAGTTTCGTTCAGACTTGTGCTTATGTGCACGCTGTTATTTGTCAGTTTGCCGATTACAAAAACATCAGCCGGCATTTTAATTGGATCAAAAAAAAGACCGAGAGAACCGCATTCATCAGGAAAACCGGGAGGACATAATCATCATCATCATCATCATTAACCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCTACTAGAGTCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATA",
+  "audit": {
+   "created": "2026-10-16T15:55:32.000Z",
+   "updated": "2026-10-18T01:41:00.991Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "44811f61-9db8-4fa6-977b-a2bb12a77ec4",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T15:55:34.123Z"
+    },
+    {
+     "uuid": "dc6cedec-376e-4be9-9e9b-ffd1329f2fa0",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T15:55:34.509Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 0
+ },
+ "documentation": [
+  {
+   "uuid": "154fd40a-d51d-4129-b1ea-a01001e77342",
+   "title": "Design",
+   "type": "design",
+   "created": "2026-10-18T10:11:06.695Z",
+   "value": "## Overview\n\nThis part encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica).*\n\nThe part is a composite transcription unit with four elements, in this order:\n\n·       Pveg (BBa\\_K143012): a constitutive bacterial promoter originally derived from *Bacillus subtilis* that drives continuous gene transcription without requiring external induction.\n\n·       EEBD-RBS0 ([BBa\\_26V6CPEV](https://registry.igem.org/parts/bba-26v6cpev)): a composite ribosome binding site element containing a synthetic RBS sequence and expression-enhancing nucleotide context to improve translation initiation efficiency. EEBD is a blocking device, consisting of a B0015 terminator between two recombination sites to prevent unwanted gene expression or the production of toxic proteins while cloning DNA constructs inside *Escherichia coli*.\n\n·       SamyQ-BoPep4-Histag ([BBa\\_26ILD3SO](https://registry.igem.org/parts/bba-26ild3so))\n\n·       B0015 (BBa\\_B0015): a high-efficiency double transcriptional terminator that stops RNA polymerase from continuing transcription past the CDS protectant, preventing transcriptional read-through into downstream modules.\n\nThe complete cassette was obtained by de novo gene synthesis.\n\n## About\n\n* **Biosafety level:** S1\n* **Target organism:** *Bacillus subtilis* (168 / WB800)\n* **Main purpose of use:** Constitutive expression and secretion of BoPep4\n* **Potential application:** Enhancing plant salt-stress tolerance as a component of plant-protecting bioprotectants\n\n## Literature\n\n**Rationale.** BoPep4 is a 23-residue mature plant elicitor peptide from broccoli (*Brassica oleracea* var. *italica*), sequence GILIGSKKRPREPHSSGKPGGHN. It works through auxin and abscisic acid signalling crosstalk to raise salt-stress tolerance in broccoli, lowering the Na⁺/K⁺ ratio and promoting leaf wax and cutin accumulation (Wang, A., et al., 2022). The peptide is 23 residues, short enough that it cannot be detected without the tag. This cassette carries the wild-type BoPep4 coding sequence behind the SamyQ signal peptide, which directs it into the Sec-dependent secretion pathway. The 6x Histag is fused N-terminally to the peptide, which allows detection and quantification of the short peptide.\n\n**Why the wild-type coding sequence.** Wild-type BoPep4 was the weakest starting point of our whole construct series for predicted translation initiation. Start+15 accessibility was 0.396 and Shine-Dalgarno core accessibility 0.067, both below the roughly 0.50 usability threshold we worked to and below the Ho1 reference baseline of 0.681. We kept an untouched copy in the set as the baseline for the BoPep4 variants, both the two recoded versions and the mutant and truncated peptides. Our BoPep4 cassettes, this one and the ones carrying BoPep4 2.1 and BoPep4 2.2, all use the SamyQ signal peptide and differ only in the first 15 codons of the coding sequence. They are the one place in our part set where the effect of 5′ recoding can be read on its own, with everything else held fixed.\n\n**Why a constitutive version.** We used the constitutive Pveg version in addition to the whole light-sensing construct because it lets us see the maximal secretion and protein production rate without the light switch. This version can be applied to plants and characterized directly by Western blot, which shows whether our constructs work under the most optimal conditions.\n\n**Why Pveg and EEBD-RBS0.** Pveg gives high, continuous expression at a fixed level, so differences between protectants and signal peptides reflect the cargo. RBS0 sets translation initiation, and the EEBD protects *Escherichia coli* during cloning. These are standard SubtiToolKit (STK) parts (Caro-Astorga et al., 2025), so they assemble with the other protectant cassettes in the same format.\n\n## References\n\n1\\. Wang, A., Guo, J., Wang, S., Zhang, Y., Lu, F., Duan, J., Liu, Z., & Ji, W. (2022). BoPEP4, a C-terminally encoded plant elicitor peptide from broccoli, plays a role in salinity stress tolerance. International Journal of Molecular Sciences, 23(6), Article 3090. [https://doi.org/10.3390/ijms23063090](https://doi.org/10.3390/ijms23063090)\n\n2\\. Caro-Astorga, J., Rogan, M., Malcı, K., Ming, H., Debenedictis, E., James, P., & Ellis, T. (2025). SubtiToolKit: A bioengineering kit for *Bacillus subtilis* and Gram-positive bacteria. Trends in Biotechnology, 43(6), 1446–1469. [https://doi.org/10.1016/j.tibtech.2025.02.004](https://doi.org/10.1016/j.tibtech.2025.02.004)",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T10:11:06.695Z"
+  },
+  {
+   "uuid": "3571133a-2c5b-4a14-a5f4-3d8e1c67af6a",
+   "title": "Experiment",
+   "type": "experiment",
+   "created": "2026-10-18T10:16:43.894Z",
+   "value": "## Construction/assembly (wet lab)\n\nThis cassette was built differently from the others. The whole construct was obtained by de novo gene synthesis, so there is no Level 0 entry-cloning step and no amplification of the coding-sequence fusion for it.\n\n* Composite insert: Pveg – EEBD-RBS0 – SamyQ-BoPep4-Histag – B0015, \\[910 bp]\n* Level 1 vector: pSTK-EXP1 expression shuttle vector (STK), \\[ampicillin]\n* Template: de novo synthesised cassette\n* Level 0 entry step: none&#x20;\n* Assembly method (Level 1): Golden gate assembly with BsaI-HFv2 enzyme\n* Thermal cycle:\n\n| Temperature | Time   | Cycles    |\n| ----------- | ------ | --------- |\n| 37 °C       | 5 min  | 45 cycles |\n| 16 °C       | 5 min  |           |\n| 37 °C       | 10 min | 1 cycle   |\n| 80 °C       | 20 min | 1 cycle   |\n\n*\n\nThe coding sequence was incorporated into Pveg-EEBD-RBS0-SamyQ-BoPep4-B0015 by de novo gene synthesis. Our six other constitutive protectant cassettes were assembled from separate Level 0 parts in a Golden Gate reaction with BsaI-HFv2, and that narrative does not apply here. The construct was assembled into pSTK-EXP1-sfGFP. The amplification primers used on the other cassettes, SamyQ F and BoPep R, were not needed for this one.&#x20;\n\n## Verification (wet lab)\n\nColonies from the pSTK-EXP1-sfGFP transformation were screened by colony PCR with SamyQ F and pSTK-EXP-seq R primers, and the products were run on an agarose gel alongside a DNA ladder. A correct band runs at the expected size. Colonies producing a single, clean band at this size were considered positive candidates.\n\n## Results\n\nAlthough the gel image for Pveg-EEBD-RBS0-SamyQ-Bopep4-Histag-B0015 is unavailable, the construct was successfully assembled and verified by gel electrophoresis.\n\n**Figure 1. Sequencing of pSTK-EXP1-Pveg-EEBD-RBS0-SamyQ-BoPep4-Histag-B0015.**&#x20;",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T10:21:39.233Z"
+  },
+  {
+   "uuid": "de265c5c-77b0-40d3-9dab-fe59cf138b1d",
+   "title": "Application",
+   "type": "application",
+   "created": "2026-10-18T10:20:13.159Z",
+   "value": "A full ccaSR construct with BoPep4 as Module 4 was not built. The constitutive BoPep4 version lets us assess its behavior in the system, and it also helped plants under salinity stress, without duplicating the work, because ccaSR-Csn-AcdS-Histag ([BBa\\_2654HAF3](https://registry.igem.org/parts/bba-2654haf3)) and ccaSR-SamyQ-AcdS 2.1-Histag ([BBa\\_26U8UTMH](https://registry.igem.org/parts/bba-26u8utmh)) already serves as proof of concept for the circuit.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T10:20:13.159Z"
+  }
+ ],
+ "composition": [
+  {
+   "uuid": "a6f2038f-0918-4b2a-8604-8cdf73297a84",
+   "componentUUID": "a6f49c0a-83f4-4bd5-a97a-0d18fb4be669",
+   "componentName": "BBa_K143012",
+   "role": {
+    "uuid": "324e9810-8719-4dd8-8c39-989a015a96a1",
+    "accession": "IGEM:0000006",
+    "label": "Regulatory",
+    "uri": null,
+    "glyph": null
+   },
+   "start": 1,
+   "end": 97,
+   "strand": "forward"
+  },
+  {
+   "uuid": "8166d84b-db2c-421f-a23a-05b6276af4eb",
+   "componentUUID": "d0e17221-fd5b-4b6f-9dd8-d53f42f0eeca",
+   "componentName": "BBa_26V6CPEV",
+   "role": {
+    "uuid": "79d631aa-7dd3-4099-8227-82a84b9c4e3d",
+    "accession": "SO:0005836",
+    "label": "Regulatory Region",
+    "uri": "http://purl.obolibrary.org/obo/SO_0005836",
+    "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+   },
+   "start": 98,
+   "end": 400,
+   "strand": "forward"
+  },
+  {
+   "uuid": "4277859a-f38e-4dbf-bca0-ff5b0236b696",
+   "componentUUID": "eeda7e4c-f6ec-4c0c-8522-fa06555b72d2",
+   "componentName": "BBa_26ILD3SO",
+   "role": {
+    "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+    "accession": "SO:0000316",
+    "label": "CDS",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000316",
+    "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+   },
+   "start": 401,
+   "end": 583,
+   "strand": "forward"
+  },
+  {
+   "uuid": "19459dbc-54d8-480c-9293-cb502f389ab9",
+   "componentUUID": "a0ebeeab-3947-440e-9cf1-f0a47bbc4c33",
+   "componentName": "BBa_B0015",
+   "role": {
+    "uuid": "ae5c878a-2fdb-4c2e-b904-e6eb1a1224f2",
+    "accession": "SO:0000141",
+    "label": "Terminator",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000141",
+    "glyph": "http://sbols.org/visual/v2#TerminatorGlyph"
+   },
+   "start": 584,
+   "end": 712,
+   "strand": "forward"
+  }
+ ]
+}

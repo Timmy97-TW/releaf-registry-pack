@@ -1,0 +1,245 @@
+{
+ "id": "BBa_26YHOQCL",
+ "search": {
+  "uuid": "a59fad99-1663-431b-87a4-b2539d5497e3",
+  "name": "BBa_26YHOQCL",
+  "slug": "bba-26yhoqcl",
+  "status": "draft",
+  "title": "Bopep4 (15-23)",
+  "description": "This part encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica).*  BoPep4 acts as a peptide hormone and signaling molecule to regulate plant defense mechanisms and salt tolerance. This version of BoPep4 was truncated from 15-23 amino acids.",
+  "role": {
+   "uuid": "1253a023-e746-4d2b-bfde-d5aa3e983145",
+   "accession": "SO:0000851",
+   "label": "CDS Region",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#Non-CodingRNAGeneGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "BoPEP4, a C-Terminally Encoded Plant Elicitor Peptide from Broccoli, Plays a Role in Salinity Stress Tolerance, 10.3390/ijms23063090",
+  "sequence": "",
+  "sequenceWithheld": true,
+  "audit": {
+   "created": "2026-10-16T15:41:29.868Z",
+   "updated": "2026-10-17T13:28:30.415Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "97d4559c-e2fb-4f71-8746-24f63fb76e02",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T15:41:31.402Z"
+    },
+    {
+     "uuid": "e190d35e-288b-48a7-9d3d-252b014f1e9b",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T15:41:31.343Z"
+    },
+    {
+     "uuid": "23c59ef0-55eb-46c1-90fd-ab3d0488241b",
+     "id": 668369,
+     "scientificName": "Escherichia coli DH5[alpha]",
+     "commonName": null,
+     "rank": "strain",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562",
+      "668369"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T15:41:32.735Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 0
+ },
+ "part": {
+  "uuid": "a59fad99-1663-431b-87a4-b2539d5497e3",
+  "name": "BBa_26YHOQCL",
+  "slug": "bba-26yhoqcl",
+  "status": "draft",
+  "title": "Bopep4 (15-23)",
+  "description": "This part encodes BoPep4, a 23-residue plant elicitor peptide (PEP) from broccoli (*Brassica oleracea var. italica).*  BoPep4 acts as a peptide hormone and signaling molecule to regulate plant defense mechanisms and salt tolerance. This version of BoPep4 was truncated from 15-23 amino acids.",
+  "role": {
+   "uuid": "1253a023-e746-4d2b-bfde-d5aa3e983145",
+   "accession": "SO:0000851",
+   "label": "CDS Region",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#Non-CodingRNAGeneGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "BoPEP4, a C-Terminally Encoded Plant Elicitor Peptide from Broccoli, Plays a Role in Salinity Stress Tolerance, 10.3390/ijms23063090",
+  "sequence": "",
+  "sequenceWithheld": true,
+  "audit": {
+   "created": "2026-10-16T15:41:29.868Z",
+   "updated": "2026-10-17T13:28:30.415Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "97d4559c-e2fb-4f71-8746-24f63fb76e02",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T15:41:31.402Z"
+    },
+    {
+     "uuid": "e190d35e-288b-48a7-9d3d-252b014f1e9b",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T15:41:31.343Z"
+    },
+    {
+     "uuid": "23c59ef0-55eb-46c1-90fd-ab3d0488241b",
+     "id": 668369,
+     "scientificName": "Escherichia coli DH5[alpha]",
+     "commonName": null,
+     "rank": "strain",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562",
+      "668369"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-16T15:41:32.735Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 0
+ },
+ "documentation": [],
+ "composition": []
+}

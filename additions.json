@@ -1,0 +1,148 @@
+{
+ "drafts": {
+  "BBa_26A4MT29": [
+   "design",
+   "Design",
+   "## Overview\n\nThis Level 0 part joins the *Bacillus subtilis* promoter **PtagC** to a ribosome binding site, so one part sets both transcription and translation of the coding sequence placed downstream of it.\n\nIt is the first element of the chromophore production module, **PtagC+RBS-Ho1:pcyA-L3S2P21** ([BBa\\_26XZYM10](https://registry.igem.org/parts/bba-26xzym10)), where it drives *ho1* and *pcyA*. Those two genes make phycocyanobilin, the chromophore that the CcaS light sensor needs in order to respond to green light.\n\n## About\n\n* Biosafety level: S1\n* Target organism: *Bacillus subtilis* (WB800)\n* Main purpose of use: constitutive transcription and translation of a downstream coding sequence\n* Assembly: SubtiToolKit (STK) Level 0 format, BsaI"
+  ],
+  "BBa_26OSLRE4": [
+   "design",
+   "Design",
+   "## Overview\n\nRBS0 is a synthetic, high-strength ribosome binding site optimised for *Bacillus subtilis*. It recruits the ribosome and sets the rate at which translation of the downstream coding sequence begins.\n\nIt is used on its own in the two light-circuit transcription units — **PliaG-RBS0-ccaS-m3-B0015** ([BBa\\_261XH2RS](https://registry.igem.org/parts/bba-261xh2rs)) and **Pveg-RBS0-ccaR-B0015** ([BBa\\_26BDO8AQ](https://registry.igem.org/parts/bba-26bdo8aq)) — and as the translation-initiation half of **EEBD-RBS0** ([BBa\\_26V6CPEV](https://registry.igem.org/parts/bba-26v6cpev)), which carries it into every protectant expression cassette in this collection.\n\nHolding the ribosome binding site constant across the cassettes is deliberate: it means a difference in output between two protectants, or between the Csn and SamyQ signal peptides, reflects the cargo rather than the rate of translation initiation.\n\n## About\n\n* Biosafety level: S1\n* Target organism: *Bacillus subtilis* (WB800)\n* Main purpose of use: translation initiation of a downstream coding sequence\n* Assembly: SubtiToolKit (STK) Level 0 format, BsaI"
+  ],
+  "BBa_26V6CPEV": [
+   "design",
+   "Design",
+   "## Overview\n\nThis part places the *Escherichia coli* expression blocking device (EEBD) in front of the ribosome binding site RBS0 ([BBa\\_26OSLRE4](https://registry.igem.org/parts/bba-26oslre4)), so that one Level 0 part provides both cloning protection and translation initiation.\n\nThe EEBD is a B0015 double terminator ([BBa\\_B0015](https://registry.igem.org/parts/bba-b0015)) set between two recombination sites ([BBa\\_K1679038](https://registry.igem.org/parts/bba-k1679038)). While a construct is being assembled and propagated in *E. coli*, the terminator stops transcription from reaching the coding sequence, which prevents unwanted expression and the accumulation of a product that would be toxic to the cloning host. The device is removed on transfer to *Bacillus subtilis*, leaving RBS0 to initiate translation.\n\nEvery constitutive and light-responsive protectant cassette in this collection carries this part in the same position, between the promoter and the protectant coding sequence.\n\n## About\n\n* Biosafety level: S1\n* Target organism: *Bacillus subtilis* (WB800); blocking function acts in *Escherichia coli*\n* Main purpose of use: preventing expression during cloning, then initiating translation after transfer\n* Assembly: SubtiToolKit (STK) Level 0 format, BsaI"
+  ],
+  "BBa_26YHOQCL": [
+   "design",
+   "Design",
+   "## Overview\n\nThis part encodes residues 15 to 23 of BoPep4, a 23-residue plant elicitor peptide from broccoli (*Brassica oleracea* var. *italica*), with its native start and stop codons removed so that it can be fused to a signal peptide and a tag.\n\nBoPep4 acts as a peptide hormone: it binds the plant PEPR receptor and raises defence signalling and salt tolerance. This construct keeps only the conserved C-terminal core, the part of the peptide that makes contact with the receptor, and removes the N-terminal residues entirely.\n\n## Why this truncation\n\nThe full-length peptide and a ladder of N-terminal truncations were compared in molecular dynamics, scoring how reliably the Asn23 clamp with the receptor is held across a trajectory. The ladder is not monotonic. Full length, 7–23 and 15–23 all hold the clamp above 98% of frames, while the intermediate 9–23 construct falls to 77.1% clamp integrity and 46.9% bidentate occupancy. Shortening the peptide is therefore not what costs the contact; the loss at 9–23 comes from removing the Lys7 anchor while leaving a flexible N-terminal tail behind, and cutting further back to 15–23 removes that tail and restores the clamp.\n\nThis part is the short end of that ladder, carried as a candidate for the smallest construct that still engages the receptor.\n\n## About\n\n* Biosafety level: S1\n* Target organism: *Bacillus subtilis* (WB800)\n* Main purpose of use: a minimal BoPep4 core for secretion as a plant elicitor\n* Potential application: raising plant defence signalling and salt tolerance"
+  ],
+  "BBa_26Z8FHTR": [
+   "design",
+   "Design",
+   "## Overview\n\nThis Protectant Module constitutively expresses a truncated BoPep4 peptide and allows its secretion and detection to be assessed. It is a composite transcription unit with four elements, in this order:\n\n* **Pveg** ([BBa\\_K143012](https://registry.igem.org/parts/bba-k143012)): a constitutive *Bacillus subtilis* promoter that drives continuous transcription without induction.\n* **EEBD-RBS0** ([BBa\\_26V6CPEV](https://registry.igem.org/parts/bba-26v6cpev)): the *E. coli* expression blocking device followed by the ribosome binding site RBS0.\n* **SamyQ-BoPep4 (9–23)-Histag**: the alpha-amylase signal peptide SamyQ fused to residues 9 to 23 of BoPep4, with a C-terminal 6x Histag for detection and purification.\n* **B0015** ([BBa\\_B0015](https://registry.igem.org/parts/bba-b0015)): a double terminator that prevents read-through into anything downstream.\n\n## Why this truncation\n\nIn the molecular dynamics comparison of N-terminal truncations, the 9–23 construct is the one rung of the ladder that loses the receptor contact: clamp integrity falls to 77.1% and bidentate occupancy to 46.9%, where full length, 7–23 and 15–23 all stay above 98%. Under protonation at pH 5.5 the same construct drops bidentate occupancy to 6.9%, the only run in the set to fail its acceptance gate — neither the truncation nor the protonation does that alone, only the two together.\n\nThis cassette was built to carry that construct into the wet lab so the prediction could be tested rather than assumed.\n\n## About\n\n* Biosafety level: S1\n* Target organism: *Bacillus subtilis* (WB800)\n* Main purpose of use: constitutive expression and secretion of a truncated BoPep4\n* Potential application: raising plant defence signalling and salt tolerance"
+  ]
+ },
+ "fixes": [
+  {
+   "part": "BBa_26XVQ3FS",
+   "section": "design",
+   "kind": "wrong link",
+   "find": "**SamyQ-AcdS 2.1-Histag (**[BBa\\_26NXOP7S](https://registry.igem.org/parts/bba-26nxop7s)**):**",
+   "why": "BBa_26NXOP7S is Csn-AcdS-Histag. The SamyQ fusion is BBa_26TOGLX3.",
+   "fix": "**SamyQ-AcdS 2.1-Histag (**[BBa\\_26TOGLX3](https://registry.igem.org/parts/bba-26toglx3)**):**"
+  },
+  {
+   "part": "BBa_2654HAF3",
+   "section": "design",
+   "kind": "wrong link",
+   "find": "ccaS-m3 ([BBa\\_26OSLRE4](https://registry.igem.org/parts/bba-26oslre4))",
+   "why": "BBa_26OSLRE4 is RBS0, not ccaS-m3. This part's own Experiment section gives ccaS-m3 as BBa_K3317069.",
+   "fix": "ccaS-m3 ([BBa\\_K3317069](https://registry.igem.org/parts/bba-k3317069))"
+  },
+  {
+   "part": "BBa_26U8UTMH",
+   "section": "design",
+   "kind": "wrong link",
+   "find": "ccaS-m3 ([BBa\\_26OSLRE4](https://registry.igem.org/parts/bba-26oslre4))",
+   "why": "Same wrong link as on BBa_2654HAF3: BBa_26OSLRE4 is RBS0.",
+   "fix": "ccaS-m3 ([BBa\\_K3317069](https://registry.igem.org/parts/bba-k3317069))"
+  },
+  {
+   "part": "BBa_269A97I7",
+   "section": "experiment",
+   "kind": "typo",
+   "find": "SamyQ-BoPep 2.1-Histag",
+   "why": "Missing the 4 — the part is SamyQ-BoPep4 2.1-Histag.",
+   "fix": "SamyQ-BoPep4 2.1-Histag"
+  },
+  {
+   "part": "BBa_26IA55UY",
+   "section": "experiment",
+   "kind": "typo",
+   "find": "SamyQ-BoPep 2.2-Histag",
+   "why": "Missing the 4 — the part is SamyQ-BoPep4 2.2-Histag.",
+   "fix": "SamyQ-BoPep4 2.2-Histag"
+  }
+ ],
+ "noimage": [
+  {
+   "part": "BBa_26XVQ3FS",
+   "section": "characterisation",
+   "caption": "Fig. X. Western blot analysis of constitutive ACC deaminase-2.1-Histag expression",
+   "note": "No separate blot exists for the constitutive SamyQ-AcdS 2.1 construct anywhere on the wiki. The one constitutive ACCD blot (wb-260802-accd-fractionation) has four lanes, P1, P2, S and S. If the two S lanes are the Csn and SamyQ constructs, this image serves both parts and each should point at its own lane. Confirm which lane is which, or drop the caption.",
+   "decide": "Which S lane is SamyQ-AcdS 2.1?"
+  },
+  {
+   "part": "BBa_26FSZTWM",
+   "section": "experiment",
+   "caption": "Figure 1. Sequencing of pSTK-EXP1-Pveg-EEBD-RBS0-SamyQ-BoPep4-Histag-B0015",
+   "note": "No sequencing-trace figure exists on any wiki page — I searched all 30. Either supply the chromatogram or delete the caption.",
+   "decide": "Supply the trace, or cut the caption?"
+  },
+  {
+   "part": "BBa_26CXI09X",
+   "section": "experiment",
+   "caption": "Figure 2. Clone 1 was sequence-verified and used downstream.",
+   "note": "Same: no sequencing trace exists. This is a sentence, not a figure — it reads better folded into the Verification paragraph above.",
+   "decide": "Fold into the text, or cut?"
+  },
+  {
+   "part": "BBa_26XVQ3FS",
+   "section": "experiment",
+   "caption": "Figure 2. Clone 1 was sequence-verified and used downstream.",
+   "note": "Same: no sequencing trace exists. Fold into the Verification paragraph or cut.",
+   "decide": "Fold into the text, or cut?"
+  }
+ ],
+ "family": {
+  "BoPEP4": [
+   "BBa_265CD14Z",
+   "BBa_26LYCBW0",
+   "BBa_26ERHWWI",
+   "BBa_26ILD3SO",
+   "BBa_26PX0UGH",
+   "BBa_267B69E3",
+   "BBa_26FSZTWM",
+   "BBa_269A97I7",
+   "BBa_26IA55UY",
+   "BBa_26YHOQCL",
+   "BBa_26Z8FHTR"
+  ],
+  "AcdS": [
+   "BBa_26MA70QI",
+   "BBa_262YYNPV",
+   "BBa_26NXOP7S",
+   "BBa_26TOGLX3",
+   "BBa_26CXI09X",
+   "BBa_26XVQ3FS",
+   "BBa_26DE5E2Q",
+   "BBa_26Q3LKZU",
+   "BBa_2654HAF3",
+   "BBa_26U8UTMH"
+  ],
+  "LEA14": [
+   "BBa_26LTB0W1",
+   "BBa_26IN6G1D",
+   "BBa_26ZQ1T72",
+   "BBa_26J0GJGZ",
+   "BBa_26SG0NQQ",
+   "BBa_26D5AX7S"
+  ]
+ },
+ "pinned": {
+  "BBa_26Z8FHTR": [
+   "BoPEP4_F05_complex-923-ribbon.jpg",
+   "BoPEP4_F06_asn23-clamp-923.jpg",
+   "BoPEP4_F12_complex-923-ph55.jpg",
+   "BoPEP4_G13_truncation-four-rung.jpg"
+  ],
+  "BBa_26YHOQCL": [
+   "BoPEP4_F08_complex-1523-ribbon.jpg",
+   "BoPEP4_G13_truncation-four-rung.jpg"
+  ]
+ }
+}

@@ -1,0 +1,190 @@
+{
+ "id": "BBa_262YYNPV",
+ "search": {
+  "uuid": "99849af0-47b0-4d33-be57-65f5c91e157b",
+  "name": "BBa_262YYNPV",
+  "slug": "bba-262yynpv",
+  "status": "published",
+  "title": "AcdS 2.1",
+  "description": "This part encodes 1-aminocyclopropane-1-carboxylate (ACC) deaminase from *Pseudomonas putida* (Arthrobacter siderocapsulatus) strain UW4; ; the wild-type acdS sequence is registered as [BBa\\_26MA70QI](https://registry.igem.org/parts/bba-26ma70qi). It is an enzyme commonly found in plant growth-promoting rhizobacteria (PGPR). ACC deaminase degrades ACC, the precursor of the plant hormone ethylene, thereby alleviating ethylene-induced growth inhibition in plants under stress. In this variant, the…",
+  "role": {
+   "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+   "accession": "SO:0000316",
+   "label": "CDS",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+  },
+  "sequenceLength": 1011,
+  "audit": {
+   "created": "2026-10-14T11:51:08.797Z",
+   "updated": "2026-10-17T07:25:03.417Z"
+  },
+  "usageCount": 2
+ },
+ "part": {
+  "uuid": "99849af0-47b0-4d33-be57-65f5c91e157b",
+  "name": "BBa_262YYNPV",
+  "slug": "bba-262yynpv",
+  "status": "published",
+  "title": "AcdS 2.1",
+  "description": "This part encodes 1-aminocyclopropane-1-carboxylate (ACC) deaminase from *Pseudomonas putida* (Arthrobacter siderocapsulatus) strain UW4; ; the wild-type acdS sequence is registered as [BBa\\_26MA70QI](https://registry.igem.org/parts/bba-26ma70qi). It is an enzyme commonly found in plant growth-promoting rhizobacteria (PGPR). ACC deaminase degrades ACC, the precursor of the plant hormone ethylene, thereby alleviating ethylene-induced growth inhibition in plants under stress. In this variant, the first 15 codons of the coding sequence were optimized to improve the mRNA secondary structure of the translation start site.&#x20;",
+  "role": {
+   "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+   "accession": "SO:0000316",
+   "label": "CDS",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "UniProtKB/Swiss-Prot: Q5PWZ8.1, DOI: 10.1139/w98-074, DOI: 10.1016/j.bbapap.2004.09.015",
+  "sequence": "AATTTGAACCGCTTTGAACGCTACCCCCTTACTTTTGGGCCAAGTCCGATCACGCCGTTAAAAAGACTTTCTGAACATCTTGGCGGAAAAGTTGAGCTTTATGCGAAAAGAGAAGACTGCAACAGCGGCCTTGCGTTTGGCGGAAACAAAACACGCAAACTTGAGTATTTAATTCCGGAAGCGATTGAACAAGGATGCGATACACTTGTATCTATCGGCGGCATTCAAAGCAACCAAACACGCCAAGTTGCGGCGGTTGCGGCGCATCTTGGCATGAAATGTGTGCTTGTGCAGGAAAACTGGGTAAACTACTCTGATGCGGTTTATGACCGCGTTGGAAACATTGAAATGAGCCGCATTATGGGAGCTGATGTACGCCTTGATGCGGCAGGCTTTGATATCGGCATCCGCCCGAGCTGGGAGAAAGCGATGTCAGATGTTGTTGAGCGCGGCGGAAAACCGTTCCCGATTCCGGCAGGCTGCTCTGAGCATCCGTACGGCGGCTTAGGCTTTGTCGGCTTTGCTGAAGAAGTGCGCCAGCAAGAGAAAGAGCTTGGCTTTAAATTTGATTACATTGTTGTGTGCTCTGTAACAGGCAGCACACAAGCAGGCATGGTAGTCGGCTTTGCGGCTGATGGCCGCAGCAAAAACGTCATCGGCGTAGATGCATCTGCAAAGCCGGAGCAAACAAAAGCGCAAATTCTGCGCATTGCGCGCCACACAGCGGAGCTTGTTGAGCTTGGCAGAGAGATCACAGAAGAAGATGTTGTGCTTGATACACGCTTTGCTTATCCGGAATACGGCCTTCCGAATGAAGGCACACTTGAAGCGATCCGCCTTTGCGGCAGCCTTGAAGGCGTGTTAACAGATCCGGTTTATGAAGGAAAAAGCATGCACGGCATGATTGAAATGGTGCGCCGCGGAGAGTTCCCGGACGGAAGCAAAGTGCTTTATGCGCATTTAGGCGGAGCGCCGGCGTTAAATGCTTATAGCTTCCTTTTCCGCAACGGA",
+  "audit": {
+   "created": "2026-10-14T11:51:08.797Z",
+   "updated": "2026-10-17T07:25:03.417Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "59df0003-4dae-4bad-8790-ec2514bcadc4",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-14T11:51:09.655Z"
+    },
+    {
+     "uuid": "d98f845f-e4d5-4c7b-9e77-5dc64cd8a513",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-14T11:51:09.265Z"
+    },
+    {
+     "uuid": "43e94c1a-990f-4cb9-99c2-6b06da9eddc8",
+     "id": 668369,
+     "scientificName": "Escherichia coli DH5[alpha]",
+     "commonName": null,
+     "rank": "strain",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562",
+      "668369"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-17T03:40:37.219Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 2
+ },
+ "documentation": [
+  {
+   "uuid": "4d2952c4-918d-457f-9c1e-28a43b67a40a",
+   "title": "Design",
+   "type": "design",
+   "created": "2026-10-18T05:52:43.490Z",
+   "value": "## **About**\n\n* **Biosafety level:** S1 \n* **Target organism:** *Bacillus subtilis* \\[168 / WB800] \n*  In this variant, the first 15 codons of the coding sequence were optimized to improve the mRNA secondary structure of the translation start site.\n\n## **Literature**\n\nThe cloned ACC deaminase gene can be expressed in *Escherichia coli*, which enables this bacterium to grow on ACC as its sole nitrogen source. Both *E. coli* and *Pseudomonas* spp. strains transformed with this gene gain the ability to promote root elongation in canola seedlings (Hontzeas et al., 2004).\n\nA soluble recombinant ACC deaminase from *Pseudomonas putida* UW4 was cloned, expressed and purified. It has a molecular weight of 41 kDa and shows selectivity and high activity towards ACC, with a K(M)\\=3.4+/-0.2 mM and k(cat)\\=146+/-5 min(-1) at pH 8.0 and 22 °C. Activity is optimal at pH 8.0 and declines sharply to essentially nothing below pH 6.5. It tapers off more gradually at higher pH, and activity is lost above pH 10. (Hontzeas et al., 2004).\n\n## **References**\n\n1\\. UniProt Consortium. (n.d.). *Q5PWZ8*. UniProt. Retrieved October 18, 2026, from[<u>UniProt entry Q5PWZ8</u>](https://www.uniprot.org/uniprotkb/Q5PWZ8/entry?utm_source=chatgpt.com)\n\n2\\. Hontzeas, N., Zoidakis, J., Glick, B. R., & Abu-Omar, M. M. (2004). Expression and characterization of 1-aminocyclopropane-1-carboxylate deaminase from the rhizobacterium pseudomonas putida UW4: A key enzyme in bacterial plant growth promotion. *Biochimica et Biophysica Acta, 1703(1)*, 11–19. PubMed.[<u>https://doi.org/10.1016/j.bbapap.2004.09.015</u>](https://doi.org/10.1016/j.bbapap.2004.09.015)\n\n3\\. Shah, S., Li, J., Moffatt, B. A., & Glick, B. R. (1998). Isolation and characterization of ACC deaminase genes from two different plant growth-promoting rhizobacteria. *Canadian Journal of Microbiology, 44*(9), 833–843.[<u>https://doi.org/10.1139/w98-074</u>](https://doi.org/10.1139/w98-074)\n\n4\\. Castillo-Hair, S. M., Baerman, E. A., Fujita, M., Igoshin, O. A., & Voigt, C. A. (2019). Optogenetic control of Bacillus subtilis gene expression. Nature Communications, 10, Article 3099.[ <u>https://doi.org/10.1038/s41467-019-10906-6</u>](https://doi.org/10.1038/s41467-019-10906-6) \n\n5\\. Kazusa DNA Research Institute. (n.d.). Codon usage database: Bacillus subtilis subsp. subtilis str. 168 (taxid:1423).[ <u>https://www.kazusa.or.jp/codon/</u>](https://www.kazusa.or.jp/codon/) \n\n6\\. Glick, B. R., Penrose, D. M., & Li, J. (1998). A model for the lowering of plant ethylene concentrations by plant growth-promoting bacteria. *Journal of Theoretical Biology*, *190*(1), 63–68. [<u>https://doi.org/10.1006/jtbi.1997.0532</u>](https://doi.org/10.1006/jtbi.1997.0532)",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T05:52:43.490Z"
+  },
+  {
+   "uuid": "0371657f-c840-4354-b301-7e49708e99ed",
+   "title": "Application",
+   "type": "application",
+   "created": "2026-10-18T05:53:03.009Z",
+   "value": "This part was designed for the GEMS-Taiwan 2026 iGEM team’s work on a Stress-Responsive Optogenetic Bioreactor for Precision Plant Protection and is used in the construction of composite parts:\n\n* **SamyQ-AcdS 2.1-Histag** ([<u>**BBa\\_26TOGLX3**</u>](https://registry.igem.org/parts/bba-26toglx3))**:** The ACC deaminase protein is fused to the alpha-amylase signal peptide (SamyQ) at the N-terminus and a 6x Histag at the C-terminus.**** \n* **Pveg-EEBD-RBS0-SamyQ-AcdS 2.1-Histag-B0015** ([<u>**BBa\\_26XVQ3FS**</u>](https://registry.igem.org/parts/bba-26xvq3fs)): this **Protectant Module** constitutively expresses potential stress-mitigation proteins and enables evaluation of their secretion and detection, with its constitutive promoter Pveg, RBS EEBD-RBS, and terminator B0015.\n* **PcpcG2-veg-EEBD-RBS0-SamyQ-AcdS 2.1-Histag-B0015** ([<u>**BBa\\_26DE5E2Q**</u>](https://registry.igem.org/parts/bba-26de5e2q)): this module includes the light-responsive promoter P*cpcG2*-veg, the RBS EEBD-RBS0, a protectant CDS, and the terminator B0015, which together drive the expression of downstream genes in response to green-light signaling in *Bacillus Subtilis* after[<u>BBa\\_26XZYM10</u>](https://registry.igem.org/parts/bba-26xzym10),[<u>BBa\\_261XH2RS</u>](https://registry.igem.org/parts/bba-261xh2rs), and[<u>BBa\\_26BDO8AQ</u>](https://registry.igem.org/parts/bba-26bdo8aq).\n* **ccaSR-SamyQ-AcdS 2.1-Histag** ([<u>**BBa\\_26U8UTMH**</u>](https://registry.igem.org/parts/bba-26u8utmh)): the system is an engineered construct that produces and secretes plant-protective proteins under green/red light control.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T05:53:03.009Z"
+  }
+ ],
+ "composition": []
+}

@@ -1,0 +1,245 @@
+{
+ "id": "BBa_26XZYM10",
+ "search": {
+  "uuid": "4eb79f0c-d3db-4276-b9f2-ab8d335092ac",
+  "name": "BBa_26XZYM10",
+  "slug": "bba-26xzym10",
+  "status": "published",
+  "title": "PtagC+RBS-Ho1:pcyA-L3S2P21",
+  "description": "The PCB Production Module supplies the chromophore required for light sensing. It consists of the H*o1-pcyA* CDS, along with the PtagC+RBS composite promoter and RBS and the L3S2P21 terminator, which converts endogenous heme into phycocyanobilin (PCB), the chromophore necessary for CcaS photoreceptor activity. PCB enables the light-sensing system to detect and respond to green light.",
+  "role": {
+   "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+   "accession": "SO:0001248",
+   "label": "Assembly",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "sequenceLength": 1655,
+  "audit": {
+   "created": "2026-10-13T14:30:54.470Z",
+   "updated": "2026-10-17T10:39:39.633Z"
+  },
+  "usageCount": 2
+ },
+ "part": {
+  "uuid": "4eb79f0c-d3db-4276-b9f2-ab8d335092ac",
+  "name": "BBa_26XZYM10",
+  "slug": "bba-26xzym10",
+  "status": "published",
+  "title": "PtagC+RBS-Ho1:pcyA-L3S2P21",
+  "description": "The PCB Production Module supplies the chromophore required for light sensing. It consists of the H*o1-pcyA* CDS, along with the PtagC+RBS composite promoter and RBS and the L3S2P21 terminator, which converts endogenous heme into phycocyanobilin (PCB), the chromophore necessary for CcaS photoreceptor activity. PCB enables the light-sensing system to detect and respond to green light.",
+  "role": {
+   "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+   "accession": "SO:0001248",
+   "label": "Assembly",
+   "deprecated": false,
+   "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+  },
+  "topology": {
+   "uuid": "b2bb9a86-0436-40d2-b56a-f2fbef932193",
+   "accession": "SO:0000987",
+   "label": "Linear",
+   "uri": "https://purl.obolibrary.org/obo/SO_0000987",
+   "glyph": null
+  },
+  "licenseUUID": "d6c69ca7-8be4-4bc0-b4a8-d3ae1d428aa6",
+  "source": "CcaSR green/red light-responsive system for transcriptional control in B. subtilis (Haller et al., 2025; 10.1007/978-1-0716-4047-0_1)",
+  "sequence": "ACAGAACAAGTGTTCTTTTTTCTATTGAATACCGAACGTATGTTTGCTTTAATGTAATTAGTTGCTTATGGCAGCAAATAATAATAGAGGTGGTAAATTTATGTCAGTAAATTTAGCATCACAATTAAGAGAAGGAACAAAAAAATCACACTCCATGGCGGAGAACGTCGGCTTTGTCAAATGCTTCCTCAAGGGCGTTGTCGAGAAAAATTCCTACCGTAAGCTGGTTGGCAATCTCTACTTTGTCTACAGTGCCATGGAAGAGGAAATGGCAAAATTTAAGGACCATCCCATCCTCAGCCACATTTACTTCCCCGAACTCAACCGCAAACAAAGCCTAGAGCAAGACCTGCAATTCTATTACGGCTCCAACTGGCGGCAAGAAGTGAAAATTTCTGCCGCTGGCCAAGCCTATGTGGACCGAGTCCGGCAAGTGGCCGCTACGGCCCCTGAATTGTTGGTGGCCCATTCCTACACCCGTTACCTGGGGGATCTTTCCGGCGGTCAAATTCTCAAGAAAATTGCCCAAAATGCCATGAATCTCCACGATGGTGGCACAGCTTTCTATGAATTTGCCGACATTGATGACGAAAAGGCTTTTAAAAATACCTACCGTCAAGCTATGAATGATCTGCCCATTGACCAAGCCACCGCCGAACGGATTGTGGATGAAGCCAATGACGCCTTTGCCATGAACATGAAAATGTTCAACGAACTTGAAGGCAACCTGATCAAGGCGATCGGCATTATGGTGTTCAACAGCCTCACCCGTCGCCGCAGTCAAGGCAGCACCGAAGTTGGCCTCGCCACCTCCGAAGGCGGTGGTGGTGGTTCTGGTGGTGGTGGTTCTGCAGTTACAGATCTGAGCCTGACAAATTCATCACTGATGCCGACACTGAATCCGATGATTCAACAACTGGCACTGGCAATTGCAGCATCATGGCAATCACTGCCGCTGAAACCGTATCAACTGCCGGAAGATCTGGGCTATGTTGAAGGCAGACTGGAAGGCGAAAAACTGGTTATTGAAAATCGCTGCTATCAGACACCGCAATTTAGAAAAATGCATCTGGAACTGGCAAAAGTTGGCAAAGGCCTGGATATTCTGCATTGCGTTATGTTTCCGGAACCGCTGTATGGCCTGCCGCTGTTTGGCTGCGATATTGTTGCAGGCCCTGGCGGAGTTTCAGCAGCAATTGCGGATCTGTCACCGACACAATCAGATAGACAACTTCCGGCTGCATATCAAAAATCACTGGCAGAACTGGGCCAACCGGAATTTGAACAACAAAGAGAACTTCCGCCTTGGGGAGAAATCTTTTCAGAATATTGCCTGTTTATTCGTCCGAGCAATGTCACAGAAGAAGAAAGATTTGTTCAGCGCGTTGTCGATTTTCTGCAAATTCATTGCCATCAAAGCATTGTCGCAGAACCGCTTTCAGAAGCACAAACACTGGAACATAGACAAGGCCAGATTCATTATTGCCAACAGCAGCAGAAAAACGATAAAACAAGACGCGTTCTGGAAAAAGCATTTGGCGAAGCATGGGCAGAAAGATATATGTCACAAGTTCTGTTTGATGTCATCCAGTAAGGACCAAAACGAAAAAAGGCCCCCCTTTCGGGAGGCCTCTTTTCTGGAATTTGGTACCGAG",
+  "audit": {
+   "created": "2026-10-13T14:30:54.470Z",
+   "updated": "2026-10-17T10:39:39.633Z"
+  },
+  "chassis": {
+   "designedFor": [
+    {
+     "uuid": "4af6f34d-5e0f-4dd3-a197-f35fe4913b48",
+     "id": 562,
+     "scientificName": "Escherichia coli",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "3379134",
+      "1224",
+      "1236",
+      "91347",
+      "543",
+      "561",
+      "562"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-13T14:30:55.733Z"
+    },
+    {
+     "uuid": "261a7db9-34a2-4381-97e8-440e4dd6c462",
+     "id": 1423,
+     "scientificName": "Bacillus subtilis",
+     "commonName": null,
+     "rank": "species",
+     "lineageSummary": [
+      "1",
+      "131567",
+      "2",
+      "1783272",
+      "1239",
+      "91061",
+      "1385",
+      "186817",
+      "1386",
+      "653685",
+      "1423"
+     ],
+     "documentationUUID": null,
+     "addedBy": {
+      "uuid": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+      "firstName": "Sophie",
+      "lastName": "Chen",
+      "orcidID": null
+     },
+     "addedAt": "2026-10-13T14:30:55.734Z"
+    }
+   ],
+   "characterisedIn": [],
+   "sourceOrganism": []
+  },
+  "usageCount": 2
+ },
+ "documentation": [
+  {
+   "uuid": "10ec2d0a-e626-4905-b179-31c0dfaaa462",
+   "title": "Design",
+   "type": "design",
+   "created": "2026-10-18T07:41:28.013Z",
+   "value": "## Overview\n\nThe PCB Production Module supplies the chromophore required for light sensing.\n\nThe part is a composite transcription unit with three elements, in this order:\n\n* **PtagC+RBS (**[<u>**BBa\\_26A4MT29**</u>](https://registry.igem.org/parts/bba-26a4mt29)**):** a promoter and ribosome binding site that controls both transcription and translation of the downstream coding sequence.\n* **Ho1-pcyA (**[<u>**BBa\\_K4354012**</u>](https://registry.igem.org/parts/bba-k4354012) **):** a fusion CDS of heme oxygenase-1 (Ho1) and phycocyanobilin:ferredoxin oxidoreductase (PcyA). Ho1 converts endogenous heme to biliverdin IXα, and PcyA reduces biliverdin IXα to PCB. \n* **L3S2P21 (**[<u>**BBa\\_K2675031**</u>](https://share.google/pocPiJukHq9mm39e5)**):** a strong synthetic intrinsic (Rho-independent) terminator from the synthetic terminator library of Chen et al. (2013), which ends transcription and limits read-through into neighboring units.\n\nThe complete module was assembled by Golden gate assembly with BsaI-HFv2.\n\n**Design considerations:**\n\n*Why PCB must be supplied:* CcaS is a cyanobacteriochrome that senses green and red light only when it binds PCB. *B. subtilis* does not naturally make PCB, so without this module the CcaSR system cannot respond to light. Fusing Ho1 and pcyA into a single CDS allows both biosynthetic steps from one gene, which keeps the module compact and the two enzymes stoichiometrically matched. PtagC+RBS presented a shorter length in base pairs, therefore allowing easier cloning into a level 2 transcriptional unit. Because there was an ambiguity on homologous recombination, it was used as an alternative to Pveg and RBS0, as the plasmid was already amplified in our collection.\n\n*Expression context:* Heme is an endogenous substrate in *B. subtilis*, so the module needs no added precursor. Ferredoxin is required as the electron donor for PcyA. \n\n*Design:* The full CDS was PCR-amplified as a single amplicon from the synthesized fragment using primers Csn F and ACCD R. Each primer carries a 5′ ATATAT spacer, a BpiI site (GAAGAC) for Level 0 entry cloning, and a BsaI site (GGTCTC) for Level 1 assembly. The inner BsaI overhangs are TATG (incorporating the Csn start codon) at the 5′ end and TGTC at the 3′ end, which sets the CDS position and allows fusion to the downstream terminator. The amplicon was cloned into pGEM-T Easy and sequence-verified.\n\nThe Level 0 parts Pveg (BBa\\_K143012), EEBD-RBS0 (BBa\\_26V6CPEV), Csn-AcdS-Histag (BBa\\_26NXOP7S) and B0015 (BBa\\_B0015) were then combined in a single Golden Gate reaction (BsaI, T4 DNA ligase buffer, and T4 DNA ligase) into the pSTK-EXP1 expression shuttle vector (Caro-Astorga et al., 2025), a Level 1 vector, in the order promoter, RBS, CDS, terminator. The reaction was transformed into *E. coli* DH5α, and positive clones were identified by colony PCR and sent for sequencing before electroporation into *B. subtilis*.\n\n## About\n\n* **Biosafety level:** S1\n* **Target organism:** *Bacillus subtilis* \\[168 / WB800]\n* **Main purpose of use:** Intracellular biosynthesis of phycocyanobilin (PCB), the chromophore required for CcaS photoreceptor activity, in the host *B. subtilis*.\n* **Potential application:** Enabling green/red light-responsive gene expression through the CcaSR system, as the light-sensing component of a stress-responsive optogenetic bioreactor for plant-growth-promoting bioprotectants.\n\n### **References**\n\n1. CcaSR green red light-responsive system for transcriptional control in B. subtilis (Haller et al., 2025; 10.1007/978-1-0716-40)\\*\\* \n2. Chen, Y.-J., Liu, P., Nielsen, A. A. K., et al. (2013). Characterization of 582 natural and synthetic terminators and quantification of their design constraints. *Nature Methods*, 10(7), 659–664.\n3. [<u>**BBa\\_K4354012**</u>](https://registry.igem.org/parts/bba-k4354012)\n4. [<u>**BBa\\_K2675031**</u>](https://share.google/pocPiJukHq9mm39e5)\n5. Caro-Astorga, J., Rogan, M., Malcı, K., Ming, H., Debenedictis, E., James, P., & Ellis, T. (2025). SubtiToolKit: A bioengineering kit for *Bacillus subtilis* and Gram-positive bacteria. *Trends in Biotechnology, 43*(6), 1446–1469.[ <u>https://doi.org/10.1016/j.tibtech.2025.02.004</u>](https://doi.org/10.1016/j.tibtech.2025.02.004)",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T07:49:57.893Z"
+  },
+  {
+   "uuid": "262c8605-6299-459e-839e-85c1e8c74039",
+   "title": "Experiment",
+   "type": "experiment",
+   "created": "2026-10-18T07:43:12.137Z",
+   "value": "## Construction/assembly (wet lab)\n\n* **Composite insert:** PtagC+RBS – Ho1-pcyA – L3S2P21, \\[1660 bp]\n* **Vector:** pSTK-1A-sfGFP (Level 1 cloning vector) \\[ampicillin]\n* **Assembly method:** Golden Gate, \\[BsaI-HFv2 enzyme]\n  * Thermal cycle:\n\n| 37°C  | 5 min  | 45cycles (37+16°C) |\n| ----- | ------ | ------------------ |\n| 16°C  | 5 min  |                    |\n| 37°C  | 10 min | 1 cycle            |\n| 80°C  | 20 min | 1 cycle            |\n\n## Verification (wet lab)\n\nColonies from the pSTK-1A-sfGFP transformation were screened by colony PCR with Ho1 F and pSTK-seq R flanking the insertion site, and the products were run on an agarose gel alongside a DNA ladder. A correct band runs at the expected size, which is the length of the insert \\[1660 bp] plus the vector sequence between the priming sites, for a total of \\[1721 bp]. Colonies producing a single, clean band at this size were considered positive candidates.\n\nPositive candidates were then sequenced to confirm that the promoter, RBS, Ho1-pcyA CDS and terminator are free of mutations and correctly ordered. Clones with a verified sequence were used for the level 2 Optogenics system constructed in pSTK- EXP 2 vector.\n\n| Primer name | Primer sequence                                 |\n| ----------- | ----------------------------------------------- |\n| Ho1 F       | ATATATGAAGACATCTGAGGTCTCATATGTCAGTAAATTTAGCATCA |\n| pcyA R      | ATATATGAAGACATGAGGGGTCTCATGTCTTACTGGATGACATCAAA |\n| pSTK-seq R  | tctttcctgcgttatcccctgattc                       |\n\n## Results\n\n![](https://registry.igem.wiki/documentation/262c8605-6299-459e-839e-85c1e8c74039/43e883f568b333188b583311d70de2255e41e4e66f1cfa850ac0bdf03658737f.avif)\n\n***Figure 1.*** **Colony PCR of pSTK-1A-PtagC+RBS-Ho1-pcyA-L3S2P21.** All colonies gave a band at the expected size (\\[1721 bp]).\n\n***Figure 2.*** **Clone 1 was sequence-verified and used for downstream experiments.**",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T12:28:08.953Z"
+  },
+  {
+   "uuid": "ed18cf37-51e4-4ec4-a79d-8d9d5e7bc8b2",
+   "title": "Application",
+   "type": "application",
+   "created": "2026-10-18T07:46:40.582Z",
+   "value": "This part was designed for the GEMS-Taiwan 2026 iGEM team’s work on a Stress-Responsive Optogenetic Bioreactor for Precision Plant Protection: \n\n* **ccaSR-Csn-AcdS-Histag** ([<u>**BBa\\_2654HAF3**</u>](https://registry.igem.org/parts/bba-2654haf3)): the system is an engineered construct that produces and secretes plant-protective proteins under green/red light control.\n* **ccaSR-SamyQ-AcdS 2.1-Histag** ([<u>**BBa\\_26U8UTMH**</u>](https://registry.igem.org/parts/bba-26u8utmh)): the system is an engineered construct that produces and secretes plant-protective proteins under green/red light control.",
+   "lastEditedBy": "Sophie Chen",
+   "authorUUID": "8de7ff3d-7d8b-42ed-a284-c454c5534c3c",
+   "organisationUUID": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+   "organisation": {
+    "uuid": "3f22886d-da0b-4a5a-8711-7b14b020c9de",
+    "name": "GEMS-Taiwan (2026)",
+    "type": "igem-team",
+    "link": "https://teams.igem.org/6072",
+    "archivedAt": null,
+    "audit": {
+     "created": "2026-07-02T08:04:11.172Z",
+     "updated": "2026-07-02T08:04:11.172Z"
+    }
+   },
+   "updated": "2026-10-18T07:46:40.582Z"
+  }
+ ],
+ "composition": [
+  {
+   "uuid": "7b13fc63-d8e0-481f-8826-69a70cabe788",
+   "componentUUID": "9ef2347f-79bb-49b7-87b7-14af52a0b14a",
+   "componentName": "BBa_26A4MT29",
+   "role": {
+    "uuid": "6b0d75b8-835a-4106-aebf-7f121a129403",
+    "accession": "SO:0001248",
+    "label": "Assembly",
+    "uri": "http://purl.obolibrary.org/obo/SO_0001248",
+    "glyph": "http://sbols.org/visual/v2#UnspecifiedGlyph"
+   },
+   "start": 1,
+   "end": 100,
+   "strand": "forward"
+  },
+  {
+   "uuid": "89024c46-c76c-4065-a5ff-23371bec3dfa",
+   "componentUUID": "51f60551-5d2a-46c6-b022-58679200008a",
+   "componentName": "BBa_K4354012",
+   "role": {
+    "uuid": "65f1c72e-396c-4d02-b574-af06b3a073a9",
+    "accession": "SO:0000316",
+    "label": "CDS",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000316",
+    "glyph": "http://sbols.org/visual/v2#CDSGlyph"
+   },
+   "start": 101,
+   "end": 1594,
+   "strand": "forward"
+  },
+  {
+   "uuid": "76c89e0d-8f72-4d64-82f5-47f3f207788b",
+   "componentUUID": "4fab7464-705e-4a97-9d53-628862cd7cc1",
+   "componentName": "BBa_K2675031",
+   "role": {
+    "uuid": "ae5c878a-2fdb-4c2e-b904-e6eb1a1224f2",
+    "accession": "SO:0000141",
+    "label": "Terminator",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000141",
+    "glyph": "http://sbols.org/visual/v2#TerminatorGlyph"
+   },
+   "start": 1595,
+   "end": 1655,
+   "strand": "reverse"
+  },
+  {
+   "uuid": "dd814656-0452-421c-ab2e-36210620eee0",
+   "componentUUID": "b9e7d60b-f333-42b2-b8ee-d9d44f78227d",
+   "componentName": "BBa_K2486008",
+   "role": {
+    "uuid": "ae5c878a-2fdb-4c2e-b904-e6eb1a1224f2",
+    "accession": "SO:0000141",
+    "label": "Terminator",
+    "uri": "http://purl.obolibrary.org/obo/SO_0000141",
+    "glyph": "http://sbols.org/visual/v2#TerminatorGlyph"
+   },
+   "start": 1595,
+   "end": 1655,
+   "strand": "forward"
+  }
+ ]
+}
