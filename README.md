@@ -26,7 +26,7 @@ Everything needed to fill in the 33 GEMS-Taiwan (2026) parts on the iGEM Registr
 
 ## The work, in numbers
 
-115 steps across 33 parts: 83 documentation sections to update, 18 figures to upload, 5 confirmed defects to correct, 5 sections drafted for parts that have none, and 4 judgement calls where no image exists.
+115 steps across 33 parts: 83 documentation sections to update, 18 figures to upload, 11 confirmed defects to correct, 5 sections drafted for parts that have none, and 4 judgement calls where no image exists. The Decisions tab holds 97 items in all, once the disputed band sizes are counted.
 
 Parts are split into three tiers. **Tier A** (13) has figures or characterisation data. **Tier B** (15) is text only. **Tier C** (5) has no documentation at all yet.
 
