@@ -1,52 +1,84 @@
 # Using the console
 
-`console.html` is a single file. Open it in a browser straight from the folder — no server, no build. It needs `thumbs/`, `upload/` and `modelling/` sitting beside it, because the image paths are relative.
+`console.html` is a single file. Open it in a browser straight from the folder — no server, no build. It needs `thumbs/`, `upload/`, `plant/` and `modelling/` sitting beside it, because the image paths are relative.
 
-Across the top: the four tabs, the person selector, and a ring showing how much of the current queue is ticked off.
+Across the top: the four tabs, the lane selector, how much time is left, and a ring for the lane you are in.
 
-## The four tabs
+## Work one registry page at a time
 
-**Queue** is the one to work from. It shows a single step at a time out of 115, in the order they should be done, with the part name, its tier and family, and the staged text behind a copy button. A line under the step title says what kind of step it is:
+The Queue is built around the thing that actually costs time: opening a registry part page. So it gives you **one part per screen, with every step for that part on it**. Open the part once with the blue button in the bar, work down the card, then press `→` for the next part.
+
+A step collapses to a single ticked line as soon as you finish it, so the screen shrinks as you go and what is left is always at the top of what remains.
+
+The strip of 33 cells above the part bar is the whole set: filled means finished, outlined is where you are. Click any cell to jump. `skip to the next unfinished` does what it says.
+
+## The step kinds
 
 | | |
 |---|---|
-| section (83) | Open the existing entry on the registry page and replace its body with this. |
-| image (18) | Upload the named file from `upload/`, then paste its legend. |
-| draft (5) | Create a new entry of that type and paste this in. |
-| fix (5) | A confirmed defect on a live page. Find the first line, replace it with the second. |
-| decision (4) | A caption whose figure does not exist. A judgement call, not a paste. |
+| section (83) | Open that entry on the registry, select its whole body, paste over it. |
+| draft (5) | The entry does not exist yet. Add it, then paste. |
+| figure (18) | **Download the file** from the step, upload it inside that entry, then paste the legend under it as a bold paragraph. |
+| optional (25) | Modelling figures for Design, plant figures for Application. Hidden until you ask for them at the foot of the part. |
+| judgement call (4) | A caption whose figure does not exist. Nothing to paste; decide and move on. |
 
-**Parts** lists all 33 parts, tier A first, each with every section and figure that belongs to it and a link that opens that part on the registry. Use it to see one part whole, or to jump back to something already done. Parts in the BoPEP4, AcdS or LEA14 families also carry a fold of modelling figures whose legends are already written — optional, for the Design section, none of them required.
+### The fifteen defects are already in the pastes
 
-**Figures** is the contact sheet: the 18 wet-lab figures that have a slot waiting, then the 43 modelling figures grouped by family. Click any thumbnail to see it full size. The thumbnails in `thumbs/` are 420 px copies for the screen; the file to upload is always the one in `upload/`.
+Fifteen things are wrong on the live pages — three wrong cross-reference links, four `share.google` shorteners, an unclosed bracket, three title typos, and four claims about salinity the plant data does not support. **Every one of them is corrected inside the staged text.** Pasting the section repairs the page; there is no separate find-and-replace step any more. Each affected step says `n fixes baked in` and lists what changed, and the inserted words are marked green in the text so you can see them.
 
-**Decisions** collects everything that needs settling once instead of at the keyboard, in three groups: the bracketed values nothing corroborates, the confirmed defects on live pages, and the captions with no possible image. Each has its own tick box, kept separately from the queue.
+### Brackets are marked where they are
+
+Seventy values could not be corroborated and are still in brackets. They are marked amber in the text, exactly where they sit, and listed under the step. Decide them before you paste or leave them bracketed — but do not invent one at the keyboard. The Decisions tab holds all seventy in one list.
 
 ## Keyboard
 
-On the Queue tab:
+The Queue is meant to be driven from the keyboard.
 
 | key | |
 |---|---|
-| `←` `→` | previous step, next step |
-| `C` | copy the step's text |
-| `D` | mark done and move to the next step |
-| `U` | undo the tick you just made — it steps back one first if the step on screen is not ticked |
+| `return` | copy this step and tick it, then move to the next one |
+| `j` `k` | next / previous step on this part |
+| `→` `←` | next / previous part |
+| `o` | open this part on the registry |
+| `f` | download the figure for this step |
+| `x` | tick or untick without copying |
+| `u` | undo the last tick |
+| `g` | go to the first part still unfinished |
+| `/` or `⌘K` | jump to a part by id, title, tier or family |
+| `1`–`4` | Queue, Board, Figures, Decisions |
+| `?` | the list above, on screen |
 
-They are off on the other three tabs, off while the cursor is in a text field, and off when a modifier key is held, so browser shortcuts still behave. Every key has a button next to it in the step, if that is easier.
+They are off while the cursor is in a text field and when a modifier is held, so browser shortcuts still behave. Every key has a button beside it in the step.
+
+`return` ticks the step as it copies. The tick is a bookmark for where you are, not a claim that the registry saved — if a paste goes wrong, press `u`.
+
+## The other three tabs
+
+**Board** is the status surface: both lanes, how many parts are finished, how long is left, and a row per part you can click to go there. It also holds the handoff tools — see below.
+
+**Figures** is the contact sheet. The 18 wet-lab figures with a slot waiting, each with a download link, then the 43 modelling figures grouped by family. The thumbnails in `thumbs/` are screen copies; the file to upload is always the full one.
+
+**Decisions** collects everything that wants settling once rather than at the keyboard: the seventy bracketed values, the two deposits that look like the pre-assembly vector, the fourteen numbers the sequences dispute, the design-history questions, the captions with no possible image, and the record of the fifteen corrections the pastes now carry.
 
 ## Two people at once
 
-Top right: **Both**, **A**, **B**. The 115 steps are already dealt out — 59 to person A across 17 parts, 56 to person B across 16 — and the split is by part, so a registry page belongs to one person for the whole session. Each person picks their own letter before starting and leaves it there. Two people on **Both** will sooner or later open the same registry page at the same time, and the registry editor keeps whichever save landed last.
+Top right: **A**, **B**, **Both**. The work is dealt out by part, so a registry page belongs to one person for the whole session — 55 steps to A across 17 parts, 51 to B across 16, about two hours each. Pick your letter before you start and leave it there. Two people on **Both** will sooner or later open the same page at the same time, and the registry keeps whichever save landed last.
 
-The ring and the "n of m done" line follow the selector, so on **A** they count only person A's work.
+Rename a lane on the Board if "A" and "B" are not the names you use.
+
+## Time left
+
+The header shows how many steps remain and how long they should take. It starts from the staged estimate and switches to **your own measured pace** once you have ticked a few — median gap between ticks, with breaks over fifteen minutes ignored. If the number says you will not finish, turn the optional figures off and keep to the 106 required steps.
 
 ## Progress is local
 
-Ticks live in that browser's own storage, under the key `releaf-registry-v2`. Three consequences worth knowing before you start:
+Ticks live in that browser's own storage, under the key `releaf-registry-v2`. Nothing syncs: A's ticks are invisible to B, and both are invisible on another machine. Reopening the file on the same browser puts you back on the first part you had not finished.
 
-- Nothing syncs. Person A's ticks are invisible to person B, and both are invisible on any other machine.
-- Reopening the file on the same browser restores where you stopped. A different browser, a private window, or cleared site data starts at zero.
-- The ticks are a bookmark, not a record. What counts as done is what is saved on the registry page.
+On the Board, under **Handoff and backup**:
 
-Say out loud which parts are finished, or keep a shared list, if anyone needs to know the state of the whole set.
+- **Copy a progress code** — a string holding every tick. Paste it on the other machine to merge.
+- **Paste a progress code** — merges, never erases; two lanes can be combined at the end.
+- **Copy a status report** — plain text, one line per part, for the team chat.
+- **Clear all ticks** — this browser only, and it asks first.
+
+The ticks are a bookmark, not a record. What counts as done is what is saved on the registry page.

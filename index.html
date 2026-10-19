@@ -116,7 +116,7 @@
   <header>
     <p class="eyebrow">GEMS-Taiwan 2026 &middot; ReLEAF</p>
     <h1>Registry staging pack</h1>
-    <p class="lede">The staged text, figures and open questions for <b>33 iGEM registry part pages</b>, prepared on 19 October 2026 so that two people can fill those pages in by hand on 20 October &mdash; before the freeze at 23:00 Taiwan time on 21 October.</p>
+    <p class="lede">The staged text, figures and open questions for <b>33 iGEM registry part pages</b>, prepared on 19 October 2026 so that two people can fill those pages in by hand on 20 October &mdash; before the freeze at 23:00 Taiwan time on 21 October. One part per screen, one click per step, about two hours each.</p>
     <div class="cta">
       <a class="btn" href="console.html">Open the console</a>
       <a class="btn ghost" href="reference.html">What each part should contain</a>
@@ -128,13 +128,13 @@
     <h2>Scope</h2>
     <div class="nums">
       <div class="num"><span class="n">33</span><span class="l">parts, 31 published and 2 still drafts</span></div>
-      <div class="num"><span class="n">115</span><span class="l">ordered steps in the queue</span></div>
-      <div class="num"><span class="n">83</span><span class="l">section bodies staged for pasting</span></div>
+      <div class="num"><span class="n">106</span><span class="l">steps that have to be done</span></div>
+      <div class="num"><span class="n">88</span><span class="l">section bodies staged for pasting</span></div>
       <div class="num"><span class="n">18</span><span class="l">figures matched to a waiting slot</span></div>
+      <div class="num"><span class="n">15</span><span class="l">live defects corrected inside those pastes</span></div>
       <div class="num"><span class="n">70</span><span class="l">bracketed values still unresolved</span></div>
-      <div class="num"><span class="n">5</span><span class="l">parts with no documentation yet</span></div>
     </div>
-    <p class="note">The queue is split in two &mdash; 59 steps for person A, 56 for person B &mdash; so nobody edits a registry page the other is already in. A further 48 bracketed values were resolved before staging, each against something that corroborates it; the 70 above are left visible in the text so nothing unverified is pasted by accident.</p>
+    <p class="note">The queue is split by part &mdash; 55 steps for person A across 17 parts, 51 for person B across 16 &mdash; so nobody edits a registry page the other is already in. On the staged estimate that is about 2&nbsp;h&nbsp;10&nbsp;m each; the console then re-reckons it from your own pace. A further 25 optional figure steps sit behind a toggle, and 4 captions have no possible image. 48 bracketed values were resolved before staging, each against something that corroborates it; the 70 above stay visible in the text, marked amber where they sit, so nothing unverified is pasted by accident.</p>
   </section>
 
   <section>
@@ -143,7 +143,7 @@
       <li>
         <a href="console.html">
           <span class="t">The console<span class="arrow">&rarr;</span></span>
-          <span class="d">One card per part, the staged text behind a copy button, thumbnails of every figure, and tick boxes that remember where you stopped. Four tabs: Queue, Parts, Figures, Decisions.</span>
+          <span class="d">One registry page per screen with every step for it, a copy button on each, figure downloads, and ticks that remember where you stopped. Driven from the keyboard: <code>return</code> copies and ticks, <code>&rarr;</code> moves to the next part. Four tabs: Queue, Board, Figures, Decisions.</span>
         </a>
       </li>
       <li>
@@ -187,7 +187,7 @@
       <li><code>modelling/</code> &mdash; 43 modelling figures with legends already written, offered to the Design sections (<a href="modelling/LEGENDS.json">legends</a>).</li>
       <li><code>raw/</code> &mdash; the untouched API response for each of the 33 parts. The source of truth for everything else here.</li>
       <li><span class="k"><a href="model.json">model.json</a></span> &mdash; staged text, resolutions and open questions per section.</li>
-      <li><span class="k"><a href="steps.json">steps.json</a></span> &mdash; the 115 steps in order, with the A/B assignment. <span class="k"><a href="additions.json">additions.json</a></span> holds the new drafts and the fixes.</li>
+      <li><span class="k"><a href="steps.json">steps.json</a></span> &mdash; the 150 steps in order, with the A/B assignment. <span class="k"><a href="additions.json">additions.json</a></span> holds the new drafts and the fixes. <code>build/</code> rebuilds the console from them: <code>prepare.py</code> bakes the corrections into the staged text, <code>console.py</code> writes the page.</li>
     </ul>
   </section>
 
