@@ -1,0 +1,242 @@
+{
+  "parts": {
+    "BBa_265CD14Z": [
+      {
+        "file": "BoPEP4_F01_complex-wt-ribbon.jpg",
+        "order": 1,
+        "why": "This part is the wild-type 23-residue peptide, and this is the modelled complex of that exact sequence with its receptor: it shows what the coding sequence is for and that the peptide works extended along the groove rather than folded into it.",
+        "legend": "**Figure 1 | BoPEP4 (1–23) bound in the PEPR1 leucine-rich-repeat groove.** The modelled complex of full-length BoPEP4 (orange, all atoms) against the 710-residue *Arabidopsis thaliana* PEPR1 ectodomain (green, Cα trace), taken from the first frame of a 30 ns all-atom molecular dynamics run in explicit solvent. The peptide lies extended along the inner face of the LRR solenoid; it does not fold into it. The dashed line marks the Asn23 to Arg487 contact that anchors the C terminus, 2.72 Å in this frame. Starting pose from HADDOCK 2.5 docking onto the AtPep1–PEPR1 crystal structure (PDB 5GR8); run R1_BoPep4_WT_PEPR1."
+      },
+      {
+        "file": "BoPEP4_F04_asn23-clamp-wt.jpg",
+        "order": 2,
+        "why": "The C-terminal clamp is the single design constraint this coding sequence imposes on everything built from it: Asn23 and its free carboxylate sit inside the receptor pocket, which is why the C terminus was ruled off-limits for tagging.",
+        "legend": "**Figure 2 | The C-terminal clamp of wild-type BoPEP4.** Close view of the C-terminal anchor, with the four receptor residues that close around Asn23 named: Arg487, Asn465, Asp441 and Ile443 (amber sticks, published numbering). Asn23 and its free carboxylate sit in the pocket; the dashed line is the Asn23 to Arg487 distance in this frame. This clamp held in 100.0% of frames in this run, which is the structural reason the C terminus was ruled off-limits for tagging. Run R1_BoPep4_WT_PEPR1."
+      },
+      {
+        "file": "BoPEP4_G03_per-residue-wt.jpg",
+        "order": 3,
+        "why": "Residue by residue, which part of this sequence holds the interface. The loose, uneven first six residues are the reason an N-terminal truncation was explored at all, so this figure is the starting point of the whole truncation series.",
+        "legend": "**Figure 3 | Contact occupancy and fluctuation, residue by residue.** For each of the 23 residues of wild-type BoPEP4: bars give the share of frames within 4 Å of the receptor, coloured by occupancy band, and the line gives Cα fluctuation (RMSF). Across residues 1 to 6 occupancy is uneven, from 16% at Gly5 to 99% at Ile2, and fluctuation stays above 1.7 Å throughout; from Glu12 onward fluctuation drops to between 0.72 and 1.01 Å at every position but Lys18, which sits at 1.39 Å, and occupancy is at or near 100% everywhere except Pro19 at 52%. Arg9 is on the boundary: 100% occupancy at a 1.32 Å fluctuation. Note that this is a 4 Å proximity measure over a trajectory, which is not the same as the buried-surface measure used in the docking interface map, where residues 1 to 6 bury no area at all. Run R1_BoPep4_WT_PEPR1."
+      },
+      {
+        "file": "BoPEP4_G08_alanine-scan.jpg",
+        "order": 4,
+        "why": "The complement of the occupancy map: what happens if a position is changed. It answers why no residue of this coding sequence was substituted, and its own legend bounds what the method can be asked.",
+        "legend": "**Figure 4 | Alanine scan of BoPEP4 against PEPR1.** Change in HADDOCK score relative to wild type for eighteen single-point alanine substitutions, Ser6 to Asn23, each built on the validated complex with the backbone held fixed and refined identically; positive values are destabilising. Bars are coloured as binding hotspots, structural or conformational signals, and neutral positions, with the ensemble mean marked on each. Eight positions clear +7, every one of them carried by a large electrostatic term. The scan returns −1.3 and −2.9 at S15A and G17A, the two substitutions published to cost roughly 100-fold and more than 4,000-fold in activity, which bounds what the method can be asked."
+      }
+    ],
+    "BBa_26ILD3SO": [
+      {
+        "file": "BoPEP4_F09_complex-chis-ribbon.jpg",
+        "order": 1,
+        "why": "This part's architecture exactly: wild-type BoPep4 with six histidines appended past Asn23, which replaces the free C-terminal carboxylate with an amide. The run is the direct structural record of the tag this part carries. The legend's dated sentence about moving the tag to the N terminus is trimmed, because this deposit carries the tag at the C terminus and the two cannot both be stated here.",
+        "legend": "**Figure 1 | BoPEP4 with a C-terminal His₆ tag.** The tagged construct, which appends six histidines past Asn23 and so replaces the free C-terminal carboxylate with an amide. The peptide stays in the groove and the backbone is the steadiest in the set, but the charged interaction at the anchor is gone: bidentate Arg487 occupancy falls to 2.4% from 100.0%. Run R1_BoPep4_WT_Chis_PEPR1."
+      },
+      {
+        "file": "BoPEP4_F14_asn23-clamp-map.jpg",
+        "order": 2,
+        "why": "The structural argument for why that matters on this part: Asn23 sits inside the receptor, and there is no room for a residue 24 without the peptide leaving the pocket.",
+        "legend": "**Figure 2 | The Asn23 pocket in the docked model.** Surface rendering of the C-terminal pocket, showing that Asn23 sits inside the receptor rather than on the face of the interface, with its free α-carboxylate salt-bridging Arg487 at 2.40 Å in the crystal structure. There is no room for a residue 24 without the peptide leaving the pocket, which is the structural argument against a C-terminal tag. Read with the clamp view on BoPep4 ([BBa\\_265CD14Z](https://registry.igem.org/parts/bba-265cd14z), Figure 2), which measures the same pocket over a trajectory instead of in one pose."
+      },
+      {
+        "file": "BoPEP4_G15_asn23-arg487-trace-tag.jpg",
+        "order": 3,
+        "why": "The measurement that makes the risk legible rather than alarming: the tagged construct's anchor distance looks like wild type throughout, because what approaches the receptor is a neutral amide carbonyl and not the charged carboxylate.",
+        "legend": "**Figure 3 | Asn23 to Arg487 distance over 30 ns, wild type against the tagged construct.** Both traces sit near 2.8 Å for the whole trajectory and neither leaves the 4 Å window the acceptance criterion drew, which is why the tagged construct passed the gate. The approach the tagged trace records is a neutral amide carbonyl, not the charged carboxylate: measured between charge centres the same pair is 20.07 Å apart."
+      }
+    ],
+    "BBa_26LYCBW0": [
+      {
+        "file": "BoPEP4_G10_codon-candidates.jpg",
+        "order": 1,
+        "why": "The search this part's sequence came out of. The starred candidate's first 45 nucleotides are this part's deposited sequence base for base, so the table is literally the record of why this recoding and not another.",
+        "legend": "**Figure 1 | Candidate synonymous variants for the SamyQ–BoPEP4 cassette.** Ranked table of candidate recodings of the first fifteen codons, with unpaired probability at the start codon window (st+15 and st+30), Shine–Dalgarno core accessibility, minimum free energy, the balance score the search optimises, codon adaptation index against *Bacillus subtilis* 168 usage, GC content and the edit distance from the wild-type sequence. The Castillo-greedy candidate (GR, amber) maximises start accessibility alone; the selected candidate (★, green) takes the highest balance score and is the recoding deposited as this part. Library of 8,000 random synonymous variants; folding with ViennaRNA 2.7.2 at 37 °C."
+      },
+      {
+        "file": "BoPEP4_G11_codon-mfe-structures.jpg",
+        "order": 2,
+        "why": "What the recoding was for, on this part's own sequence: the folded transcript window before and after, with the gain in accessibility concentrated on the start codon and the first fifteen codons.",
+        "legend": "**Figure 2 | Predicted mRNA secondary structure before and after recoding.** Minimum free energy structure of the transcript window from the +1 start site through the 90th base of the open reading frame, for the wild-type sequence (left) and the selected recoding (right), which is the sequence this part carries, with the 5′ end, the MF001 ribosome binding site, the start codon and the recoded bases marked. Below, the per-base unpaired probability profile for both. The ribosome binding site keeps its low baseline; the gain in accessibility is concentrated on the start codon and the first fifteen codons. ViennaRNA 2.7.2, 37 °C, minimum free energy with partition function."
+      }
+    ],
+    "BBa_26YHOQCL": [
+      {
+        "file": "BoPEP4_F08_complex-1523-ribbon.jpg",
+        "order": 1,
+        "why": "The only run of this exact construct. It is the evidence that nine residues still hold the anchor, which is the whole claim this draft part makes.",
+        "legend": "**Figure 1 | BoPEP4 (15–23), the conserved core alone.** Nine residues, the invariant Ser15 to Asn23 stretch, simulated as a control on whether length alone drives the loss seen at 9–23. It does not: this shorter construct holds the clamp in 99.9% of frames. Run R1_BoPep4_15-23_PEPR1."
+      },
+      {
+        "file": "BoPEP4_G13_truncation-four-rung.jpg",
+        "order": 2,
+        "why": "This part exists because the ladder is not monotonic, and this is the figure that shows it: cutting back past the dangling N-terminal tail restores the clamp that the intermediate cut loses. Kept on the part rather than the collection because it is the four simulated rungs, one of which is this construct; the seventeen-rung ladder is in the collection.",
+        "legend": "**Figure 2 | The truncation ladder is not monotonic.** Clamp integrity and bidentate salt-bridge occupancy for full-length BoPEP4 and the three simulated cuts. Full length, 7–23 and 15–23 all hold the clamp above 98%; only the intermediate 9–23 construct falls, to 77.1% clamp integrity and 46.9% bidentate occupancy. Shorter is not the variable."
+      }
+    ],
+    "BBa_26Z8FHTR": [
+      {
+        "file": "BoPEP4_F05_complex-923-ribbon.jpg",
+        "order": 1,
+        "why": "No standalone 9–23 coding sequence part exists, so this cassette is the only home for the runs of the construct it carries. This is the construct in the groove, with the manufacturing gains that argued for it.",
+        "legend": "**Figure 1 | BoPEP4 (9–23), the ordered construct, in the same groove.** The manufacturing candidate, fifteen residues against the wild type's twenty-three, modelled and simulated on the identical protocol. The anchor end is unchanged; what is gone is the N-terminal GILIGSKK segment and with it the Lys7 salt bridge that pins the 9–14 stretch. Against full length this construct carries 33% less mass (1,612.73 Da against 2,409.74 Da), one trypsin-type cut site instead of three, and half the positive charge. Run R1_BoPep4_9-23_PEPR1."
+      },
+      {
+        "file": "BoPEP4_F06_asn23-clamp-923.jpg",
+        "order": 2,
+        "why": "The cost side of the same cut, measured on the anchor: the clamp this construct holds in 77.1% of frames against 100.0% for full length. The draft Design text already argues from these two numbers.",
+        "legend": "**Figure 2 | The same clamp under the 9–23 truncation.** The clamp view of the wild-type run repeated for the ordered construct. The four clamp residues are in place, but over the trajectory the clamp holds in only 77.1% of frames against 100.0% for wild type, and the bidentate Arg487 salt bridge beneath it in 46.9% against 100.0%. Removing an anchor without removing the segment it anchors is what costs the clamp here; the shorter 15–23 construct, which removes both, holds it in 99.9% of frames. Run R1_BoPep4_9-23_PEPR1."
+      },
+      {
+        "file": "BoPEP4_F12_complex-923-ph55.jpg",
+        "order": 3,
+        "why": "The open structural risk against the construct that was ordered, on the part that carries it. This is the one run in the set that failed its acceptance gate.",
+        "legend": "**Figure 3 | BoPEP4 (9–23) at pH 5.5, the only run in the set to fail its acceptance gate.** The same protonation applied to the ordered construct, which drops clamp integrity to 19.3% and bidentate occupancy to 6.9%. Neither the truncation alone nor the protonation alone does this; the combination does. This is an open structural risk against the construct that was ordered, and it is stated as one. Run R1_BoPep4_9-23_PEPR1_lowpH."
+      },
+      {
+        "file": "BoPEP4_G14_truncation-x-protonation.jpg",
+        "order": 4,
+        "why": "The two-by-two that isolates the cause: neither the cut nor leaf pH does this alone. It is the figure that keeps the previous one from being read as a verdict on truncation in general.",
+        "legend": "**Figure 4 | Truncation crossed with protonation: only the combination fails.** A two-by-two of full length and 9–23, each at neutral pH and with the three histidines protonated. Protonating full-length peptide recovers the Glu12 to His227 contact from 0.8% to 99.9% of frames and leaves the clamp intact. The same protonation on 9–23 drops bidentate occupancy from 46.9% to 6.9%, the only acceptance failure in the set, and does so while the backbone RMSD improves."
+      }
+    ]
+  },
+  "collection": {
+    "protectant": [
+      {
+        "file": "Pipeline_G01_design-pipeline.jpg",
+        "why": "Its own legend says it: every modelled part in this collection went through this route. Repeating it on each part is exactly the duplication the collection documents exist to remove.",
+        "legend": "**The computational design pipeline behind the protectant cassettes.** The route from a literature candidate to an ordered construct: sequence alignment, structure and docking preparation, restraint definition, docking, triage against the acceptance criteria, and packaging into a cassette. Reproduced here because every modelled part in this collection went through it; the per-stage detail is on the Protein Design methodology page."
+      },
+      {
+        "file": "BoPEP4_F10_complex-atpep1-ref.jpg",
+        "why": "The positive control that licenses reading any of the runs. It belongs once, with the method, not on the parts whose numbers it underwrites.",
+        "legend": "**AtPep1 (7–23) in PEPR1: the benchmark the protocol was checked on.** The published ligand of this receptor, simulated under the identical protocol as a positive control before any BoPEP4 result was accepted. All four hydrogen bonds reported in the crystal structure are reproduced (see the crystal-contact table in this collection), which is what licenses reading the BoPEP4 runs at all. Reference run, batch 2026-08-20."
+      },
+      {
+        "file": "BoPEP4_T02_crystal-contact-reproduction.jpg",
+        "why": "The numbers behind the benchmark, for the reference run and the wild-type run together. A validation table spanning two runs is collection material.",
+        "legend": "**The simulation against the crystal structure.** For the benchmark run and the wild-type BoPEP4 run, each of the four hydrogen bonds reported for the AtPep1–PEPR1 complex in PDB 5GR8: the crystallographic distance, and the mean, standard deviation, range and occupancy measured over 30 ns. Crystal values from Tang et al. 2015."
+      },
+      {
+        "file": "BoPEP4_T01_md-run-summary.jpg",
+        "why": "Nine runs in one table. It describes the simulation set as a whole, and no single part owns it.",
+        "legend": "**Nine molecular dynamics runs, one row each.** Peptide sequence, length, production time, clamp integrity, bidentate Arg487 occupancy, peptide and receptor RMSD, and the acceptance result for every simulation in the set. All runs are 30 ns of production, 1,500 frames at 20 ps, on an NVIDIA A100, at roughly 250 ns per day. Clamp integrity here is the strict measure; the gate column uses a more tolerant clamp criterion and reads higher, which is why the two are kept in separate tables."
+      },
+      {
+        "file": "BoPEP4_T05_acceptance-gate.jpg",
+        "why": "The gate was set once, before the runs, and applied to all of them. It also carries the project's own caution that its clamp column is more tolerant than the clamp integrity quoted on the parts, which is a statement about the method rather than about any construct.",
+        "legend": "**The acceptance gate, run by run.** The four criteria set before the simulations were run, the value each trajectory returned, and whether it passed. One run fails: BoPEP4 (9–23) at pH 5.5, on the Asn23 to Arg487 criterion at 23.6% of frames. The clamp column here applies a per-contact tolerance rather than a flat 4 Å cut-off, so it reads higher than the clamp integrity figures in the run-summary table and the clamp-occupancy figure in this collection; both numbers are given and neither is adjusted to the other. The two RMSD columns are the gate's own summary statistics and differ by a tenth of an ångström or so from the trajectory means in the run-summary table. The His₆-tagged run passes all four criteria, which the gate-against-atoms figure in this collection shows to be a pass on the wrong atoms."
+      },
+      {
+        "file": "BoPEP4_G04_clamp-occupancy-all-runs.jpg",
+        "why": "One anchor measured across all eight peptide-bearing runs. Putting it on any one construct would make a cross-construct comparison look like that construct's own result.",
+        "legend": "**The C-terminal clamp across the eight peptide-bearing runs.** Two measures of the same anchor for every construct simulated: clamp integrity (green), the strict measure used throughout the Protein Design pages, and the bidentate Arg487 salt bridge beneath it, resolved to atoms (amber). The dashed line is the project's 60% acceptance floor. The two measures agree everywhere except on the His₆-tagged construct, where clamp integrity reads 99.7% and the atom-resolved salt bridge reads 2.4%. A third, more tolerant clamp measure is used by the acceptance gate itself and is reported separately in the acceptance-gate table in this collection."
+      },
+      {
+        "file": "BoPEP4_G05_truncation-cliff-haddock.jpg",
+        "why": "Seventeen successive cuts against two receptors. This is the family ladder, not one rung, and it is the figure the per-part truncation arguments draw on.",
+        "legend": "**Where the interface stops tolerating an N-terminal cut.** HADDOCK 2.5 water-refined score for seventeen successive N-terminal truncations of BoPEP4, each re-docked on the identical protocol, against PEPR1 (green) and PEPR2 (slate). Scores are flat for the first seven cuts and climb steadily thereafter. Lower binds better; the axis is inverted so that better binding is higher."
+      },
+      {
+        "file": "BoPEP4_G06_truncation-ladder-alphafold3.jpg",
+        "why": "The same ladder by a second method, and the reason the project states the cliff as a range instead of a number. That disagreement governs how every truncation part is read.",
+        "legend": "**The same ladder scored by AlphaFold3.** Interface confidence (ipTM, upper panel) and interface predicted aligned error (lower panel) for each rung against both receptors. Confidence rises slightly as the disordered N terminus is removed, then collapses between 13–23 and 14–23. Our docking places the binding cliff at 9–23 and AlphaFold3 places it at 14–23; the project states the cliff as a range, 9 to 14, and names both methods instead of picking one."
+      },
+      {
+        "file": "BoPEP4_T04_truncation-ladder.jpg",
+        "why": "All seventeen rungs with their verdicts, including the rung AlphaFold3 never scored. The numeric form of the family ladder.",
+        "legend": "**The truncation ladder in full, both receptors.** All seventeen rungs with HADDOCK score, buried surface area, AlphaFold3 ipTM and interface PAE against PEPR1 and PEPR2, and the verdict assigned to each. One rung, 2–23, was not scored with AlphaFold3, and those cells are left empty."
+      },
+      {
+        "file": "BoPEP4_F07_complex-723-ribbon.jpg",
+        "why": "A rung that was simulated but never deposited as a part. Its claims are about 7–23, so it cannot sit on the 9–23 cassette, but it is the record of why that cassette was chosen on manufacturing grounds rather than on binding.",
+        "legend": "**BoPEP4 (7–23), the alternative cut.** The seventeen-residue construct, which keeps the Lys7 anchor that the 9–23 cut removes. Clamp integrity 98.5%, bidentate occupancy 87.7%: on the structural measures it is the steadier of the two cuts in this region, and the 9–23 construct was chosen over it on manufacturing grounds, not on binding. Run R1_BoPep4_7-23_PEPR1."
+      },
+      {
+        "file": "BoPEP4_G07_docking-vs-measured-activity.jpg",
+        "why": "The benchmark that says what a docking score is worth. Every ladder figure in this collection is scored by docking, so the caveat belongs beside them and not on a part page where it reads as doubt about that part.",
+        "legend": "**What the docking score does not predict.** Pooled HADDOCK score against published half-maximal concentration for sixteen equal-length AtPep1 analogues from Pearce et al. 2008. The three analogues with measured loss of activity (red) sit in the middle of the docking ranking, not at the bottom of it. The score ranks poses, not activity, and this benchmark is why no claim on this part rests on a docking score alone."
+      },
+      {
+        "file": "BoPEP4_G09_tandem-repeat-sweep.jpg",
+        "why": "A design option tested and rejected for the family: no construct engages more than three copies however many it carries. It explains why every BoPep4 cassette in the collection carries one copy, and no single part is its subject.",
+        "legend": "**Tandem repeat sweep, one to eight copies, both receptors.** Docking score, buried surface area, buried area per residue, salt-bridge and hydrogen-bond counts, and the number of copies actually engaging the receptor, for constructs carrying one to eight tandem copies of the core. Buried area per residue falls steadily with copy number, from 127 Å² at one copy to 32 Å² at eight, and no construct engages more than three copies however many it carries. Added copies are not engaged, so a tandem construct buys no additional interface."
+      },
+      {
+        "file": "BoPEP4_G12_receptor-rmsd-nine-runs.jpg",
+        "why": "A reading rule derived from all nine runs plus the apo control: no receptor-side difference in this set may be read as peptide-induced stabilisation. It constrains the interpretation of every run, so it belongs with the method.",
+        "legend": "**Receptor Cα RMSD across all nine runs, with the apo run as the floor.** Mean receptor backbone RMSD for every simulation in the set, including the receptor simulated with no peptide at all. The apo run is the steadiest trajectory, one hundredth of an ångström below the steadiest bound run, while the bound runs spread over 0.59 Å among themselves. Changing the peptide moves the receptor more than removing it, so no receptor-side difference in this set is read as peptide-induced stabilisation."
+      },
+      {
+        "file": "BoPEP4_G16_acceptance-gate-vs-atoms.jpg",
+        "why": "The gate's own audit: it records a gate that passed a construct it should have failed. The acceptance-gate table in this collection cross-references it, and the pair should be read together.",
+        "legend": "**The same construct under the project's gate and under an atom-resolved criterion.** Six measures of one pair of trajectories. Under the three distance-only measures the His₆-tagged construct is indistinguishable from wild type and has the lowest conserved-window RMSD in the whole set, 1.12 Å. Under the three atom-resolved measures every one reads 0.0% against 99.8 to 100% for wild type. The figure is kept because it records a gate that passed a construct it should have failed."
+      },
+      {
+        "file": "BoPEP4_G17_rmsd-vs-saltbridge.jpg",
+        "why": "Eight runs showing that a steady backbone is not evidence of a held contact. A rule for reading the RMSD columns that appear throughout this collection.",
+        "legend": "**Backbone RMSD against salt-bridge occupancy, eight runs.** Conserved-window backbone RMSD plotted against the share of frames holding the bidentate Arg487 salt bridge. The points do not line up: the tagged construct at 1.12 Å and the failed 9–23 run at pH 5.5 at 1.33 Å are the two lowest RMSDs in the set and hold the salt bridge in 2.4% and 6.9% of frames, while the 15–23 control at 1.81 Å holds it in 97.2%. A steady backbone is not evidence of a held contact."
+      },
+      {
+        "file": "AcdS_G01_codon-candidates.jpg",
+        "why": "Held at collection level deliberately. The sequence starred in this table recodes the SamyQ segment by 21 bases and is not the sequence deposited as AcdS 2.1 ([BBa_262YYNPV]) or carried by SamyQ-AcdS 2.1-Histag ([BBa_26TOGLX3]), whose SamyQ segment is unedited; on either part page the starred row would read as that part's own recoding. As a record of the shared codon-optimisation search across the four cargoes it is accurate and useful. See the report note before promoting it to a part.",
+        "legend": "**Candidate synonymous variants for the SamyQ–AcdS cassette.** Ranked table of candidate recodings of the first fifteen codons of *acdS* behind the SamyQ secretion signal, drawn from 40,899 legal candidates. Columns give unpaired probability at the start codon window (st+15, st+30), Shine–Dalgarno core accessibility, minimum free energy and ΔG, the balance score the search optimises, codon adaptation index against *Bacillus subtilis* 168 usage from the Kazusa database, GC content, the number of edits in the SamyQ and CDS segments, and the first 45 nucleotides of each candidate. The greedy candidate (GR, amber) maximises start accessibility at the cost of adaptation index; the selected candidate (★, green) takes the highest balance score. Folding with ViennaRNA 2.7.2 at 37 °C."
+      },
+      {
+        "file": "AcdS_G02_codon-mfe-structures.jpg",
+        "why": "Same reason as the candidate table it belongs with: it folds the selected candidate, which is not the deposited AcdS 2.1 sequence. The method and the ribosome binding site observation hold for the family.",
+        "legend": "**Predicted mRNA secondary structure of the SamyQ–AcdS transcript before and after recoding.** Minimum free energy structure of the window from the +1 start site through the 90th base of the open reading frame, wild type (left, −42.1 kcal mol⁻¹) and selected variant (right, −48.7 kcal mol⁻¹), with the 5′ end, the MF001 ribosome binding site, the start codon and the recoded bases marked. Below, per-base unpaired probability for both sequences. The low-accessibility valley over the ribosome binding site is unchanged; the introduced mismatches break structure across the early coding region instead. ViennaRNA 2.7.2, 37 °C, minimum free energy with partition function."
+      },
+      {
+        "file": "LEA14_G01_codon-candidates.jpg",
+        "why": "Same position as the ACC deaminase pair. The starred candidate is not the sequence deposited as LEA14 2.1 ([BBa_26IN6G1D]) or carried by SamyQ-LEA14 2.1-Histag ([BBa_26J0GJGZ]), so it documents the search rather than either part.",
+        "legend": "**Candidate synonymous variants for the SamyQ–LEA14 cassette.** As for ACC deaminase: ranked candidate recodings of the first fifteen codons of the LEA14 coding sequence behind the SamyQ signal, scored on start-codon accessibility, Shine–Dalgarno accessibility, folding free energy, balance score and codon adaptation index against *Bacillus subtilis* 168 usage, with the greedy and selected candidates marked. Library of 8,000 random synonymous variants; folding with ViennaRNA 2.7.2 at 37 °C."
+      },
+      {
+        "file": "LEA14_G02_codon-mfe-structures.jpg",
+        "why": "The folding half of the same LEA14 search, on the same footing.",
+        "legend": "**Predicted mRNA secondary structure of the SamyQ–LEA14 transcript before and after recoding.** Minimum free energy structures and per-base unpaired probability profiles for the wild-type and recoded transcript windows, marked as in the ACC deaminase figure. The base-pairing baseline over the ribosome binding site is largely unchanged and the gain in local flexibility is concentrated in the early open reading frame. ViennaRNA 2.7.2, 37 °C."
+      }
+    ],
+    "light-sensing": []
+  },
+  "unused": [
+    {
+      "file": "AmilCP_G01_codon-candidates.jpg",
+      "why": "Its own legend rules it out: AmilCP is a reporter, not a part in this collection, and the folder 05 verdicts of 18 October say the same. It belongs with the Protein Design methodology page."
+    },
+    {
+      "file": "AmilCP_G02_codon-mfe-structures.jpg",
+      "why": "Same: the fourth panel of the codon run, for a cargo that is not a part. The Results page records why AmilCP was dropped as a secretion reporter."
+    },
+    {
+      "file": "BoPEP4_F02_complex-wt-surface.jpg",
+      "why": "It describes the receptor groove, not any deposited sequence. The complementarity it illustrates is already carried by the complex figure and the per-residue map on BBa_265CD14Z."
+    },
+    {
+      "file": "BoPEP4_F03_footprint-wt.jpg",
+      "why": "The surface form of the same wild-type run as the per-residue occupancy figure placed on BBa_265CD14Z. One of the two is enough on a Design entry, and the per-residue version carries the numbers."
+    },
+    {
+      "file": "BoPEP4_F11_complex-wt-ph55.jpg",
+      "why": "The full-length protonation result is the left-hand column of the truncation-crossed-with-protonation figure placed on BBa_26Z8FHTR, with the same recovery of the Glu12 to His227 contact. Placing both repeats one result twice."
+    },
+    {
+      "file": "BoPEP4_F13_anchor-belt-map.jpg",
+      "why": "Its own legend disqualifies it: the model rendered carries Arg at position 18 rather than the wild-type Lys, and the receptor residues are in that model's own numbering. No deposited part has that sequence."
+    },
+    {
+      "file": "BoPEP4_G01_rmsd-trace-wt.jpg",
+      "why": "Equilibration evidence for one run. The run-summary table in the collection reports the same RMSD for all nine runs, and the acceptance-gate table reports the thresholds."
+    },
+    {
+      "file": "BoPEP4_G02_crystal-contacts-wt.jpg",
+      "why": "The crystal-contact reproduction table in the collection carries the same four contacts, their occupancies and their mean distances for this run and for the benchmark together."
+    },
+    {
+      "file": "BoPEP4_T03_per-residue-wt.jpg",
+      "why": "Its own legend calls it the numeric form of the per-residue figure placed on BBa_265CD14Z. A Design entry does not need the table and the chart of one measurement."
+    }
+  ]
+}

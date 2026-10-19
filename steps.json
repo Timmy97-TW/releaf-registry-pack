@@ -13,6 +13,17 @@
   },
   {
    "part": "BBa_2654HAF3",
+   "kind": "fix",
+   "type": "design",
+   "label": "Fix a external shortener in design",
+   "find": "https://share.google/pocPiJukHq9mm39e5",
+   "fix": "https://registry.igem.org/parts/bba-k2675031",
+   "why": "BBa_K2675031 (L3S2P21 Terminator) is linked to a share.google shortener, 1 time in this section. Registry documentation should point at the registry. Replace every occurrence.",
+   "i": 1,
+   "who": "A"
+  },
+  {
+   "part": "BBa_2654HAF3",
    "kind": "section",
    "type": "design",
    "label": "Update design",
@@ -26,7 +37,7 @@
     ]
    ],
    "blockers": [],
-   "i": 1,
+   "i": 2,
    "who": "A"
   },
   {
@@ -38,7 +49,7 @@
    "words": 506,
    "resolved": [],
    "blockers": [],
-   "i": 2,
+   "i": 3,
    "who": "A"
   },
   {
@@ -50,7 +61,7 @@
    "caption": "Colony PCR for ccaSR–Csn–AcdS–Histag. Three of three colonies gave a band at 632 bp. Clones 3 and 5 went forward for the cross-module check.",
    "dim": "778x1380",
    "kb": 158,
-   "i": 3,
+   "i": 4,
    "who": "A"
   },
   {
@@ -62,7 +73,7 @@
    "caption": "Cross-module PCR for ccaSR–Csn–AcdS–Histag. Two of two clones gave a band at the expected size across all three junctions. Clone 2, at a vector to insert ratio of 1:7, was selected for sequencing.",
    "dim": "996x1282",
    "kb": 239,
-   "i": 4,
+   "i": 5,
    "who": "A"
   },
   {
@@ -74,7 +85,7 @@
    "words": 144,
    "resolved": [],
    "blockers": [],
-   "i": 5,
+   "i": 6,
    "who": "A"
   },
   {
@@ -86,7 +97,7 @@
    "caption": "Wild-type ACCD, construct ABDI, in B. subtilis  WB800 carrying CcaSR under different light intensities. (A) Green 100% and green 12%. (B) Green 2% and red 100%. M, molecular weight marker in kDa. Signals rose with time in green 100%, green 12% and green 2%, but not in an ordered way across intensities: green 2% was faint until 6 h, while green 12% at 8 h was the strongest of the green lanes. ACCD is about 35 kDa as a monomer and the bands ran near the 63 to 75 kDa markers; ACCD can also exist as a homodimer at about 70 kDa, so these bands may be the dimer. This is only a possibility, and we plan to validate it in future experiments.",
    "dim": "1461x327",
    "kb": 116,
-   "i": 6,
+   "i": 7,
    "who": "A"
   },
   {
@@ -98,7 +109,7 @@
    "words": 135,
    "resolved": [],
    "blockers": [],
-   "i": 7,
+   "i": 8,
    "who": "A"
   },
   {
@@ -110,7 +121,7 @@
    "words": 352,
    "resolved": [],
    "blockers": [],
-   "i": 8,
+   "i": 9,
    "who": "A"
   },
   {
@@ -121,7 +132,18 @@
    "find": "ccaS-m3 ([BBa\\_26OSLRE4](https://registry.igem.org/parts/bba-26oslre4))",
    "fix": "ccaS-m3 ([BBa\\_K3317069](https://registry.igem.org/parts/bba-k3317069))",
    "why": "Same wrong link as on BBa_2654HAF3: BBa_26OSLRE4 is RBS0.",
-   "i": 9,
+   "i": 10,
+   "who": "B"
+  },
+  {
+   "part": "BBa_26U8UTMH",
+   "kind": "fix",
+   "type": "design",
+   "label": "Fix a external shortener in design",
+   "find": "https://share.google/pocPiJukHq9mm39e5",
+   "fix": "https://registry.igem.org/parts/bba-k2675031",
+   "why": "BBa_K2675031 (L3S2P21 Terminator) is linked to a share.google shortener, 1 time in this section. Registry documentation should point at the registry. Replace every occurrence.",
+   "i": 11,
    "who": "B"
   },
   {
@@ -139,7 +161,7 @@
     ]
    ],
    "blockers": [],
-   "i": 10,
+   "i": 12,
    "who": "B"
   },
   {
@@ -151,7 +173,7 @@
    "words": 517,
    "resolved": [],
    "blockers": [],
-   "i": 11,
+   "i": 13,
    "who": "B"
   },
   {
@@ -163,7 +185,7 @@
    "caption": "Cross-module PCR for ccaSR–SamyQ–AcdS 2.1–Histag. Three of three clones gave a band at the expected size across all modules. Clone 1 was selected for sequencing.",
    "dim": "1500x953",
    "kb": 323,
-   "i": 12,
+   "i": 14,
    "who": "B"
   },
   {
@@ -175,7 +197,7 @@
    "words": 150,
    "resolved": [],
    "blockers": [],
-   "i": 13,
+   "i": 15,
    "who": "B"
   },
   {
@@ -187,7 +209,7 @@
    "caption": "ACCD V2T1, construct ABDQ, after 13 and 16 h in the plate. G, green light; R, red light, both at 100%. A single band ran between the 75 and 100 kDa markers in all four lanes. The green lanes looked somewhat stronger than the red lanes at both times. Anti-His ELISA on these same four samples puts that difference at 12.9 against 11.8 µg/mL at 13 h and 12.5 against 12.1 µg/mL at 16 h: green is higher each time, with two samples a side and ranges that overlap.",
    "dim": "1024x765",
    "kb": 140,
-   "i": 14,
+   "i": 16,
    "who": "B"
   },
   {
@@ -199,7 +221,7 @@
    "caption": "ACCD V2T1 after an overnight culture of 16 h was moved into the plate under green light at 100%, sampled after 3, 6 and 8 h. A band ran just below the 100 kDa marker all three times. It was strong at 3 and 6 h and weaker at 8 h.",
    "dim": "599x487",
    "kb": 126,
-   "i": 15,
+   "i": 17,
    "who": "B"
   },
   {
@@ -211,7 +233,7 @@
    "words": 137,
    "resolved": [],
    "blockers": [],
-   "i": 16,
+   "i": 18,
    "who": "B"
   },
   {
@@ -223,7 +245,7 @@
    "words": 352,
    "resolved": [],
    "blockers": [],
-   "i": 17,
+   "i": 19,
    "who": "B"
   },
   {
@@ -240,7 +262,7 @@
      "not corroborated anywhere"
     ]
    ],
-   "i": 18,
+   "i": 20,
    "who": "A"
   },
   {
@@ -275,7 +297,7 @@
      "no wiki caption confirms this band size"
     ]
    ],
-   "i": 19,
+   "i": 21,
    "who": "A"
   },
   {
@@ -287,7 +309,7 @@
    "caption": "P veg –EEBD–RBS0–Csn–AcdS–Histag–B0015.",
    "dim": "1040x993",
    "kb": 81,
-   "i": 20,
+   "i": 22,
    "who": "A"
   },
   {
@@ -304,7 +326,7 @@
      "not corroborated anywhere"
     ]
    ],
-   "i": 21,
+   "i": 23,
    "who": "A"
   },
   {
@@ -316,7 +338,7 @@
    "caption": "Western blot analysis of ACC deaminase secretion on 2 August 2026. P1 represents the total pellet, P2 the soluble pellet, and S the culture supernatant. Following a six-minute exposure, bands were detected only in the supernatant lanes, with molecular weight ladders spanning 28–180 kDa on both sides. This result is based on a single blot without a loading control, and the distinction between the two lanes labelled S was not documented.",
    "dim": "1120x880",
    "kb": 411,
-   "i": 22,
+   "i": 24,
    "who": "A"
   },
   {
@@ -328,7 +350,7 @@
    "words": 55,
    "resolved": [],
    "blockers": [],
-   "i": 23,
+   "i": 25,
    "who": "A"
   },
   {
@@ -340,7 +362,7 @@
    "words": 95,
    "resolved": [],
    "blockers": [],
-   "i": 24,
+   "i": 26,
    "who": "A"
   },
   {
@@ -350,8 +372,19 @@
    "label": "Decide: Fold into the text, or cut?",
    "caption": "Figure 2. Clone 1 was sequence-verified and used downstream.",
    "why": "Same: no sequencing trace exists. This is a sentence, not a figure — it reads better folded into the Verification paragraph above.",
-   "i": 25,
+   "i": 27,
    "who": "A"
+  },
+  {
+   "part": "BBa_261XH2RS",
+   "kind": "fix",
+   "type": "experiment",
+   "label": "Fix a broken markdown in experiment",
+   "find": "\\[BsaI-HFv2 enzyme",
+   "fix": "\\[BsaI-HFv2 enzyme]",
+   "why": "The bracket is never closed — the only unbalanced bracket in all 83 sections. A permissive renderer could pair it with the ] of the image further down and swallow about 1,600 characters.",
+   "i": 28,
+   "who": "B"
   },
   {
    "part": "BBa_261XH2RS",
@@ -368,7 +401,7 @@
     ]
    ],
    "blockers": [],
-   "i": 26,
+   "i": 29,
    "who": "B"
   },
   {
@@ -421,7 +454,7 @@
      "clone number not stated in the wiki caption"
     ]
    ],
-   "i": 27,
+   "i": 30,
    "who": "B"
   },
   {
@@ -433,7 +466,7 @@
    "caption": "Module 2, P liaG –RBS0–ccaS-m3–B0015. One of three colonies gave a band at 1,602 bp, and that clone went to sequencing.",
    "dim": "793x1135",
    "kb": 122,
-   "i": 28,
+   "i": 31,
    "who": "B"
   },
   {
@@ -445,7 +478,7 @@
    "words": 59,
    "resolved": [],
    "blockers": [],
-   "i": 29,
+   "i": 32,
    "who": "B"
   },
   {
@@ -456,7 +489,18 @@
    "find": "SamyQ-BoPep 2.1-Histag",
    "fix": "SamyQ-BoPep4 2.1-Histag",
    "why": "Missing the 4 — the part is SamyQ-BoPep4 2.1-Histag.",
-   "i": 30,
+   "i": 33,
+   "who": "A"
+  },
+  {
+   "part": "BBa_269A97I7",
+   "kind": "fix",
+   "type": "application",
+   "label": "Fix a unsupported claim in application",
+   "find": "it also helped plants under salinity stress",
+   "fix": "a filtered supernatant from BoPep4-secreting *B. subtilis* WB800 improved plant readouts under salinity at a single dilution of 1/40, in one unreplicated hydroponic run",
+   "why": "Over-general as written. 1/60, 1/80 and 1/100 gave nothing, the agar set is unscored, and the plant page never records which cassette produced the preparation — so the claim belongs at cargo level, with the dilution and the absence of replication stated.",
+   "i": 34,
    "who": "A"
   },
   {
@@ -468,7 +512,7 @@
    "words": 967,
    "resolved": [],
    "blockers": [],
-   "i": 31,
+   "i": 35,
    "who": "A"
   },
   {
@@ -504,7 +548,7 @@
      "not corroborated anywhere"
     ]
    ],
-   "i": 32,
+   "i": 36,
    "who": "A"
   },
   {
@@ -516,7 +560,7 @@
    "caption": "P veg –EEBD–RBS0–SamyQ–BoPep4 2.1–Histag–B0015. One of eleven colonies at 678 bp; clone 14 sequenced.",
    "dim": "1500x1215",
    "kb": 358,
-   "i": 33,
+   "i": 37,
    "who": "A"
   },
   {
@@ -528,7 +572,7 @@
    "words": 52,
    "resolved": [],
    "blockers": [],
-   "i": 34,
+   "i": 38,
    "who": "A"
   },
   {
@@ -546,7 +590,7 @@
     ]
    ],
    "blockers": [],
-   "i": 35,
+   "i": 39,
    "who": "B"
   },
   {
@@ -596,7 +640,7 @@
      "no wiki caption confirms this band size"
     ]
    ],
-   "i": 36,
+   "i": 40,
    "who": "B"
   },
   {
@@ -608,7 +652,7 @@
    "caption": "Module 3, P veg –RBS0–ccaR–B0015. Two of four colonies gave a band at 1,442 bp. Clone 2 was selected for sequencing.",
    "dim": "769x924",
    "kb": 75,
-   "i": 37,
+   "i": 41,
    "who": "B"
   },
   {
@@ -620,8 +664,19 @@
    "words": 59,
    "resolved": [],
    "blockers": [],
-   "i": 38,
+   "i": 42,
    "who": "B"
+  },
+  {
+   "part": "BBa_26D5AX7S",
+   "kind": "fix",
+   "type": "application",
+   "label": "Fix a unsupported claim in application",
+   "find": "it also helped plants under salinity stress",
+   "fix": "— delete the clause —",
+   "why": "Strike the clause. There is no AtLEA14 plant outcome anywhere on the wiki — the one trial, agar salinity set 11, is charted and never written up. Keep the sentence that a full ccaSR construct with LEA14 as Module 4 was not built.",
+   "i": 43,
+   "who": "A"
   },
   {
    "part": "BBa_26D5AX7S",
@@ -632,7 +687,7 @@
    "words": 881,
    "resolved": [],
    "blockers": [],
-   "i": 39,
+   "i": 44,
    "who": "A"
   },
   {
@@ -673,7 +728,7 @@
      "clone number not stated in the wiki caption"
     ]
    ],
-   "i": 40,
+   "i": 45,
    "who": "A"
   },
   {
@@ -685,7 +740,7 @@
    "caption": "P veg –EEBD–RBS0–SamyQ–LEA14–Histag 2.1–B0015. Two of seven colonies at 1,423 bp; clone 1 sequenced.",
    "dim": "1500x1020",
    "kb": 196,
-   "i": 41,
+   "i": 46,
    "who": "A"
   },
   {
@@ -697,7 +752,7 @@
    "words": 52,
    "resolved": [],
    "blockers": [],
-   "i": 42,
+   "i": 47,
    "who": "A"
   },
   {
@@ -715,7 +770,7 @@
     ]
    ],
    "blockers": [],
-   "i": 43,
+   "i": 48,
    "who": "B"
   },
   {
@@ -755,7 +810,7 @@
      "clone number not stated in the wiki caption"
     ]
    ],
-   "i": 44,
+   "i": 49,
    "who": "B"
   },
   {
@@ -767,7 +822,7 @@
    "caption": "Module 4, P cpcG2-veg –EEBD–RBS0–SamyQ–AcdS–Histag 2.1–B0015. Seven of sixteen colonies gave a band at 1,420 bp. Clone 2 was selected for sequencing.",
    "dim": "1500x706",
    "kb": 219,
-   "i": 45,
+   "i": 50,
    "who": "B"
   },
   {
@@ -779,7 +834,7 @@
    "words": 59,
    "resolved": [],
    "blockers": [],
-   "i": 46,
+   "i": 51,
    "who": "B"
   },
   {
@@ -790,7 +845,7 @@
    "find": "SamyQ-BoPep 2.2-Histag",
    "fix": "SamyQ-BoPep4 2.2-Histag",
    "why": "Missing the 4 — the part is SamyQ-BoPep4 2.2-Histag.",
-   "i": 47,
+   "i": 52,
    "who": "A"
   },
   {
@@ -802,7 +857,7 @@
    "words": 981,
    "resolved": [],
    "blockers": [],
-   "i": 48,
+   "i": 53,
    "who": "A"
   },
   {
@@ -838,7 +893,7 @@
      "not corroborated anywhere"
     ]
    ],
-   "i": 49,
+   "i": 54,
    "who": "A"
   },
   {
@@ -850,7 +905,7 @@
    "caption": "P veg –EEBD–RBS0–SamyQ–BoPep4 2.2–Histag–B0015. Four of five colonies at 678 bp; clone 5 sequenced.",
    "dim": "1500x1195",
    "kb": 333,
-   "i": 50,
+   "i": 55,
    "who": "A"
   },
   {
@@ -868,7 +923,7 @@
     ]
    ],
    "blockers": [],
-   "i": 51,
+   "i": 56,
    "who": "B"
   },
   {
@@ -909,7 +964,7 @@
      "clone number not stated in the wiki caption"
     ]
    ],
-   "i": 52,
+   "i": 57,
    "who": "B"
   },
   {
@@ -921,7 +976,7 @@
    "caption": "Module 4, P cpcG2-veg –EEBD–RBS0–Csn–AcdS–Histag–B0015. Two of six colonies gave a band at 1,588 bp. Clone 3 was selected for sequencing.",
    "dim": "1227x1136",
    "kb": 187,
-   "i": 53,
+   "i": 58,
    "who": "B"
   },
   {
@@ -933,8 +988,19 @@
    "words": 59,
    "resolved": [],
    "blockers": [],
-   "i": 54,
+   "i": 59,
    "who": "B"
+  },
+  {
+   "part": "BBa_26SG0NQQ",
+   "kind": "fix",
+   "type": "application",
+   "label": "Fix a unsupported claim in application",
+   "find": "it also helped plants under salinity stress",
+   "fix": "— delete the clause —",
+   "why": "Strike the clause. There is no AtLEA14 plant outcome anywhere on the wiki — the one trial, agar salinity set 11, is charted and never written up. Keep the sentence that a full ccaSR construct with LEA14 as Module 4 was not built.",
+   "i": 60,
+   "who": "A"
   },
   {
    "part": "BBa_26SG0NQQ",
@@ -945,7 +1011,7 @@
    "words": 771,
    "resolved": [],
    "blockers": [],
-   "i": 55,
+   "i": 61,
    "who": "A"
   },
   {
@@ -986,7 +1052,7 @@
      "clone number not stated in the wiki caption"
     ]
    ],
-   "i": 56,
+   "i": 62,
    "who": "A"
   },
   {
@@ -998,7 +1064,7 @@
    "caption": "P veg –EEBD–RBS0–Csn–LEA14–Histag–B0015. One colony at 735 bp, sequenced.",
    "dim": "928x994",
    "kb": 199,
-   "i": 57,
+   "i": 63,
    "who": "A"
   },
   {
@@ -1010,7 +1076,7 @@
    "words": 52,
    "resolved": [],
    "blockers": [],
-   "i": 58,
+   "i": 64,
    "who": "A"
   },
   {
@@ -1021,7 +1087,7 @@
    "find": "**SamyQ-AcdS 2.1-Histag (**[BBa\\_26NXOP7S](https://registry.igem.org/parts/bba-26nxop7s)**):**",
    "fix": "**SamyQ-AcdS 2.1-Histag (**[BBa\\_26TOGLX3](https://registry.igem.org/parts/bba-26toglx3)**):**",
    "why": "BBa_26NXOP7S is Csn-AcdS-Histag. The SamyQ fusion is BBa_26TOGLX3.",
-   "i": 59,
+   "i": 65,
    "who": "B"
   },
   {
@@ -1033,7 +1099,7 @@
    "words": 717,
    "resolved": [],
    "blockers": [],
-   "i": 60,
+   "i": 66,
    "who": "B"
   },
   {
@@ -1070,7 +1136,7 @@
      "not corroborated anywhere"
     ]
    ],
-   "i": 61,
+   "i": 67,
    "who": "B"
   },
   {
@@ -1082,7 +1148,7 @@
    "caption": "P veg –EEBD–RBS0–SamyQ–AcdS–Histag 2.1–B0015. Four of eight colonies at 1,984 bp; clone 2 sequenced.",
    "dim": "1278x1200",
    "kb": 226,
-   "i": 62,
+   "i": 68,
    "who": "B"
   },
   {
@@ -1094,7 +1160,7 @@
    "words": 63,
    "resolved": [],
    "blockers": [],
-   "i": 63,
+   "i": 69,
    "who": "B"
   },
   {
@@ -1106,7 +1172,7 @@
    "words": 53,
    "resolved": [],
    "blockers": [],
-   "i": 64,
+   "i": 70,
    "who": "B"
   },
   {
@@ -1116,7 +1182,7 @@
    "label": "Decide: Which S lane is SamyQ-AcdS 2.1?",
    "caption": "Fig. X. Western blot analysis of constitutive ACC deaminase-2.1-Histag expression",
    "why": "No separate blot exists for the constitutive SamyQ-AcdS 2.1 construct anywhere on the wiki. The one constitutive ACCD blot (wb-260802-accd-fractionation) has four lanes, P1, P2, S and S. If the two S lanes are the Csn and SamyQ constructs, this image serves both parts and each should point at its own lane. Confirm which lane is which, or drop the caption.",
-   "i": 65,
+   "i": 71,
    "who": "B"
   },
   {
@@ -1126,8 +1192,19 @@
    "label": "Decide: Fold into the text, or cut?",
    "caption": "Figure 2. Clone 1 was sequence-verified and used downstream.",
    "why": "Same: no sequencing trace exists. Fold into the Verification paragraph or cut.",
-   "i": 66,
+   "i": 72,
    "who": "B"
+  },
+  {
+   "part": "BBa_26XZYM10",
+   "kind": "fix",
+   "type": "design",
+   "label": "Fix a external shortener in design",
+   "find": "https://share.google/pocPiJukHq9mm39e5",
+   "fix": "https://registry.igem.org/parts/bba-k2675031",
+   "why": "BBa_K2675031 (L3S2P21 Terminator) is linked to a share.google shortener, 2 times in this section. Registry documentation should point at the registry. Replace every occurrence.",
+   "i": 73,
+   "who": "A"
   },
   {
    "part": "BBa_26XZYM10",
@@ -1144,7 +1221,7 @@
     ]
    ],
    "blockers": [],
-   "i": 67,
+   "i": 74,
    "who": "A"
   },
   {
@@ -1183,7 +1260,7 @@
      "no wiki caption confirms this band size"
     ]
    ],
-   "i": 68,
+   "i": 75,
    "who": "A"
   },
   {
@@ -1195,7 +1272,7 @@
    "caption": "Module 1, P tagC +RBS–Ho1::pcyA–L3S2P21. Three of three colonies gave a band at the expected size, 1,145 bp. Clone 1 was selected for sequencing.",
    "dim": "908x1054",
    "kb": 107,
-   "i": 69,
+   "i": 76,
    "who": "A"
   },
   {
@@ -1207,7 +1284,7 @@
    "words": 59,
    "resolved": [],
    "blockers": [],
-   "i": 70,
+   "i": 77,
    "who": "A"
   },
   {
@@ -1225,7 +1302,7 @@
     ]
    ],
    "blockers": [],
-   "i": 71,
+   "i": 78,
    "who": "B"
   },
   {
@@ -1237,7 +1314,7 @@
    "words": 144,
    "resolved": [],
    "blockers": [],
-   "i": 72,
+   "i": 79,
    "who": "B"
   },
   {
@@ -1255,7 +1332,51 @@
     ]
    ],
    "blockers": [],
-   "i": 73,
+   "i": 80,
+   "who": "A"
+  },
+  {
+   "part": "BBa_265CD14Z",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 1 to design",
+   "file": "BoPEP4_F01_complex-wt-ribbon.jpg",
+   "caption": "**Figure 1 | BoPEP4 (1–23) bound in the PEPR1 leucine-rich-repeat groove.** The modelled complex of full-length BoPEP4 (orange, all atoms) against the 710-residue *Arabidopsis thaliana* PEPR1 ectodomain (green, Cα trace), taken from the first frame of a 30 ns all-atom molecular dynamics run in explicit solvent. The peptide lies extended along the inner face of the LRR solenoid; it does not fold into it. The dashed line marks the Asn23 to Arg487 contact that anchors the C terminus, 2.72 Å in this frame. Starting pose from HADDOCK 2.5 docking onto the AtPep1–PEPR1 crystal structure (PDB 5GR8); run R1_BoPep4_WT_PEPR1.",
+   "why": "This part is the wild-type 23-residue peptide, and this is the modelled complex of that exact sequence with its receptor: it shows what the coding sequence is for and that the peptide works extended along the groove rather than folded into it.",
+   "i": 81,
+   "who": "A"
+  },
+  {
+   "part": "BBa_265CD14Z",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 2 to design",
+   "file": "BoPEP4_F04_asn23-clamp-wt.jpg",
+   "caption": "**Figure 2 | The C-terminal clamp of wild-type BoPEP4.** Close view of the C-terminal anchor, with the four receptor residues that close around Asn23 named: Arg487, Asn465, Asp441 and Ile443 (amber sticks, published numbering). Asn23 and its free carboxylate sit in the pocket; the dashed line is the Asn23 to Arg487 distance in this frame. This clamp held in 100.0% of frames in this run, which is the structural reason the C terminus was ruled off-limits for tagging. Run R1_BoPep4_WT_PEPR1.",
+   "why": "The C-terminal clamp is the single design constraint this coding sequence imposes on everything built from it: Asn23 and its free carboxylate sit inside the receptor pocket, which is why the C terminus was ruled off-limits for tagging.",
+   "i": 82,
+   "who": "A"
+  },
+  {
+   "part": "BBa_265CD14Z",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 3 to design",
+   "file": "BoPEP4_G03_per-residue-wt.jpg",
+   "caption": "**Figure 3 | Contact occupancy and fluctuation, residue by residue.** For each of the 23 residues of wild-type BoPEP4: bars give the share of frames within 4 Å of the receptor, coloured by occupancy band, and the line gives Cα fluctuation (RMSF). Across residues 1 to 6 occupancy is uneven, from 16% at Gly5 to 99% at Ile2, and fluctuation stays above 1.7 Å throughout; from Glu12 onward fluctuation drops to between 0.72 and 1.01 Å at every position but Lys18, which sits at 1.39 Å, and occupancy is at or near 100% everywhere except Pro19 at 52%. Arg9 is on the boundary: 100% occupancy at a 1.32 Å fluctuation. Note that this is a 4 Å proximity measure over a trajectory, which is not the same as the buried-surface measure used in the docking interface map, where residues 1 to 6 bury no area at all. Run R1_BoPep4_WT_PEPR1.",
+   "why": "Residue by residue, which part of this sequence holds the interface. The loose, uneven first six residues are the reason an N-terminal truncation was explored at all, so this figure is the starting point of the whole truncation series.",
+   "i": 83,
+   "who": "A"
+  },
+  {
+   "part": "BBa_265CD14Z",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 4 to design",
+   "file": "BoPEP4_G08_alanine-scan.jpg",
+   "caption": "**Figure 4 | Alanine scan of BoPEP4 against PEPR1.** Change in HADDOCK score relative to wild type for eighteen single-point alanine substitutions, Ser6 to Asn23, each built on the validated complex with the backbone held fixed and refined identically; positive values are destabilising. Bars are coloured as binding hotspots, structural or conformational signals, and neutral positions, with the ensemble mean marked on each. Eight positions clear +7, every one of them carried by a large electrostatic term. The scan returns −1.3 and −2.9 at S15A and G17A, the two substitutions published to cost roughly 100-fold and more than 4,000-fold in activity, which bounds what the method can be asked.",
+   "why": "The complement of the occupancy map: what happens if a position is changed. It answers why no residue of this coding sequence was substituted, and its own legend bounds what the method can be asked.",
+   "i": 84,
    "who": "A"
   },
   {
@@ -1267,7 +1388,51 @@
    "words": 155,
    "resolved": [],
    "blockers": [],
-   "i": 74,
+   "i": 85,
+   "who": "A"
+  },
+  {
+   "part": "BBa_265CD14Z",
+   "kind": "plant",
+   "type": "application",
+   "label": "Upload BoPep4 plant figure 1 to the collection",
+   "file": "PL06_BoPep4_hydro-salt-rack.png",
+   "caption": "The hydroponic tube rack for the BoPEP4 salinity run, 15-day-old *Arabidopsis thaliana*. The upper block was held at 0 mM NaCl and the lower block at 100 mM NaCl. Within each block, BoPEP4 was supplied in the root solution at 1/40, 1/60, 1/80 and 1/100, alongside a 1/40 WB800 control (TB medium carrying *Bacillus subtilis* WB800 with no protectant) and a 0.1× MS medium control. Three seedlings per labelled group, bracketed in red. Read off the panel: under 100 mM NaCl most groups are pale, bleached or reduced to a few small leaves, while the 1/40 BoPEP4 group keeps green expanded rosettes; in the unsalted block the BoPEP4 groups show darker, purple-tinged leaves than the two controls. The photograph is a single rack with no repeat and carries colour and size only, not measurement.",
+   "why": "Shared by all 11 BoPep4 parts. Upload once to the protectant collection; each part keeps its own sentence instead of a copy of the image.",
+   "i": 86,
+   "who": "A"
+  },
+  {
+   "part": "BBa_265CD14Z",
+   "kind": "plant",
+   "type": "application",
+   "label": "Upload BoPep4 plant figure 2 to the collection",
+   "file": "PL07_BoPep4_hydro-salt-readouts.png",
+   "caption": "Readouts from the BoPEP4 salinity run shown in PL06. Three panels: fresh weight in g, chlorophyll content in µg per plant, and relative chlorophyll content as a ratio. Twelve groups per panel: BoPEP4 at 1/40, 1/60, 1/80 and 1/100, 1/40 WB800 (TB medium carrying *Bacillus subtilis* WB800 with no protectant) and 0.1× MS medium, each at 0 mM and at 100 mM NaCl. One bar per group, three seedlings per group pooled, no error bars, no repeat of the run. Read off the panel: under 100 mM NaCl the 1/40 BoPEP4 group is the highest group on fresh weight, about 0.049 g against about 0.043 g for the 1/40 WB800 vehicle control and about 0.028 g for medium alone, and on chlorophyll per plant, about 8.4 µg against about 2.1 and 4.4 µg; the weaker BoPEP4 dilutions sit at about 3.4 to 4.6 µg and do not separate from the controls. On relative chlorophyll the ordering changes: the 0.1× MS medium control is the highest salt-stressed group at about 0.99, above 1/40 BoPEP4 at about 0.81. Without salt the BoPEP4 groups are lighter than the medium-only control on fresh weight, about 0.055 to 0.087 g against about 0.105 g. The panel therefore supports a dose-restricted effect at 1/40 on two of three readouts in one unreplicated run, not a general salinity rescue.",
+   "why": "Shared by all 11 BoPep4 parts. Upload once to the protectant collection; each part keeps its own sentence instead of a copy of the image.",
+   "i": 87,
+   "who": "A"
+  },
+  {
+   "part": "BBa_265CD14Z",
+   "kind": "plant",
+   "type": "application",
+   "label": "Upload BoPep4 plant figure 3 to the collection",
+   "file": "PL08_BoPep4_hydro-heat-readouts.png",
+   "caption": "Readouts for the BoPEP4 arm of the hydroponic 37 °C run whose rack is shown in PL03 and PL04, 15-day-old *Arabidopsis thaliana* after four days at 37 °C. Three panels: fresh weight in g, chlorophyll content in µg per plant, and relative chlorophyll content as a ratio. Twelve groups per panel: BoPEP4 at 1/40, 1/60, 1/80 and 1/100, 1/40 WB800 (TB medium carrying *Bacillus subtilis* WB800 with no protectant) and 0.1× MS medium, each without heat and with heat. One bar per group, three seedlings per group pooled, no error bars, no repeat. Read off the panel: among the heat-stressed groups only 1/40 BoPEP4 stands above both controls on chlorophyll, about 2.2 µg per plant and about 0.81 relative, against about 0.5 µg and 0.26 for the 1/40 WB800 vehicle control and about 1.35 µg and 0.56 for medium alone; 1/60, 1/80 and 1/100 BoPEP4 sit at or below the medium-only control. Fresh weight contradicts this: under heat the 1/40 WB800 vehicle control is the heaviest group at about 0.030 g, with 1/40 BoPEP4 at about 0.016 g. The panel supports a chlorophyll-only signal at the single strongest dilution in one unreplicated run.",
+   "why": "Shared by all 11 BoPep4 parts. Upload once to the protectant collection; each part keeps its own sentence instead of a copy of the image.",
+   "i": 88,
+   "who": "A"
+  },
+  {
+   "part": "BBa_265CD14Z",
+   "kind": "plant",
+   "type": "application",
+   "label": "Upload BoPep4 plant figure 4 to the collection",
+   "file": "PL09_vehicle_hydro-TB-dilution-readouts.png",
+   "caption": "Vehicle control for every hydroponic protectant run: the TB medium carrying *Bacillus subtilis* WB800 with no protectant, applied to *Arabidopsis thaliana* in the hydroponic rack at dilutions of 1, 1/2, 1/4, 1/8, 1/16 and 0 (no TB medium), at pH 5.7 and at pH 7.1. Three panels: fresh weight in g, chlorophyll content in µg per plant, and relative chlorophyll content as a ratio. One bar per group, no error bars, no repeat. Read off the panel: at both pH values fresh weight and chlorophyll rise monotonically as the TB medium is diluted out, and the groups receiving no TB medium at all are the highest on every readout, about 0.065 g at pH 5.7 and about 0.057 g at pH 7.1 against about 0.006 and 0.005 g undiluted. Even the mildest dilution tested here, 1/16, stays well below the no-TB group. The vehicle applied with every ReLEAF protectant is therefore not inert: it suppresses growth in a dose-dependent way, which is why the protectant runs were read against a matched 1/40 WB800 vehicle control rather than against medium alone.",
+   "why": "Shared by all 11 BoPep4 parts. Upload once to the protectant collection; each part keeps its own sentence instead of a copy of the image.",
+   "i": 89,
    "who": "A"
   },
   {
@@ -1285,7 +1450,7 @@
     ]
    ],
    "blockers": [],
-   "i": 75,
+   "i": 90,
    "who": "B"
   },
   {
@@ -1314,7 +1479,7 @@
      "no wiki caption confirms this band size"
     ]
    ],
-   "i": 76,
+   "i": 91,
    "who": "B"
   },
   {
@@ -1326,7 +1491,7 @@
    "words": 60,
    "resolved": [],
    "blockers": [],
-   "i": 77,
+   "i": 92,
    "who": "B"
   },
   {
@@ -1344,7 +1509,7 @@
     ]
    ],
    "blockers": [],
-   "i": 78,
+   "i": 93,
    "who": "A"
   },
   {
@@ -1356,8 +1521,19 @@
    "words": 94,
    "resolved": [],
    "blockers": [],
-   "i": 79,
+   "i": 94,
    "who": "A"
+  },
+  {
+   "part": "BBa_26FSZTWM",
+   "kind": "fix",
+   "type": "application",
+   "label": "Fix a unsupported claim in application",
+   "find": "it also helped plants under salinity stress",
+   "fix": "a filtered supernatant from BoPep4-secreting *B. subtilis* WB800 improved plant readouts under salinity at a single dilution of 1/40, in one unreplicated hydroponic run",
+   "why": "Over-general as written. 1/60, 1/80 and 1/100 gave nothing, the agar set is unscored, and the plant page never records which cassette produced the preparation — so the claim belongs at cargo level, with the dilution and the absence of replication stated.",
+   "i": 95,
+   "who": "B"
   },
   {
    "part": "BBa_26FSZTWM",
@@ -1368,7 +1544,7 @@
    "words": 612,
    "resolved": [],
    "blockers": [],
-   "i": 80,
+   "i": 96,
    "who": "B"
   },
   {
@@ -1389,7 +1565,7 @@
      "not corroborated anywhere"
     ]
    ],
-   "i": 81,
+   "i": 97,
    "who": "B"
   },
   {
@@ -1401,7 +1577,7 @@
    "words": 52,
    "resolved": [],
    "blockers": [],
-   "i": 82,
+   "i": 98,
    "who": "B"
   },
   {
@@ -1411,7 +1587,7 @@
    "label": "Decide: Supply the trace, or cut the caption?",
    "caption": "Figure 1. Sequencing of pSTK-EXP1-Pveg-EEBD-RBS0-SamyQ-BoPep4-Histag-B0015",
    "why": "No sequencing-trace figure exists on any wiki page — I searched all 30. Either supply the chromatogram or delete the caption.",
-   "i": 83,
+   "i": 99,
    "who": "B"
   },
   {
@@ -1429,7 +1605,40 @@
     ]
    ],
    "blockers": [],
-   "i": 84,
+   "i": 100,
+   "who": "A"
+  },
+  {
+   "part": "BBa_26ILD3SO",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 1 to design",
+   "file": "BoPEP4_F09_complex-chis-ribbon.jpg",
+   "caption": "**Figure 1 | BoPEP4 with a C-terminal His₆ tag.** The tagged construct, which appends six histidines past Asn23 and so replaces the free C-terminal carboxylate with an amide. The peptide stays in the groove and the backbone is the steadiest in the set, but the charged interaction at the anchor is gone: bidentate Arg487 occupancy falls to 2.4% from 100.0%. Run R1_BoPep4_WT_Chis_PEPR1.",
+   "why": "This part's architecture exactly: wild-type BoPep4 with six histidines appended past Asn23, which replaces the free C-terminal carboxylate with an amide. The run is the direct structural record of the tag this part carries. The legend's dated sentence about moving the tag to the N terminus is trimmed, because this deposit carries the tag at the C terminus and the two cannot both be stated here.",
+   "i": 101,
+   "who": "A"
+  },
+  {
+   "part": "BBa_26ILD3SO",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 2 to design",
+   "file": "BoPEP4_F14_asn23-clamp-map.jpg",
+   "caption": "**Figure 2 | The Asn23 pocket in the docked model.** Surface rendering of the C-terminal pocket, showing that Asn23 sits inside the receptor rather than on the face of the interface, with its free α-carboxylate salt-bridging Arg487 at 2.40 Å in the crystal structure. There is no room for a residue 24 without the peptide leaving the pocket, which is the structural argument against a C-terminal tag. Read with the clamp view on BoPep4 ([BBa\\_265CD14Z](https://registry.igem.org/parts/bba-265cd14z), Figure 2), which measures the same pocket over a trajectory instead of in one pose.",
+   "why": "The structural argument for why that matters on this part: Asn23 sits inside the receptor, and there is no room for a residue 24 without the peptide leaving the pocket.",
+   "i": 102,
+   "who": "A"
+  },
+  {
+   "part": "BBa_26ILD3SO",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 3 to design",
+   "file": "BoPEP4_G15_asn23-arg487-trace-tag.jpg",
+   "caption": "**Figure 3 | Asn23 to Arg487 distance over 30 ns, wild type against the tagged construct.** Both traces sit near 2.8 Å for the whole trajectory and neither leaves the 4 Å window the acceptance criterion drew, which is why the tagged construct passed the gate. The approach the tagged trace records is a neutral amide carbonyl, not the charged carboxylate: measured between charge centres the same pair is 20.07 Å apart.",
+   "why": "The measurement that makes the risk legible rather than alarming: the tagged construct's anchor distance looks like wild type throughout, because what approaches the receptor is a neutral amide carbonyl and not the charged carboxylate.",
+   "i": 103,
    "who": "A"
   },
   {
@@ -1441,7 +1650,7 @@
    "words": 11,
    "resolved": [],
    "blockers": [],
-   "i": 85,
+   "i": 104,
    "who": "A"
   },
   {
@@ -1453,8 +1662,19 @@
    "words": 59,
    "resolved": [],
    "blockers": [],
-   "i": 86,
+   "i": 105,
    "who": "A"
+  },
+  {
+   "part": "BBa_26IN6G1D",
+   "kind": "fix",
+   "type": "application",
+   "label": "Fix a typo in application",
+   "find": "Pveg-EEBD-RBS0-SamyQ-LEA14-Histag 2.1-B0015",
+   "fix": "Pveg-EEBD-RBS0-SamyQ-LEA14 2.1-Histag-B0015",
+   "why": "The real title puts 2.1 after LEA14, not after Histag.",
+   "i": 106,
+   "who": "B"
   },
   {
    "part": "BBa_26IN6G1D",
@@ -1471,7 +1691,7 @@
     ]
    ],
    "blockers": [],
-   "i": 87,
+   "i": 107,
    "who": "B"
   },
   {
@@ -1483,8 +1703,19 @@
    "words": 87,
    "resolved": [],
    "blockers": [],
-   "i": 88,
+   "i": 108,
    "who": "B"
+  },
+  {
+   "part": "BBa_26J0GJGZ",
+   "kind": "fix",
+   "type": "application",
+   "label": "Fix a typo in application",
+   "find": "Pveg-EEBD-RBS0-SamyQ-LEA14-Histag 2.1-B0015",
+   "fix": "Pveg-EEBD-RBS0-SamyQ-LEA14 2.1-Histag-B0015",
+   "why": "The real title puts 2.1 after LEA14, not after Histag.",
+   "i": 109,
+   "who": "A"
   },
   {
    "part": "BBa_26J0GJGZ",
@@ -1501,7 +1732,7 @@
     ]
    ],
    "blockers": [],
-   "i": 89,
+   "i": 110,
    "who": "A"
   },
   {
@@ -1530,7 +1761,7 @@
      "no wiki caption confirms this band size"
     ]
    ],
-   "i": 90,
+   "i": 111,
    "who": "A"
   },
   {
@@ -1542,7 +1773,7 @@
    "words": 60,
    "resolved": [],
    "blockers": [],
-   "i": 91,
+   "i": 112,
    "who": "A"
   },
   {
@@ -1560,7 +1791,7 @@
     ]
    ],
    "blockers": [],
-   "i": 92,
+   "i": 113,
    "who": "B"
   },
   {
@@ -1572,7 +1803,7 @@
    "words": 114,
    "resolved": [],
    "blockers": [],
-   "i": 93,
+   "i": 114,
    "who": "B"
   },
   {
@@ -1590,7 +1821,29 @@
     ]
    ],
    "blockers": [],
-   "i": 94,
+   "i": 115,
+   "who": "A"
+  },
+  {
+   "part": "BBa_26LYCBW0",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 1 to design",
+   "file": "BoPEP4_G10_codon-candidates.jpg",
+   "caption": "**Figure 1 | Candidate synonymous variants for the SamyQ–BoPEP4 cassette.** Ranked table of candidate recodings of the first fifteen codons, with unpaired probability at the start codon window (st+15 and st+30), Shine–Dalgarno core accessibility, minimum free energy, the balance score the search optimises, codon adaptation index against *Bacillus subtilis* 168 usage, GC content and the edit distance from the wild-type sequence. The Castillo-greedy candidate (GR, amber) maximises start accessibility alone; the selected candidate (★, green) takes the highest balance score and is the recoding deposited as this part. Library of 8,000 random synonymous variants; folding with ViennaRNA 2.7.2 at 37 °C.",
+   "why": "The search this part's sequence came out of. The starred candidate's first 45 nucleotides are this part's deposited sequence base for base, so the table is literally the record of why this recoding and not another.",
+   "i": 116,
+   "who": "A"
+  },
+  {
+   "part": "BBa_26LYCBW0",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 2 to design",
+   "file": "BoPEP4_G11_codon-mfe-structures.jpg",
+   "caption": "**Figure 2 | Predicted mRNA secondary structure before and after recoding.** Minimum free energy structure of the transcript window from the +1 start site through the 90th base of the open reading frame, for the wild-type sequence (left) and the selected recoding (right), which is the sequence this part carries, with the 5′ end, the MF001 ribosome binding site, the start codon and the recoded bases marked. Below, the per-base unpaired probability profile for both. The ribosome binding site keeps its low baseline; the gain in accessibility is concentrated on the start codon and the first fifteen codons. ViennaRNA 2.7.2, 37 °C, minimum free energy with partition function.",
+   "why": "What the recoding was for, on this part's own sequence: the folded transcript window before and after, with the gain in accessibility concentrated on the start codon and the first fifteen codons.",
+   "i": 117,
    "who": "A"
   },
   {
@@ -1602,7 +1855,7 @@
    "words": 92,
    "resolved": [],
    "blockers": [],
-   "i": 95,
+   "i": 118,
    "who": "A"
   },
   {
@@ -1625,7 +1878,7 @@
      "not corroborated anywhere"
     ]
    ],
-   "i": 96,
+   "i": 119,
    "who": "B"
   },
   {
@@ -1637,7 +1890,73 @@
    "words": 172,
    "resolved": [],
    "blockers": [],
-   "i": 97,
+   "i": 120,
+   "who": "B"
+  },
+  {
+   "part": "BBa_26MA70QI",
+   "kind": "plant",
+   "type": "application",
+   "label": "Upload AcdS plant figure 1 to the collection",
+   "file": "PL01_AcdS_agar-heat-plates.png",
+   "caption": "*Arabidopsis thaliana* seedlings on vertical agar plates, photographed on day 15, after five days of thermo priming at 37 °C and five days of recovery at 22 °C. Top row, plates held at 22 °C throughout; bottom row, plates thermo-primed at 37 °C. Columns, left to right: no ACC deaminase added, pre-treatment, co-treatment, post-treatment. The protectant was a 0.22 µm-filtered culture supernatant from *Bacillus subtilis* secreting ACC deaminase, applied as three sprays totalling 0.536 mL above the root-tip line. Nine to ten seedlings per plate and one plate per condition, so the plate is the replicate. Three plates are marked \"*contaminated\" on the panel itself: 22 °C co-treatment, 37 °C untreated and 37 °C co-treatment. Read off the panel: every 37 °C group is bleached and much smaller than its 22 °C counterpart, and within the heat-stressed row the pre- and post-treatment plates keep more yellow-green tissue than the near-white co-treatment plate. The panel carries colour and size only; it holds no measurement and no statistics, and the untreated heat-stressed plate it would be compared against is one of the contaminated ones.",
+   "why": "Shared by all 10 AcdS parts. Upload once to the protectant collection; each part keeps its own sentence instead of a copy of the image.",
+   "i": 121,
+   "who": "B"
+  },
+  {
+   "part": "BBa_26MA70QI",
+   "kind": "plant",
+   "type": "application",
+   "label": "Upload AcdS plant figure 2 to the collection",
+   "file": "PL02_AcdS_agar-heat-chlorophyll.png",
+   "caption": "Quantitative readouts from the same agar thermo-priming set as PL01, scored on day 15. (a) Fresh weight in grams. (b) Relative chlorophyll a+b in mg g⁻¹ normalised to fresh weight. (c) Relative chlorophyll a+b in mg g⁻¹ without fresh-weight normalisation. (d) Primary root length in mm, as box plots over the individual seedlings. Each bar carries three points, shown as dots. Conditions are 22 °C or five days at 37 °C followed by five days of recovery, crossed with no ACC deaminase added, pre-, co- or post-treatment sprayed supernatant. The four-star brackets run from the untreated unstressed control to the other groups; they do not compare a treated group with its own untreated control inside the heat-stressed block. Read off the panel: among the 37 °C groups, pre-treatment ACC deaminase holds the highest chlorophyll in (c), about 0.09 against about 0.07 mg g⁻¹ for the untreated heat-stressed control, while co- and post-treatment fall to near zero; in (b) pre-treatment and the untreated heat-stressed control sit together at about 0.3, so the normalised readout separates them hardly at all. Fresh weight in (a) and root length in (d) separate the heat block from the 22 °C block but not the four application timings inside it. No panel here shows a statistically tested advantage of ACC deaminase over its untreated heat-stressed control, and that control plate was contaminated.",
+   "why": "Shared by all 10 AcdS parts. Upload once to the protectant collection; each part keeps its own sentence instead of a copy of the image.",
+   "i": 122,
+   "who": "B"
+  },
+  {
+   "part": "BBa_26MA70QI",
+   "kind": "plant",
+   "type": "application",
+   "label": "Upload AcdS plant figure 3 to the collection",
+   "file": "PL03_AcdS_hydro-heat-rack-before.png",
+   "caption": "The hydroponic tube rack carrying the 37 °C heat run, photographed before the heat stress, with 15-day-old *Arabidopsis thaliana*. The rack carries both arms of that run: ACC deaminase at 1/40, 1/60, 1/80 and 1/100, BoPEP4 at the same four dilutions, and two controls repeated for each arm, 1/40 WB800 (the same TB medium carrying *Bacillus subtilis* WB800 with no protectant) and 0.1× MS medium alone. Three seedlings per labelled group, bracketed in red on the photograph. Read off the panel: at this point every group is a green rosette of broadly comparable size, which is the baseline the post-heat photograph is read against. The photograph is a before-state record and shows no treatment effect.",
+   "why": "Shared by all 10 AcdS parts. Upload once to the protectant collection; each part keeps its own sentence instead of a copy of the image.",
+   "i": 123,
+   "who": "B"
+  },
+  {
+   "part": "BBa_26MA70QI",
+   "kind": "plant",
+   "type": "application",
+   "label": "Upload AcdS plant figure 4 to the collection",
+   "file": "PL04_AcdS_hydro-heat-rack-after.png",
+   "caption": "The same hydroponic tube rack as PL03, photographed after four days at 37 °C. Layout and labels are unchanged: ACC deaminase and BoPEP4 at 1/40, 1/60, 1/80 and 1/100, each arm with a 1/40 WB800 vehicle control and a 0.1× MS medium control, three seedlings per labelled group. Read off the panel: most rosettes on the rack have bleached to white or pale yellow, and the groups that retain visible green tissue sit in the ACC deaminase block and in the 1/40 BoPEP4 group. The photograph records colour and survival by eye; it is a single rack with no repeat, it carries no measurement, and the greener groups are identified by position on the rack, with no blinded score.",
+   "why": "Shared by all 10 AcdS parts. Upload once to the protectant collection; each part keeps its own sentence instead of a copy of the image.",
+   "i": 124,
+   "who": "B"
+  },
+  {
+   "part": "BBa_26MA70QI",
+   "kind": "plant",
+   "type": "application",
+   "label": "Upload AcdS plant figure 5 to the collection",
+   "file": "PL05_AcdS_hydro-heat-readouts.png",
+   "caption": "Readouts from the hydroponic 37 °C run shown in PL03 and PL04, 15-day-old *Arabidopsis thaliana* after four days at 37 °C. Three panels: fresh weight in g, chlorophyll content in µg per plant, and relative chlorophyll content as a ratio. Twelve groups per panel: ACC deaminase at 1/40, 1/60, 1/80 and 1/100, 1/40 WB800 (TB medium carrying *Bacillus subtilis* WB800 with no protectant) and 0.1× MS medium, each without heat and with heat. One bar per group, three seedlings per group pooled, with no error bars and no repeat of the run. Read off the panel: within the heat-stressed groups, all four ACC deaminase dilutions hold more chlorophyll per plant, about 2.6 to 3.1 µg, than the 1/40 WB800 vehicle control at about 2.1 µg and the medium-only control at about 1.7 µg; on relative chlorophyll, 1/40, 1/60 and 1/80 ACC deaminase sit at about 0.93 to 0.96 against 0.77 for the vehicle control and 0.86 for medium alone, while 1/100 is the lowest group at about 0.65. Fresh weight does not follow the same order: under heat the heaviest groups are 1/100 ACC deaminase at about 0.019 g and the 1/40 WB800 vehicle control at about 0.018 g, with 1/40, 1/60 and 1/80 ACC deaminase at about 0.014 to 0.015 g, below the vehicle control. The chlorophyll signal and the fresh-weight signal therefore disagree, and neither is replicated or tested for significance.",
+   "why": "Shared by all 10 AcdS parts. Upload once to the protectant collection; each part keeps its own sentence instead of a copy of the image.",
+   "i": 125,
+   "who": "B"
+  },
+  {
+   "part": "BBa_26MA70QI",
+   "kind": "plant",
+   "type": "application",
+   "label": "Upload AcdS plant figure 6 to the collection",
+   "file": "PL09_vehicle_hydro-TB-dilution-readouts.png",
+   "caption": "Vehicle control for every hydroponic protectant run: the TB medium carrying *Bacillus subtilis* WB800 with no protectant, applied to *Arabidopsis thaliana* in the hydroponic rack at dilutions of 1, 1/2, 1/4, 1/8, 1/16 and 0 (no TB medium), at pH 5.7 and at pH 7.1. Three panels: fresh weight in g, chlorophyll content in µg per plant, and relative chlorophyll content as a ratio. One bar per group, no error bars, no repeat. Read off the panel: at both pH values fresh weight and chlorophyll rise monotonically as the TB medium is diluted out, and the groups receiving no TB medium at all are the highest on every readout, about 0.065 g at pH 5.7 and about 0.057 g at pH 7.1 against about 0.006 and 0.005 g undiluted. Even the mildest dilution tested here, 1/16, stays well below the no-TB group. The vehicle applied with every ReLEAF protectant is therefore not inert: it suppresses growth in a dose-dependent way, which is why the protectant runs were read against a matched 1/40 WB800 vehicle control rather than against medium alone.",
+   "why": "Shared by all 10 AcdS parts. Upload once to the protectant collection; each part keeps its own sentence instead of a copy of the image.",
+   "i": 126,
    "who": "B"
   },
   {
@@ -1660,7 +1979,7 @@
      "not corroborated anywhere"
     ]
    ],
-   "i": 98,
+   "i": 127,
    "who": "A"
   },
   {
@@ -1689,7 +2008,7 @@
      "no wiki caption confirms this band size"
     ]
    ],
-   "i": 99,
+   "i": 128,
    "who": "A"
   },
   {
@@ -1701,7 +2020,7 @@
    "words": 118,
    "resolved": [],
    "blockers": [],
-   "i": 100,
+   "i": 129,
    "who": "A"
   },
   {
@@ -1719,7 +2038,7 @@
     ]
    ],
    "blockers": [],
-   "i": 101,
+   "i": 130,
    "who": "B"
   },
   {
@@ -1748,7 +2067,7 @@
      "no wiki caption confirms this band size"
     ]
    ],
-   "i": 102,
+   "i": 131,
    "who": "B"
   },
   {
@@ -1760,7 +2079,7 @@
    "words": 60,
    "resolved": [],
    "blockers": [],
-   "i": 103,
+   "i": 132,
    "who": "B"
   },
   {
@@ -1778,7 +2097,7 @@
     ]
    ],
    "blockers": [],
-   "i": 104,
+   "i": 133,
    "who": "A"
   },
   {
@@ -1807,7 +2126,7 @@
      "no wiki caption confirms this band size"
     ]
    ],
-   "i": 105,
+   "i": 134,
    "who": "A"
   },
   {
@@ -1819,7 +2138,7 @@
    "words": 121,
    "resolved": [],
    "blockers": [],
-   "i": 106,
+   "i": 135,
    "who": "A"
   },
   {
@@ -1837,7 +2156,7 @@
     ]
    ],
    "blockers": [],
-   "i": 107,
+   "i": 136,
    "who": "B"
   },
   {
@@ -1866,7 +2185,7 @@
      "no wiki caption confirms this band size"
     ]
    ],
-   "i": 108,
+   "i": 137,
    "who": "B"
   },
   {
@@ -1878,7 +2197,7 @@
    "words": 59,
    "resolved": [],
    "blockers": [],
-   "i": 109,
+   "i": 138,
    "who": "B"
   },
   {
@@ -1890,7 +2209,7 @@
    "words": 105,
    "resolved": [],
    "blockers": [],
-   "i": 110,
+   "i": 139,
    "who": "A"
   },
   {
@@ -1902,7 +2221,7 @@
    "words": 139,
    "resolved": [],
    "blockers": [],
-   "i": 111,
+   "i": 140,
    "who": "B"
   },
   {
@@ -1914,7 +2233,7 @@
    "words": 164,
    "resolved": [],
    "blockers": [],
-   "i": 112,
+   "i": 141,
    "who": "A"
   },
   {
@@ -1926,7 +2245,29 @@
    "words": 250,
    "resolved": [],
    "blockers": [],
-   "i": 113,
+   "i": 142,
+   "who": "B"
+  },
+  {
+   "part": "BBa_26YHOQCL",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 1 to design",
+   "file": "BoPEP4_F08_complex-1523-ribbon.jpg",
+   "caption": "**Figure 1 | BoPEP4 (15–23), the conserved core alone.** Nine residues, the invariant Ser15 to Asn23 stretch, simulated as a control on whether length alone drives the loss seen at 9–23. It does not: this shorter construct holds the clamp in 99.9% of frames. Run R1_BoPep4_15-23_PEPR1.",
+   "why": "The only run of this exact construct. It is the evidence that nine residues still hold the anchor, which is the whole claim this draft part makes.",
+   "i": 143,
+   "who": "B"
+  },
+  {
+   "part": "BBa_26YHOQCL",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 2 to design",
+   "file": "BoPEP4_G13_truncation-four-rung.jpg",
+   "caption": "**Figure 2 | The truncation ladder is not monotonic.** Clamp integrity and bidentate salt-bridge occupancy for full-length BoPEP4 and the three simulated cuts. Full length, 7–23 and 15–23 all hold the clamp above 98%; only the intermediate 9–23 construct falls, to 77.1% clamp integrity and 46.9% bidentate occupancy. Shorter is not the variable.",
+   "why": "This part exists because the ladder is not monotonic, and this is the figure that shows it: cutting back past the dangling N-terminal tail restores the clamp that the intermediate cut loses. Kept on the part rather than the collection because it is the four simulated rungs, one of which is this construct; the seventeen-rung ladder is in the collection.",
+   "i": 144,
    "who": "B"
   },
   {
@@ -1938,7 +2279,51 @@
    "words": 240,
    "resolved": [],
    "blockers": [],
-   "i": 114,
+   "i": 145,
+   "who": "A"
+  },
+  {
+   "part": "BBa_26Z8FHTR",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 1 to design",
+   "file": "BoPEP4_F05_complex-923-ribbon.jpg",
+   "caption": "**Figure 1 | BoPEP4 (9–23), the ordered construct, in the same groove.** The manufacturing candidate, fifteen residues against the wild type's twenty-three, modelled and simulated on the identical protocol. The anchor end is unchanged; what is gone is the N-terminal GILIGSKK segment and with it the Lys7 salt bridge that pins the 9–14 stretch. Against full length this construct carries 33% less mass (1,612.73 Da against 2,409.74 Da), one trypsin-type cut site instead of three, and half the positive charge. Run R1_BoPep4_9-23_PEPR1.",
+   "why": "No standalone 9–23 coding sequence part exists, so this cassette is the only home for the runs of the construct it carries. This is the construct in the groove, with the manufacturing gains that argued for it.",
+   "i": 146,
+   "who": "A"
+  },
+  {
+   "part": "BBa_26Z8FHTR",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 2 to design",
+   "file": "BoPEP4_F06_asn23-clamp-923.jpg",
+   "caption": "**Figure 2 | The same clamp under the 9–23 truncation.** The clamp view of the wild-type run repeated for the ordered construct. The four clamp residues are in place, but over the trajectory the clamp holds in only 77.1% of frames against 100.0% for wild type, and the bidentate Arg487 salt bridge beneath it in 46.9% against 100.0%. Removing an anchor without removing the segment it anchors is what costs the clamp here; the shorter 15–23 construct, which removes both, holds it in 99.9% of frames. Run R1_BoPep4_9-23_PEPR1.",
+   "why": "The cost side of the same cut, measured on the anchor: the clamp this construct holds in 77.1% of frames against 100.0% for full length. The draft Design text already argues from these two numbers.",
+   "i": 147,
+   "who": "A"
+  },
+  {
+   "part": "BBa_26Z8FHTR",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 3 to design",
+   "file": "BoPEP4_F12_complex-923-ph55.jpg",
+   "caption": "**Figure 3 | BoPEP4 (9–23) at pH 5.5, the only run in the set to fail its acceptance gate.** The same protonation applied to the ordered construct, which drops clamp integrity to 19.3% and bidentate occupancy to 6.9%. Neither the truncation alone nor the protonation alone does this; the combination does. This is an open structural risk against the construct that was ordered, and it is stated as one. Run R1_BoPep4_9-23_PEPR1_lowpH.",
+   "why": "The open structural risk against the construct that was ordered, on the part that carries it. This is the one run in the set that failed its acceptance gate.",
+   "i": 148,
+   "who": "A"
+  },
+  {
+   "part": "BBa_26Z8FHTR",
+   "kind": "model",
+   "type": "design",
+   "label": "Upload modelling figure 4 to design",
+   "file": "BoPEP4_G14_truncation-x-protonation.jpg",
+   "caption": "**Figure 4 | Truncation crossed with protonation: only the combination fails.** A two-by-two of full length and 9–23, each at neutral pH and with the three histidines protonated. Protonating full-length peptide recovers the Glu12 to His227 contact from 0.8% to 99.9% of frames and leaves the clamp intact. The same protonation on 9–23 drops bidentate occupancy from 46.9% to 6.9%, the only acceptance failure in the set, and does so while the backbone RMSD improves.",
+   "why": "The two-by-two that isolates the cause: neither the cut nor leaf pH does this alone. It is the figure that keeps the previous one from being read as a verdict on truncation in general.",
+   "i": 149,
    "who": "A"
   }
  ],
@@ -2662,41 +3047,314 @@
    }
   ]
  },
- "order": [
-  "BBa_2654HAF3",
-  "BBa_26U8UTMH",
-  "BBa_26CXI09X",
-  "BBa_261XH2RS",
-  "BBa_269A97I7",
-  "BBa_26BDO8AQ",
-  "BBa_26D5AX7S",
-  "BBa_26DE5E2Q",
-  "BBa_26IA55UY",
-  "BBa_26Q3LKZU",
-  "BBa_26SG0NQQ",
-  "BBa_26XVQ3FS",
-  "BBa_26XZYM10",
-  "BBa_262YYNPV",
-  "BBa_265CD14Z",
-  "BBa_267B69E3",
-  "BBa_26ERHWWI",
-  "BBa_26FSZTWM",
-  "BBa_26ILD3SO",
-  "BBa_26IN6G1D",
-  "BBa_26J0GJGZ",
-  "BBa_26LTB0W1",
-  "BBa_26LYCBW0",
-  "BBa_26MA70QI",
-  "BBa_26NXOP7S",
-  "BBa_26PX0UGH",
-  "BBa_26TOGLX3",
-  "BBa_26ZQ1T72",
-  "BBa_26A4MT29",
-  "BBa_26OSLRE4",
-  "BBa_26V6CPEV",
-  "BBa_26YHOQCL",
-  "BBa_26Z8FHTR"
- ],
+ "plant": {
+  "_about": "Plant-trial evidence for the Application section of the 33 ReLEAF registry parts. Built 19 Oct 2026 from git show origin/main:plant/index.html and origin/main:results/index.html. Figures are the team's own, extracted unaltered from the wiki originals and converted webp to png. Nothing here is generated or redrawn. keep_existing = true means the part's current Application text holds something accurate that must survive the edit (a 'was not built' statement, a light-plate proof of concept, or a constitutive-counterpart description); see corrections_required for text that must change even where keep_existing is true. keep_existing = false means the part has no Application section yet, or its text needs no preservation.",
+  "cargo": {
+   "AcdS": {
+    "tier": "indirect via strain",
+    "read_state": "two heat runs readable; both salinity runs confounded",
+    "summary": "ACC deaminase was never applied to plants as a part. In every trial the material was a 0.22 µm-filtered culture supernatant from *Bacillus subtilis* WB800 secreting ACC deaminase, sprayed onto agar plates or dosed into the hydroponic root solution. Two runs are readable. On agar under five days of 37 °C thermo priming, pre-treatment supernatant held the highest chlorophyll of the four application timings, about 0.09 against about 0.07 mg g⁻¹ for the untreated heat-stressed control, while co- and post-treatment fell to near zero (PL01, PL02). In hydroponics under four days at 37 °C, all four supernatant dilutions held more chlorophyll per plant than both the vehicle control and the medium-only control, and 1/40 to 1/80 held more relative chlorophyll, about 0.93 to 0.96 against 0.77 for the vehicle (PL05). The strongest thing the set supports is a timing claim: if ACC deaminase does anything for a heat-stressed plant, it has to be on the plant before the heat arrives.",
+    "what_it_cannot_say": "It cannot say that any individual BioBrick protects plants. The applied material was whole culture supernatant, and the plant page does not record which AcdS cassette produced any given batch, so no result separates the wild-type coding sequence from the 2.1 codon-optimised variant, or Csn from SamyQ secretion, or the constitutive modules from the light-controlled ones. It cannot claim a salinity effect: the agar pre-test (set 8) was contaminated across the plate, and the official agar set (set 9) and the hydroponic salinity run both ran with an uncontrolled TB-medium concentration, which the team itself records as preliminary and not a reading of ACC deaminase under salt. It cannot claim a size of effect: every readable run is a single unreplicated run with one bar or one plate per condition, no error bars, and no statistical test of treated against untreated inside the stressed block; the one agar figure that does carry stars compares groups with the unstressed control, not with the untreated heat-stressed control, and that untreated heat-stressed plate was itself contaminated. The fresh-weight panels disagree with the chlorophyll panels in both heat runs, so the effect is chlorophyll retention at best, not biomass. The vehicle is not inert (PL09), so the comparison that carries any weight is against the matched 1/40 WB800 control and not against medium alone. Finally, the enzymatic activity of the applied supernatant was not measured in any of these trials, so the dose delivered to the plant is unknown.",
+    "figures": [
+     {
+      "file": "PL01_AcdS_agar-heat-plates.png",
+      "legend": "*Arabidopsis thaliana* seedlings on vertical agar plates, photographed on day 15, after five days of thermo priming at 37 °C and five days of recovery at 22 °C. Top row, plates held at 22 °C throughout; bottom row, plates thermo-primed at 37 °C. Columns, left to right: no ACC deaminase added, pre-treatment, co-treatment, post-treatment. The protectant was a 0.22 µm-filtered culture supernatant from *Bacillus subtilis* secreting ACC deaminase, applied as three sprays totalling 0.536 mL above the root-tip line. Nine to ten seedlings per plate and one plate per condition, so the plate is the replicate. Three plates are marked \"*contaminated\" on the panel itself: 22 °C co-treatment, 37 °C untreated and 37 °C co-treatment. Read off the panel: every 37 °C group is bleached and much smaller than its 22 °C counterpart, and within the heat-stressed row the pre- and post-treatment plates keep more yellow-green tissue than the near-white co-treatment plate. The panel carries colour and size only; it holds no measurement and no statistics, and the untreated heat-stressed plate it would be compared against is one of the contaminated ones.",
+      "source": "assets/img/plant/r17-accdheat-plates.webp",
+      "page_caption": "ACC deaminase applied pre-, co- and post-treatment under 37 °C thermo priming, after 5 days of recovery (day 15)."
+     },
+     {
+      "file": "PL02_AcdS_agar-heat-chlorophyll.png",
+      "legend": "Quantitative readouts from the same agar thermo-priming set as PL01, scored on day 15. (a) Fresh weight in grams. (b) Relative chlorophyll a+b in mg g⁻¹ normalised to fresh weight. (c) Relative chlorophyll a+b in mg g⁻¹ without fresh-weight normalisation. (d) Primary root length in mm, as box plots over the individual seedlings. Each bar carries three points, shown as dots. Conditions are 22 °C or five days at 37 °C followed by five days of recovery, crossed with no ACC deaminase added, pre-, co- or post-treatment sprayed supernatant. The four-star brackets run from the untreated unstressed control to the other groups; they do not compare a treated group with its own untreated control inside the heat-stressed block. Read off the panel: among the 37 °C groups, pre-treatment ACC deaminase holds the highest chlorophyll in (c), about 0.09 against about 0.07 mg g⁻¹ for the untreated heat-stressed control, while co- and post-treatment fall to near zero; in (b) pre-treatment and the untreated heat-stressed control sit together at about 0.3, so the normalised readout separates them hardly at all. Fresh weight in (a) and root length in (d) separate the heat block from the 22 °C block but not the four application timings inside it. No panel here shows a statistically tested advantage of ACC deaminase over its untreated heat-stressed control, and that control plate was contaminated.",
+      "source": "assets/img/plant/r17-accdheat-readouts.webp",
+      "page_caption": "Pre-treatment ACC deaminase under 37 °C heat stress against the untreated heat-stressed control."
+     },
+     {
+      "file": "PL03_AcdS_hydro-heat-rack-before.png",
+      "legend": "The hydroponic tube rack carrying the 37 °C heat run, photographed before the heat stress, with 15-day-old *Arabidopsis thaliana*. The rack carries both arms of that run: ACC deaminase at 1/40, 1/60, 1/80 and 1/100, BoPEP4 at the same four dilutions, and two controls repeated for each arm, 1/40 WB800 (the same TB medium carrying *Bacillus subtilis* WB800 with no protectant) and 0.1× MS medium alone. Three seedlings per labelled group, bracketed in red on the photograph. Read off the panel: at this point every group is a green rosette of broadly comparable size, which is the baseline the post-heat photograph is read against. The photograph is a before-state record and shows no treatment effect.",
+      "source": "assets/img/plant/h18-heat-rack-before.webp",
+      "page_caption": "Before heat"
+     },
+     {
+      "file": "PL04_AcdS_hydro-heat-rack-after.png",
+      "legend": "The same hydroponic tube rack as PL03, photographed after four days at 37 °C. Layout and labels are unchanged: ACC deaminase and BoPEP4 at 1/40, 1/60, 1/80 and 1/100, each arm with a 1/40 WB800 vehicle control and a 0.1× MS medium control, three seedlings per labelled group. Read off the panel: most rosettes on the rack have bleached to white or pale yellow, and the groups that retain visible green tissue sit in the ACC deaminase block and in the 1/40 BoPEP4 group. The photograph records colour and survival by eye; it is a single rack with no repeat, it carries no measurement, and the greener groups are identified by position on the rack, with no blinded score.",
+      "source": "assets/img/plant/h18-heat-rack-after.webp",
+      "page_caption": "After heat"
+     },
+     {
+      "file": "PL05_AcdS_hydro-heat-readouts.png",
+      "legend": "Readouts from the hydroponic 37 °C run shown in PL03 and PL04, 15-day-old *Arabidopsis thaliana* after four days at 37 °C. Three panels: fresh weight in g, chlorophyll content in µg per plant, and relative chlorophyll content as a ratio. Twelve groups per panel: ACC deaminase at 1/40, 1/60, 1/80 and 1/100, 1/40 WB800 (TB medium carrying *Bacillus subtilis* WB800 with no protectant) and 0.1× MS medium, each without heat and with heat. One bar per group, three seedlings per group pooled, with no error bars and no repeat of the run. Read off the panel: within the heat-stressed groups, all four ACC deaminase dilutions hold more chlorophyll per plant, about 2.6 to 3.1 µg, than the 1/40 WB800 vehicle control at about 2.1 µg and the medium-only control at about 1.7 µg; on relative chlorophyll, 1/40, 1/60 and 1/80 ACC deaminase sit at about 0.93 to 0.96 against 0.77 for the vehicle control and 0.86 for medium alone, while 1/100 is the lowest group at about 0.65. Fresh weight does not follow the same order: under heat the heaviest groups are 1/100 ACC deaminase at about 0.019 g and the 1/40 WB800 vehicle control at about 0.018 g, with 1/40, 1/60 and 1/80 ACC deaminase at about 0.014 to 0.015 g, below the vehicle control. The chlorophyll signal and the fresh-weight signal therefore disagree, and neither is replicated or tested for significance.",
+      "source": "assets/img/plant/h18-accdheat-readouts.webp",
+      "page_caption": "Effect of ACC deaminase concentration on fresh weight, chlorophyll content per plant and relative chlorophyll content under 37 °C heat stress. WB800 is the TB medium carrying B. subtilis without a protectant."
+     },
+     {
+      "file": "PL09_vehicle_hydro-TB-dilution-readouts.png",
+      "legend": "Vehicle control for every hydroponic protectant run: the TB medium carrying *Bacillus subtilis* WB800 with no protectant, applied to *Arabidopsis thaliana* in the hydroponic rack at dilutions of 1, 1/2, 1/4, 1/8, 1/16 and 0 (no TB medium), at pH 5.7 and at pH 7.1. Three panels: fresh weight in g, chlorophyll content in µg per plant, and relative chlorophyll content as a ratio. One bar per group, no error bars, no repeat. Read off the panel: at both pH values fresh weight and chlorophyll rise monotonically as the TB medium is diluted out, and the groups receiving no TB medium at all are the highest on every readout, about 0.065 g at pH 5.7 and about 0.057 g at pH 7.1 against about 0.006 and 0.005 g undiluted. Even the mildest dilution tested here, 1/16, stays well below the no-TB group. The vehicle applied with every ReLEAF protectant is therefore not inert: it suppresses growth in a dose-dependent way, which is why the protectant runs were read against a matched 1/40 WB800 vehicle control rather than against medium alone.",
+      "source": "assets/img/plant/h18-bsub-readouts.webp",
+      "page_caption": "Effect of the dilution of B. subtilis-containing TB medium, at pH 5.7 and pH 7, on fresh weight, chlorophyll content per plant and relative chlorophyll content."
+     }
+    ],
+    "parts": [
+     "BBa_26MA70QI",
+     "BBa_262YYNPV",
+     "BBa_26NXOP7S",
+     "BBa_26TOGLX3",
+     "BBa_26CXI09X",
+     "BBa_26XVQ3FS",
+     "BBa_26DE5E2Q",
+     "BBa_26Q3LKZU",
+     "BBa_2654HAF3",
+     "BBa_26U8UTMH"
+    ]
+   },
+   "BoPep4": {
+    "tier": "indirect via strain",
+    "read_state": "hydroponic salt and heat runs readable at the single strongest dilution; the agar set is charted and unscored",
+    "summary": "BoPEP4 reached plants as a preparation from *Bacillus subtilis* WB800 secreting BoPEP4, dosed into the hydroponic root solution. In one run under 100 mM NaCl, the 1/40 preparation was the only group whose plants stayed green, and it was the highest salt-stressed group on fresh weight, about 0.049 g, and on chlorophyll per plant, about 8.4 µg, against about 0.043 g and 2.1 µg for the matched vehicle control (PL06, PL07). In a second run under four days at 37 °C, 1/40 again stood above both controls on chlorophyll, about 2.2 µg per plant, while the weaker dilutions did not (PL08). Both effects are confined to the single strongest dilution tested.",
+    "what_it_cannot_say": "It cannot say which BoPEP4 part produced the effect. The plant page names only \"BoPEP4\" and never identifies the coding variant, so nothing here attaches to the 2.1 or 2.2 codon-optimised variants or to the 15–23 and 9–23 truncations, and nothing attaches to a specific secretion fusion or expression module. It cannot say the effect is dose-responsive: 1/60, 1/80 and 1/100 gave no separation from the controls in either run, so there is one working dilution and no curve. It cannot say the effect covers all readouts: in the heat run the vehicle control was the heaviest group on fresh weight, and in the salinity run the medium-only control was the highest group on relative chlorophyll, above 1/40 BoPEP4. It cannot claim statistical support: each run is a single rack, three seedlings per group pooled into one bar, no error bars, no repeat and no test. It cannot claim the preparation is harmless when there is no stress: without salt, BoPEP4 groups accumulated anthocyanin and weighed less than medium alone. The agar salinity set (set 10) was run and photographed but has not been scored or written up, so it adds no support. The vehicle is not inert (PL09), so only the comparison with the matched 1/40 WB800 control carries weight.",
+    "figures": [
+     {
+      "file": "PL06_BoPep4_hydro-salt-rack.png",
+      "legend": "The hydroponic tube rack for the BoPEP4 salinity run, 15-day-old *Arabidopsis thaliana*. The upper block was held at 0 mM NaCl and the lower block at 100 mM NaCl. Within each block, BoPEP4 was supplied in the root solution at 1/40, 1/60, 1/80 and 1/100, alongside a 1/40 WB800 control (TB medium carrying *Bacillus subtilis* WB800 with no protectant) and a 0.1× MS medium control. Three seedlings per labelled group, bracketed in red. Read off the panel: under 100 mM NaCl most groups are pale, bleached or reduced to a few small leaves, while the 1/40 BoPEP4 group keeps green expanded rosettes; in the unsalted block the BoPEP4 groups show darker, purple-tinged leaves than the two controls. The photograph is a single rack with no repeat and carries colour and size only, not measurement.",
+      "source": "assets/img/plant/h18-bopepsal-rack.webp",
+      "page_caption": "Treatment groups of 15-day-old Arabidopsis with and without 100 mM NaCl."
+     },
+     {
+      "file": "PL07_BoPep4_hydro-salt-readouts.png",
+      "legend": "Readouts from the BoPEP4 salinity run shown in PL06. Three panels: fresh weight in g, chlorophyll content in µg per plant, and relative chlorophyll content as a ratio. Twelve groups per panel: BoPEP4 at 1/40, 1/60, 1/80 and 1/100, 1/40 WB800 (TB medium carrying *Bacillus subtilis* WB800 with no protectant) and 0.1× MS medium, each at 0 mM and at 100 mM NaCl. One bar per group, three seedlings per group pooled, no error bars, no repeat of the run. Read off the panel: under 100 mM NaCl the 1/40 BoPEP4 group is the highest group on fresh weight, about 0.049 g against about 0.043 g for the 1/40 WB800 vehicle control and about 0.028 g for medium alone, and on chlorophyll per plant, about 8.4 µg against about 2.1 and 4.4 µg; the weaker BoPEP4 dilutions sit at about 3.4 to 4.6 µg and do not separate from the controls. On relative chlorophyll the ordering changes: the 0.1× MS medium control is the highest salt-stressed group at about 0.99, above 1/40 BoPEP4 at about 0.81. Without salt the BoPEP4 groups are lighter than the medium-only control on fresh weight, about 0.055 to 0.087 g against about 0.105 g. The panel therefore supports a dose-restricted effect at 1/40 on two of three readouts in one unreplicated run, not a general salinity rescue.",
+      "source": "assets/img/plant/h18-bopepsal-readouts.webp",
+      "page_caption": "Effect of BoPEP4 concentration on fresh weight, chlorophyll content per plant and relative chlorophyll content under salinity stress. WB800 is the TB medium carrying B. subtilis without a protectant."
+     },
+     {
+      "file": "PL08_BoPep4_hydro-heat-readouts.png",
+      "legend": "Readouts for the BoPEP4 arm of the hydroponic 37 °C run whose rack is shown in PL03 and PL04, 15-day-old *Arabidopsis thaliana* after four days at 37 °C. Three panels: fresh weight in g, chlorophyll content in µg per plant, and relative chlorophyll content as a ratio. Twelve groups per panel: BoPEP4 at 1/40, 1/60, 1/80 and 1/100, 1/40 WB800 (TB medium carrying *Bacillus subtilis* WB800 with no protectant) and 0.1× MS medium, each without heat and with heat. One bar per group, three seedlings per group pooled, no error bars, no repeat. Read off the panel: among the heat-stressed groups only 1/40 BoPEP4 stands above both controls on chlorophyll, about 2.2 µg per plant and about 0.81 relative, against about 0.5 µg and 0.26 for the 1/40 WB800 vehicle control and about 1.35 µg and 0.56 for medium alone; 1/60, 1/80 and 1/100 BoPEP4 sit at or below the medium-only control. Fresh weight contradicts this: under heat the 1/40 WB800 vehicle control is the heaviest group at about 0.030 g, with 1/40 BoPEP4 at about 0.016 g. The panel supports a chlorophyll-only signal at the single strongest dilution in one unreplicated run.",
+      "source": "assets/img/plant/h18-bopepheat-readouts.webp",
+      "page_caption": "Effect of BoPEP4 concentration on fresh weight, chlorophyll content per plant and relative chlorophyll content under 37 °C heat stress."
+     },
+     {
+      "file": "PL09_vehicle_hydro-TB-dilution-readouts.png",
+      "legend": "Vehicle control for every hydroponic protectant run: the TB medium carrying *Bacillus subtilis* WB800 with no protectant, applied to *Arabidopsis thaliana* in the hydroponic rack at dilutions of 1, 1/2, 1/4, 1/8, 1/16 and 0 (no TB medium), at pH 5.7 and at pH 7.1. Three panels: fresh weight in g, chlorophyll content in µg per plant, and relative chlorophyll content as a ratio. One bar per group, no error bars, no repeat. Read off the panel: at both pH values fresh weight and chlorophyll rise monotonically as the TB medium is diluted out, and the groups receiving no TB medium at all are the highest on every readout, about 0.065 g at pH 5.7 and about 0.057 g at pH 7.1 against about 0.006 and 0.005 g undiluted. Even the mildest dilution tested here, 1/16, stays well below the no-TB group. The vehicle applied with every ReLEAF protectant is therefore not inert: it suppresses growth in a dose-dependent way, which is why the protectant runs were read against a matched 1/40 WB800 vehicle control rather than against medium alone.",
+      "source": "assets/img/plant/h18-bsub-readouts.webp",
+      "page_caption": "Effect of the dilution of B. subtilis-containing TB medium, at pH 5.7 and pH 7, on fresh weight, chlorophyll content per plant and relative chlorophyll content."
+     }
+    ],
+    "parts": [
+     "BBa_265CD14Z",
+     "BBa_26LYCBW0",
+     "BBa_26ERHWWI",
+     "BBa_26YHOQCL",
+     "BBa_26ILD3SO",
+     "BBa_26PX0UGH",
+     "BBa_267B69E3",
+     "BBa_26FSZTWM",
+     "BBa_269A97I7",
+     "BBa_26IA55UY",
+     "BBa_26Z8FHTR"
+    ]
+   },
+   "LEA14": {
+    "tier": "indirect via strain",
+    "read_state": "applied in one agar salinity set; charted, never scored or written up — no outcome available",
+    "summary": "AtLEA14 was applied to *Arabidopsis* once, in agar salinity set 11, as a sprayed preparation from our engineered *Bacillus subtilis*, against a TB-medium control at 0, 75 and 100 mM NaCl, with readouts taken only for the groups that came through: no AtLEA14 added, pre-treatment and post-treatment. The wiki states plainly that the set is charted and not yet written up. No plant outcome exists for AtLEA14, and none should be stated on a Registry page.",
+    "what_it_cannot_say": "It cannot say AtLEA14 helped plants under salinity stress, under heat, or under any other condition. The co-treatment arm did not survive to be read at all. Four LEA14 parts currently carry Application text asserting that the construct \"also helped plants under salinity stress\"; no figure, table or sentence on the plant page supports that, and it has to be struck. It cannot borrow the ACC deaminase or BoPEP4 results: those are different cargoes applied in different runs. The only honest Application statement for these six parts is that AtLEA14 was produced, secreted and applied to *Arabidopsis* in one salinity set whose data have not been scored.",
+    "figures": [],
+    "parts": [
+     "BBa_26LTB0W1",
+     "BBa_26IN6G1D",
+     "BBa_26ZQ1T72",
+     "BBa_26J0GJGZ",
+     "BBa_26SG0NQQ",
+     "BBa_26D5AX7S"
+    ]
+   },
+   "LightCircuit": {
+    "tier": "not tested",
+    "read_state": "no plant trial",
+    "summary": "These six parts carry no protectant cargo: they are the PCB production module, the CcaS-m3 sensor module, the CcaR response-regulator module and the shared promoter and ribosome-binding-site parts. No plant trial applied them or anything made by them alone. Their characterisation is bacterial — the light plate apparatus and the Western blots on the Results page — and no plant evidence exists for them.",
+    "what_it_cannot_say": "It cannot claim any effect on a plant, directly or by inheritance. A light-controlled construct that secretes ACC deaminase was only ever run in the light plate; the supernatant sprayed or dosed onto plants came from constitutively expressing cultures, so even the ACC deaminase heat result does not travel back to the optogenetic modules. These parts should state plainly that they were not tested in planta.",
+    "figures": [],
+    "parts": [
+     "BBa_26BDO8AQ",
+     "BBa_261XH2RS",
+     "BBa_26XZYM10",
+     "BBa_26A4MT29",
+     "BBa_26V6CPEV",
+     "BBa_26OSLRE4"
+    ]
+   }
+  },
+  "per_part": {
+   "BBa_26MA70QI": {
+    "sentence": "This part supplies the wild-type AcdS coding sequence carried by the modules whose *Bacillus subtilis* WB800 supernatant was applied to *Arabidopsis*; the in planta evidence for this part's cargo is a 0.22 µm-filtered culture supernatant from *Bacillus subtilis* WB800 secreting ACC deaminase, sprayed onto agar plates and dosed into hydroponic root solution, which held chlorophyll under 37 °C heat when it was applied before the stress; the plant page does not record which AcdS cassette produced any batch, so the result supports ACC deaminase as a cargo and not this part specifically.",
+    "keep_existing": true
+   },
+   "BBa_262YYNPV": {
+    "sentence": "This part is the codon-optimised AcdS 2.1 coding sequence, and no plant trial distinguished it from the wild-type sequence, because the in planta evidence for this part's cargo is a 0.22 µm-filtered culture supernatant from *Bacillus subtilis* WB800 secreting ACC deaminase, sprayed onto agar plates and dosed into hydroponic root solution, which held chlorophyll under 37 °C heat when it was applied before the stress; the plant page does not record which AcdS cassette produced any batch, so the result supports ACC deaminase as a cargo and not this part specifically.",
+    "keep_existing": true
+   },
+   "BBa_26NXOP7S": {
+    "sentence": "This part is the Csn-AcdS-Histag secretion fusion and was never applied to plants on its own; the in planta evidence for this part's cargo is a 0.22 µm-filtered culture supernatant from *Bacillus subtilis* WB800 secreting ACC deaminase, sprayed onto agar plates and dosed into hydroponic root solution, which held chlorophyll under 37 °C heat when it was applied before the stress; the plant page does not record which AcdS cassette produced any batch, so the result supports ACC deaminase as a cargo and not this part specifically.",
+    "keep_existing": true
+   },
+   "BBa_26TOGLX3": {
+    "sentence": "This part is the SamyQ-AcdS 2.1-Histag secretion fusion and was never applied to plants on its own, and no plant trial compared Csn with SamyQ secretion, because the in planta evidence for this part's cargo is a 0.22 µm-filtered culture supernatant from *Bacillus subtilis* WB800 secreting ACC deaminase, sprayed onto agar plates and dosed into hydroponic root solution, which held chlorophyll under 37 °C heat when it was applied before the stress; the plant page does not record which AcdS cassette produced any batch, so the result supports ACC deaminase as a cargo and not this part specifically.",
+    "keep_existing": true
+   },
+   "BBa_26CXI09X": {
+    "sentence": "This constitutive production module is one of the two cassettes that could have produced the ACC deaminase supernatant used in the plant trials, so the existing sentence that its protein \"can be applied to plants for functional testing\" can now say that supernatant from constitutively expressing cultures was applied, held chlorophyll under 37 °C heat when applied before the stress, and gave no readable salinity result; the plant page does not say which cassette produced which batch.",
+    "keep_existing": true
+   },
+   "BBa_26XVQ3FS": {
+    "sentence": "This constitutive production module is the other cassette that could have produced the ACC deaminase supernatant used in the plant trials, so the same qualification applies: supernatant from constitutively expressing cultures held chlorophyll under 37 °C heat when applied before the stress, gave no readable salinity result, and is not traceable on the plant page to a named cassette.",
+    "keep_existing": true
+   },
+   "BBa_26DE5E2Q": {
+    "sentence": "No plant trial applied material from this light-responsive module; the ACC deaminase supernatant used on plants came from constitutively expressing cultures, so this part inherits the heat result only through the AcdS 2.1 coding sequence it carries.",
+    "keep_existing": true
+   },
+   "BBa_26Q3LKZU": {
+    "sentence": "No plant trial applied material from this light-responsive module; the ACC deaminase supernatant used on plants came from constitutively expressing cultures, so this part inherits the heat result only through the AcdS coding sequence it carries.",
+    "keep_existing": true
+   },
+   "BBa_2654HAF3": {
+    "sentence": "This Level 2 system was characterised in the light plate apparatus and never used as the source of a plant treatment, so the ACC deaminase heat result on *Arabidopsis* belongs to constitutively expressed supernatant and must not be presented as a demonstration of the light-controlled system on plants.",
+    "keep_existing": true
+   },
+   "BBa_26U8UTMH": {
+    "sentence": "This Level 2 system was characterised in the light plate apparatus and never used as the source of a plant treatment, so the ACC deaminase heat result on *Arabidopsis* belongs to constitutively expressed supernatant and must not be presented as a demonstration of the light-controlled system on plants.",
+    "keep_existing": true
+   },
+   "BBa_265CD14Z": {
+    "sentence": "This part supplies the wild-type BoPep4 coding sequence, and the in planta evidence for this cargo is a preparation from *Bacillus subtilis* WB800 secreting BoPEP4, dosed into hydroponic root solution, which at 1/40 kept plants green through 100 mM NaCl and held chlorophyll under 37 °C heat, with no effect at weaker dilutions; the plant page names only \"BoPEP4\" and never identifies the coding variant or the cassette.",
+    "keep_existing": true
+   },
+   "BBa_26LYCBW0": {
+    "sentence": "This part is the BoPep4 2.1 codon-optimised variant, which no plant trial distinguished from the wild-type sequence, because the in planta evidence for this cargo is a preparation from *Bacillus subtilis* WB800 secreting BoPEP4, dosed into hydroponic root solution, which at 1/40 kept plants green through 100 mM NaCl and held chlorophyll under 37 °C heat, with no effect at weaker dilutions; the plant page names only \"BoPEP4\" and never identifies the coding variant or the cassette.",
+    "keep_existing": true
+   },
+   "BBa_26ERHWWI": {
+    "sentence": "This part is the BoPep4 2.2 codon-optimised variant, which no plant trial distinguished from the wild-type sequence, because the in planta evidence for this cargo is a preparation from *Bacillus subtilis* WB800 secreting BoPEP4, dosed into hydroponic root solution, which at 1/40 kept plants green through 100 mM NaCl and held chlorophyll under 37 °C heat, with no effect at weaker dilutions; the plant page names only \"BoPEP4\" and never identifies the coding variant or the cassette.",
+    "keep_existing": true
+   },
+   "BBa_26YHOQCL": {
+    "sentence": "No plant result can be attributed to this 15–23 truncation: the plant page records only \"BoPEP4\" and never identifies the variant applied, so the hydroponic salinity and heat signals at 1/40 cannot be claimed for the truncated peptide.",
+    "keep_existing": false
+   },
+   "BBa_26Z8FHTR": {
+    "sentence": "No plant result can be attributed to this 9–23 truncation module: the plant page records only \"BoPEP4\" and never identifies the variant applied, so the hydroponic salinity and heat signals at 1/40 cannot be claimed for it.",
+    "keep_existing": false
+   },
+   "BBa_26ILD3SO": {
+    "sentence": "This part is the SamyQ-BoPep4-Histag secretion fusion and was never applied to plants on its own; the in planta evidence for this cargo is a preparation from *Bacillus subtilis* WB800 secreting BoPEP4, dosed into hydroponic root solution, which at 1/40 kept plants green through 100 mM NaCl and held chlorophyll under 37 °C heat, with no effect at weaker dilutions; the plant page names only \"BoPEP4\" and never identifies the coding variant or the cassette.",
+    "keep_existing": true
+   },
+   "BBa_26PX0UGH": {
+    "sentence": "This part is the SamyQ-BoPep4 2.1-Histag secretion fusion and was never applied to plants on its own; the in planta evidence for this cargo is a preparation from *Bacillus subtilis* WB800 secreting BoPEP4, dosed into hydroponic root solution, which at 1/40 kept plants green through 100 mM NaCl and held chlorophyll under 37 °C heat, with no effect at weaker dilutions; the plant page names only \"BoPEP4\" and never identifies the coding variant or the cassette.",
+    "keep_existing": true
+   },
+   "BBa_267B69E3": {
+    "sentence": "This part is the SamyQ-BoPep4 2.2-Histag secretion fusion and was never applied to plants on its own; the in planta evidence for this cargo is a preparation from *Bacillus subtilis* WB800 secreting BoPEP4, dosed into hydroponic root solution, which at 1/40 kept plants green through 100 mM NaCl and held chlorophyll under 37 °C heat, with no effect at weaker dilutions; the plant page names only \"BoPEP4\" and never identifies the coding variant or the cassette.",
+    "keep_existing": true
+   },
+   "BBa_26FSZTWM": {
+    "sentence": "Keep the existing statement that a full ccaSR construct with BoPep4 as Module 4 was not built, but the clause \"it also helped plants under salinity stress\" overstates what this cassette showed and should become a statement about the cargo: a preparation of BoPEP4-secreting *Bacillus subtilis* WB800 at 1/40 kept *Arabidopsis* green through 100 mM NaCl in one unreplicated hydroponic run, with no effect at 1/60 or weaker, and the plant page does not say which cassette produced that preparation.",
+    "keep_existing": true
+   },
+   "BBa_269A97I7": {
+    "sentence": "Keep the existing statement that a full ccaSR construct with BoPep4 as Module 4 was not built, but the clause \"it also helped plants under salinity stress\" overstates what this cassette showed and should become a statement about the cargo: a preparation of BoPEP4-secreting *Bacillus subtilis* WB800 at 1/40 kept *Arabidopsis* green through 100 mM NaCl in one unreplicated hydroponic run, with no effect at 1/60 or weaker, and the plant page does not say which cassette produced that preparation.",
+    "keep_existing": true
+   },
+   "BBa_26IA55UY": {
+    "sentence": "This part has no Application section yet, and the plant evidence it can carry is the cargo-level statement only: a preparation of BoPEP4-secreting *Bacillus subtilis* WB800 at 1/40 kept *Arabidopsis* green through 100 mM NaCl in one unreplicated hydroponic run, with the variant and cassette unidentified on the plant page.",
+    "keep_existing": false
+   },
+   "BBa_26LTB0W1": {
+    "sentence": "This part supplies the wild-type LEA14 coding sequence, and AtLEA14 was applied to *Arabidopsis* once, in agar salinity set 11, as a sprayed preparation from our engineered *Bacillus subtilis*; that set is charted and has never been scored or written up, so no plant outcome can be claimed for this part.",
+    "keep_existing": true
+   },
+   "BBa_26IN6G1D": {
+    "sentence": "This part is the LEA14 2.1 codon-optimised variant, and AtLEA14 was applied to *Arabidopsis* once, in agar salinity set 11, as a sprayed preparation from our engineered *Bacillus subtilis*; that set is charted and has never been scored or written up, so no plant outcome can be claimed for this part.",
+    "keep_existing": true
+   },
+   "BBa_26ZQ1T72": {
+    "sentence": "This part is the Csn-LEA14-Histag secretion fusion and was never applied to plants on its own; AtLEA14 was applied to *Arabidopsis* once, in agar salinity set 11, as a sprayed preparation from our engineered *Bacillus subtilis*; that set is charted and has never been scored or written up, so no plant outcome can be claimed for this part.",
+    "keep_existing": true
+   },
+   "BBa_26J0GJGZ": {
+    "sentence": "This part is the SamyQ-LEA14 2.1-Histag secretion fusion and was never applied to plants on its own; AtLEA14 was applied to *Arabidopsis* once, in agar salinity set 11, as a sprayed preparation from our engineered *Bacillus subtilis*; that set is charted and has never been scored or written up, so no plant outcome can be claimed for this part.",
+    "keep_existing": true
+   },
+   "BBa_26SG0NQQ": {
+    "sentence": "Keep the existing statement that a full ccaSR construct with LEA14 as Module 4 was not built, but strike the clause \"it also helped plants under salinity stress\", which nothing on the plant page supports: AtLEA14 was sprayed onto *Arabidopsis* in one agar salinity set that has never been scored, so this part was tested in planta without a result.",
+    "keep_existing": true
+   },
+   "BBa_26D5AX7S": {
+    "sentence": "Keep the existing statement that a full ccaSR construct with LEA14 as Module 4 was not built, but strike the clause \"it also helped plants under salinity stress\", which nothing on the plant page supports: AtLEA14 was sprayed onto *Arabidopsis* in one agar salinity set that has never been scored, so this part was tested in planta without a result.",
+    "keep_existing": true
+   },
+   "BBa_26BDO8AQ": {
+    "sentence": "This response-regulator module carries no protectant cargo and was not applied to plants, so it has no in planta application evidence; its characterisation is bacterial.",
+    "keep_existing": true
+   },
+   "BBa_261XH2RS": {
+    "sentence": "This sensor-kinase module carries no protectant cargo and was not applied to plants, so it has no in planta application evidence; its characterisation is bacterial.",
+    "keep_existing": true
+   },
+   "BBa_26XZYM10": {
+    "sentence": "This PCB production module carries no protectant cargo and was not applied to plants, so it has no in planta application evidence; its characterisation is bacterial.",
+    "keep_existing": true
+   },
+   "BBa_26A4MT29": {
+    "sentence": "This promoter-and-RBS part carries no protectant cargo, was not applied to plants, and has no in planta application evidence.",
+    "keep_existing": false
+   },
+   "BBa_26V6CPEV": {
+    "sentence": "This ribosome-binding-site part carries no protectant cargo, was not applied to plants, and has no in planta application evidence.",
+    "keep_existing": false
+   },
+   "BBa_26OSLRE4": {
+    "sentence": "This ribosome-binding-site part carries no protectant cargo, was not applied to plants, and has no in planta application evidence.",
+    "keep_existing": false
+   }
+  },
+  "corrections_required": [
+   {
+    "parts": [
+     "BBa_26SG0NQQ",
+     "BBa_26D5AX7S"
+    ],
+    "existing_text": "it also helped plants under salinity stress",
+    "problem": "Unsupported. The only AtLEA14 plant trial is agar salinity set 11, which the wiki states is charted and not yet written up. No figure, table or sentence anywhere on the plant page reports an AtLEA14 outcome.",
+    "action": "Strike the clause. Keep the sentence that a full ccaSR construct with LEA14 as Module 4 was not built."
+   },
+   {
+    "parts": [
+     "BBa_26FSZTWM",
+     "BBa_269A97I7"
+    ],
+    "existing_text": "it also helped plants under salinity stress",
+    "problem": "Over-general. A preparation from BoPEP4-secreting *B. subtilis* WB800 helped at one dilution, 1/40, in one unreplicated hydroponic run; 1/60, 1/80 and 1/100 gave nothing, the agar set is unscored, and the plant page never identifies which cassette or coding variant produced the preparation.",
+    "action": "Replace with a cargo-level statement naming the preparation, the single working dilution and the absence of replication. Keep the sentence that a full ccaSR construct with BoPep4 as Module 4 was not built."
+   }
+  ],
+  "withdrawn_numbers_encountered": [
+   {
+    "number": "pH 7 = 75% of ACC deaminase activity",
+    "where": "plant/index.html, Hydroponics, buffer control section — the stated reason for running a pH 5.7 and a pH 7 arm, cited to reference [19]",
+    "handling": "Left out of every legend and summary. PL09 uses that figure's panels but describes only the dilution series and the two pH values as labelled on the chart, pH 5.7 and pH 7.1."
+   },
+   {
+    "number": "efficacy figure of 0.58",
+    "where": "not found on plant/index.html or results/index.html",
+    "handling": "Nothing to exclude."
+   },
+   {
+    "number": "effect window of 7.3 hours",
+    "where": "not found on plant/index.html or results/index.html; the plant page's timing language is in days (pre-, co- and post-treatment one day apart)",
+    "handling": "Nothing to exclude."
+   }
+  ]
+ },
+ "assigned": true,
  "disputes": {
   "disputed": [
    {
@@ -2817,6 +3475,62 @@
     "part": "BBa_26IA55UY",
     "why": "678 bp was treated as corroborated because a wiki caption says 678 bp, but the insert alone is 712 bp and the page says backbone primers were used. The two pSTK-EXP1 colony PCRs that used both backbone primers both imply a 330 bp vector contribution, which would put this band near 1,042 bp. Worth a second look before the freeze."
    }
+  ],
+  "design_history": [
+   {
+    "parts": [
+     "BBa_262YYNPV",
+     "BBa_26IN6G1D",
+     "BBa_26TOGLX3",
+     "BBa_26J0GJGZ"
+    ],
+    "title": "The codon search that is figured is not the sequence that was ordered",
+    "why": "The AcdS and LEA14 codon-optimisation searches both star a candidate that recodes the SamyQ segment by 19–21 bases. The deposited SamyQ-AcdS 2.1-Histag and SamyQ-LEA14 2.1-Histag carry a SamyQ identical to the wild-type fusion — zero edits. So the figures come from a different run than the sequences that were synthesised. BoPep4 2.1 is the exception: there the starred candidate matches the deposit base for base. Until someone who knows the ordering history settles this, those two figure pairs are held at collection level rather than placed on the 2.1 parts, because on a part page the starred row reads as that part's own recoding."
+   },
+   {
+    "parts": [
+     "BBa_26ILD3SO",
+     "BBa_26PX0UGH",
+     "BBa_267B69E3"
+    ],
+    "title": "The His tag is at the C terminus, against the 16 August decision",
+    "why": "All three SamyQ-BoPep4 fusions carry His6 directly past Asn23 at the C terminus. One modelling legend states that the purification tag was moved to the N terminus for every BoPep4 construct ordered after 16 August. The deposits contradict that sentence, so it was removed from the legend rather than published alongside a part that disproves it. Either the deposits predate the decision, or the decision was not applied — this needs a person, not a caption."
+   }
   ]
- }
+ },
+ "order": [
+  "BBa_2654HAF3",
+  "BBa_26U8UTMH",
+  "BBa_26CXI09X",
+  "BBa_261XH2RS",
+  "BBa_269A97I7",
+  "BBa_26BDO8AQ",
+  "BBa_26D5AX7S",
+  "BBa_26DE5E2Q",
+  "BBa_26IA55UY",
+  "BBa_26Q3LKZU",
+  "BBa_26SG0NQQ",
+  "BBa_26XVQ3FS",
+  "BBa_26XZYM10",
+  "BBa_262YYNPV",
+  "BBa_265CD14Z",
+  "BBa_267B69E3",
+  "BBa_26ERHWWI",
+  "BBa_26FSZTWM",
+  "BBa_26ILD3SO",
+  "BBa_26IN6G1D",
+  "BBa_26J0GJGZ",
+  "BBa_26LTB0W1",
+  "BBa_26LYCBW0",
+  "BBa_26MA70QI",
+  "BBa_26NXOP7S",
+  "BBa_26PX0UGH",
+  "BBa_26TOGLX3",
+  "BBa_26ZQ1T72",
+  "BBa_26A4MT29",
+  "BBa_26OSLRE4",
+  "BBa_26V6CPEV",
+  "BBa_26YHOQCL",
+  "BBa_26Z8FHTR"
+ ]
 }

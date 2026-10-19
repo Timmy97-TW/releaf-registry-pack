@@ -118,5 +118,26 @@
    "part": "BBa_26IA55UY",
    "why": "678 bp was treated as corroborated because a wiki caption says 678 bp, but the insert alone is 712 bp and the page says backbone primers were used. The two pSTK-EXP1 colony PCRs that used both backbone primers both imply a 330 bp vector contribution, which would put this band near 1,042 bp. Worth a second look before the freeze."
   }
+ ],
+ "design_history": [
+  {
+   "parts": [
+    "BBa_262YYNPV",
+    "BBa_26IN6G1D",
+    "BBa_26TOGLX3",
+    "BBa_26J0GJGZ"
+   ],
+   "title": "The codon search that is figured is not the sequence that was ordered",
+   "why": "The AcdS and LEA14 codon-optimisation searches both star a candidate that recodes the SamyQ segment by 19–21 bases. The deposited SamyQ-AcdS 2.1-Histag and SamyQ-LEA14 2.1-Histag carry a SamyQ identical to the wild-type fusion — zero edits. So the figures come from a different run than the sequences that were synthesised. BoPep4 2.1 is the exception: there the starred candidate matches the deposit base for base. Until someone who knows the ordering history settles this, those two figure pairs are held at collection level rather than placed on the 2.1 parts, because on a part page the starred row reads as that part's own recoding."
+  },
+  {
+   "parts": [
+    "BBa_26ILD3SO",
+    "BBa_26PX0UGH",
+    "BBa_267B69E3"
+   ],
+   "title": "The His tag is at the C terminus, against the 16 August decision",
+   "why": "All three SamyQ-BoPep4 fusions carry His6 directly past Asn23 at the C terminus. One modelling legend states that the purification tag was moved to the N terminus for every BoPep4 construct ordered after 16 August. The deposits contradict that sentence, so it was removed from the legend rather than published alongside a part that disproves it. Either the deposits predate the decision, or the decision was not applied — this needs a person, not a caption."
+  }
  ]
 }

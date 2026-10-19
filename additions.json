@@ -114,6 +114,38 @@
    "find": "Pveg-EEBD-RBS0-SamyQ-LEA14-Histag 2.1-B0015",
    "fix": "Pveg-EEBD-RBS0-SamyQ-LEA14 2.1-Histag-B0015",
    "why": "The real title puts 2.1 after LEA14, not after Histag."
+  },
+  {
+   "part": "BBa_26SG0NQQ",
+   "section": "application",
+   "kind": "unsupported claim",
+   "find": "it also helped plants under salinity stress",
+   "fix": "— delete the clause —",
+   "why": "Strike the clause. There is no AtLEA14 plant outcome anywhere on the wiki — the one trial, agar salinity set 11, is charted and never written up. Keep the sentence that a full ccaSR construct with LEA14 as Module 4 was not built."
+  },
+  {
+   "part": "BBa_26D5AX7S",
+   "section": "application",
+   "kind": "unsupported claim",
+   "find": "it also helped plants under salinity stress",
+   "fix": "— delete the clause —",
+   "why": "Strike the clause. There is no AtLEA14 plant outcome anywhere on the wiki — the one trial, agar salinity set 11, is charted and never written up. Keep the sentence that a full ccaSR construct with LEA14 as Module 4 was not built."
+  },
+  {
+   "part": "BBa_26FSZTWM",
+   "section": "application",
+   "kind": "unsupported claim",
+   "find": "it also helped plants under salinity stress",
+   "fix": "a filtered supernatant from BoPep4-secreting *B. subtilis* WB800 improved plant readouts under salinity at a single dilution of 1/40, in one unreplicated hydroponic run",
+   "why": "Over-general as written. 1/60, 1/80 and 1/100 gave nothing, the agar set is unscored, and the plant page never records which cassette produced the preparation — so the claim belongs at cargo level, with the dilution and the absence of replication stated."
+  },
+  {
+   "part": "BBa_269A97I7",
+   "section": "application",
+   "kind": "unsupported claim",
+   "find": "it also helped plants under salinity stress",
+   "fix": "a filtered supernatant from BoPep4-secreting *B. subtilis* WB800 improved plant readouts under salinity at a single dilution of 1/40, in one unreplicated hydroponic run",
+   "why": "Over-general as written. 1/60, 1/80 and 1/100 gave nothing, the agar set is unscored, and the plant page never records which cassette produced the preparation — so the claim belongs at cargo level, with the dilution and the absence of replication stated."
   }
  ],
  "noimage": [
